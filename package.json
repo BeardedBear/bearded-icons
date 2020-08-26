@@ -1,0 +1,57 @@
+{
+  "name": "beardedicons",
+  "displayName": "Bearded Icons",
+  "description": "The icon with a long beard.",
+  "publisher": "BeardedBear",
+  "version": "0.0.1",
+  "type": "module",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeardedBear/bearded-icons"
+  },
+  "bugs": {
+    "url": "https://github.com/BeardedBear/bearded-icons/issues",
+    "email": "germain.poirrier@gmail.com"
+  },
+  "homepage": "https://github.com/BeardedBear/bearded-icons",
+  "keywords": [
+    "bearded",
+    "icons"
+  ],
+  "icon": "icon.png",
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "bearded-icons",
+        "label": "Bearded Icons",
+        "path": "./icons.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.47.0",
+    "node": "^13.14.0",
+    "nodemon": "^2.0.4",
+    "vscode-test": "^1.4.0"
+  },
+  "scripts": {
+    "build": "node ./src/main.js",
+    "watch": "nodemon -L ./src/main.js",
+    "lint": "rome check --watch --apply",
+    "start": "run-p watch lint",
+    "test": "node ./out/test/runTest.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "npm-run-all": "^4.1.5",
+    "rome": "^10.0.4-beta",
+    "vsce": "^1.77.0"
+  }
+}
