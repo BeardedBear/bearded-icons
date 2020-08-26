@@ -3,6 +3,126 @@
 	"iconDefinitions": {
 		"_file": {
 			"iconPath": "./icons/default.svg"
+		},
+		"_folder": {
+			"iconPath": "./icons/folder.svg"
+		},
+		"_folder_open": {
+			"iconPath": "./icons/folder-open.svg"
+		},
+		"_f_elm": {
+			"iconPath": "./icons/elm.svg"
+		},
+		"_f_scss": {
+			"iconPath": "./icons/scss.svg"
+		},
+		"_f_docker": {
+			"iconPath": "./icons/docker.svg"
+		},
+		"_f_git": {
+			"iconPath": "./icons/git.svg"
+		},
+		"_f_readme": {
+			"iconPath": "./icons/readme.svg"
+		},
+		"_f_html": {
+			"iconPath": "./icons/html.svg"
+		},
+		"_f_json": {
+			"iconPath": "./icons/json.svg"
+		},
+		"_f_markdown": {
+			"iconPath": "./icons/markdown.svg"
+		},
+		"_f_css": {
+			"iconPath": "./icons/css.svg"
+		},
+		"_f_cssmap": {
+			"iconPath": "./icons/cssmap.svg"
+		},
+		"_f_js": {
+			"iconPath": "./icons/js.svg"
+		},
+		"_f_jsmap": {
+			"iconPath": "./icons/jsmap.svg"
+		},
+		"_f_typescript": {
+			"iconPath": "./icons/ts.svg"
+		},
+		"_f_typescriptdef": {
+			"iconPath": "./icons/tsdef.svg"
+		},
+		"_f_vue": {
+			"iconPath": "./icons/vue.svg"
+		},
+		"_f_image": {
+			"iconPath": "./icons/img.svg"
+		},
+		"_f_zip": {
+			"iconPath": "./icons/archive.svg"
+		},
+		"_f_yarn": {
+			"iconPath": "./icons/yarn.svg"
+		},
+		"_f_npm": {
+			"iconPath": "./icons/npm.svg"
+		},
+		"_f_svg": {
+			"iconPath": "./icons/svg.svg"
+		},
+		"_f_yaml": {
+			"iconPath": "./icons/yaml.svg"
+		},
+		"_f_font": {
+			"iconPath": "./icons/font.svg"
+		},
+		"_f_php": {
+			"iconPath": "./icons/php.svg"
+		},
+		"_f_twig": {
+			"iconPath": "./icons/twig.svg"
+		},
+		"_f_composer": {
+			"iconPath": "./icons/composer.svg"
+		},
+		"_f_symfony": {
+			"iconPath": "./icons/symfony.svg"
+		},
+		"_f_xml": {
+			"iconPath": "./icons/xml.svg"
+		},
+		"_f_robots": {
+			"iconPath": "./icons/robot.svg"
+		},
+		"_f_bundler": {
+			"iconPath": "./icons/gem.svg"
+		},
+		"_f_stylelint": {
+			"iconPath": "./icons/stylelint.svg"
+		},
+		"_f_prettier": {
+			"iconPath": "./icons/prettier.svg"
+		},
+		"_f_python": {
+			"iconPath": "./icons/python.svg"
+		},
+		"_f_log": {
+			"iconPath": "./icons/log.svg"
+		},
+		"_f_license": {
+			"iconPath": "./icons/license.svg"
+		},
+		"_f_audio": {
+			"iconPath": "./icons/audio.svg"
+		},
+		"_f_lua": {
+			"iconPath": "./icons/lua.svg"
+		},
+		"_f_csharp": {
+			"iconPath": "./icons/csharp.svg"
+		},
+		"_f_dartlang": {
+			"iconPath": "./icons/dart.svg"
 		}
 	},
 	"file": "_file",
@@ -1126,7 +1246,8 @@
 		"bzip2": "_f_zip",
 		"xz": "_f_zip",
 		"bz2": "_f_zip",
-		"zipx": "_f_zip"
+		"zipx": "_f_zip",
+		"tgz": "_f_zip"
 	},
 	"fileNames": {
 		".angular-cli.json": "_f_angular",
@@ -1462,6 +1583,7 @@
 		"quasar.conf.js": "_f_quasar",
 		"rakefile": "_f_rake",
 		"razzle.config.js": "_f_razzle",
+		"readme.md": "_f_readme",
 		".rehyperc": "_f_rehype",
 		".rehypeignore": "_f_rehype",
 		".rehyperc.js": "_f_rehype",
@@ -4030,5 +4152,5 @@
 			"yang": "_f_yang",
 			"zig": "_f_zig"
 		}
-	},
+	}
 }
