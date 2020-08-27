@@ -4,11 +4,20 @@
 		"_file": {
 			"iconPath": "./icons/default.svg"
 		},
+		"_file_light": {
+			"iconPath": "./icons/default-light.svg"
+		},
 		"_folder": {
 			"iconPath": "./icons/folder.svg"
 		},
+		"_folder_light": {
+			"iconPath": "./icons/folder-light.svg"
+		},
 		"_folder_open": {
 			"iconPath": "./icons/folder-open.svg"
+		},
+		"_folder_light_open": {
+			"iconPath": "./icons/folder-light-open.svg"
 		},
 		"_f_elm": {
 			"iconPath": "./icons/elm.svg"
@@ -162,6 +171,21 @@
 		},
 		"_f_java": {
 			"iconPath": "./icons/java.svg"
+		},
+		"_f_gulp": {
+			"iconPath": "./icons/gulp.svg"
+		},
+		"_f_grunt": {
+			"iconPath": "./icons/grunt.svg"
+		},
+		"_f_editorconfig": {
+			"iconPath": "./icons/editorconfig.svg"
+		},
+		"_f_light_editorconfig": {
+			"iconPath": "./icons/editorconfig-light.svg"
+		},
+		"_f_shell": {
+			"iconPath": "./icons/shell.svg"
 		}
 	},
 	"file": "_file",
@@ -3069,10 +3093,10 @@
 			"jsx.snap": "_f_jest_snapshot",
 			"ts.snap": "_f_jest_snapshot",
 			"tsx.snap": "_f_jest_snapshot",
-			"js.map": "_f_light_jsmap",
-			"json5": "_f_light_json5",
-			"jsonld": "_f_light_jsonld",
-			"json-ld": "_f_light_jsonld",
+			"js.map": "_f_jsmap",
+			"json5": "_f_json5",
+			"jsonld": "_f_jsonld",
+			"json-ld": "_f_jsonld",
 			"jsp": "_f_jsp",
 			"jss": "_f_jss",
 			"ipynb": "_f_jupyter",
@@ -3396,7 +3420,7 @@
 			".drone.yml": "_f_light_drone",
 			".drone.yml.sig": "_f_light_drone",
 			".dvc": "_f_dvc",
-			".editorconfig": "_f_editorconfig",
+			".editorconfig": "_f_light_editorconfig",
 			"elm-package.json": "_f_elm",
 			".ember-cli": "_f_ember",
 			"emakefile": "_f_erlang",
@@ -3503,7 +3527,7 @@
 			"jsbeautifyrc": "_f_jsbeautify",
 			".jsbeautify": "_f_jsbeautify",
 			"jsbeautify": "_f_jsbeautify",
-			"jsconfig.json": "_f_light_jsconfig",
+			"jsconfig.json": "_f_jsconfig",
 			".jscpd.json": "_f_jscpd",
 			"jscpd-report.xml": "_f_jscpd",
 			"jscpd-report.json": "_f_jscpd",
@@ -4018,11 +4042,11 @@
 			"declarative": "_f_jenkins",
 			"jenkinsfile": "_f_jenkins",
 			"jinja": "_f_jinja",
-			"javascript": "_f_light_js",
-			"json": "_f_light_json",
-			"json-tmlanguage": "_f_light_json",
-			"jsonc": "_f_light_json",
-			"json5": "_f_light_json5",
+			"javascript": "_f_js",
+			"json": "_f_json",
+			"json-tmlanguage": "_f_json",
+			"jsonc": "_f_json",
+			"json5": "_f_json5",
 			"jsonnet": "_f_jsonnet",
 			"julia": "_f_julia",
 			"juliamarkdown": "_f_julia",
@@ -4160,7 +4184,7 @@
 			"doctex": "_f_light_tex",
 			"plaintext": "_f_text",
 			"textile": "_f_textile",
-			"toml": "_f_light_toml",
+			"toml": "_f_toml",
 			"tt": "_f_tt",
 			"ttcn": "_f_ttcn",
 			"twig": "_f_twig",
@@ -4186,8 +4210,8 @@
 			"xquery": "_f_xquery",
 			"xsl": "_f_xsl",
 			"yacc": "_f_yacc",
-			"yaml": "_f_light_yaml",
-			"yaml-tmlanguage": "_f_light_yaml",
+			"yaml": "_f_yaml",
+			"yaml-tmlanguage": "_f_yaml",
 			"yang": "_f_yang",
 			"zig": "_f_zig"
 		}
