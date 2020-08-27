@@ -123,6 +123,45 @@
 		},
 		"_f_dartlang": {
 			"iconPath": "./icons/dart.svg"
+		},
+		"_f_eslint": {
+			"iconPath": "./icons/eslint.svg"
+		},
+		"_f_handlebars": {
+			"iconPath": "./icons/handlebars.svg"
+		},
+		"_f_webpack": {
+			"iconPath": "./icons/webpack.svg"
+		},
+		"_f_ruby": {
+			"iconPath": "./icons/ruby.svg"
+		},
+		"_f_jest": {
+			"iconPath": "./icons/jest.svg"
+		},
+		"_f_babel": {
+			"iconPath": "./icons/babel.svg"
+		},
+		"_f_toml": {
+			"iconPath": "./icons/toml.svg"
+		},
+		"_f_elixir": {
+			"iconPath": "./icons/elixir.svg"
+		},
+		"_f_rust": {
+			"iconPath": "./icons/rust.svg"
+		},
+		"_f_reactjs": {
+			"iconPath": "./icons/react.svg"
+		},
+		"_f_angular": {
+			"iconPath": "./icons/angular.svg"
+		},
+		"_f_rollup": {
+			"iconPath": "./icons/rollup.svg"
+		},
+		"_f_java": {
+			"iconPath": "./icons/java.svg"
 		}
 	},
 	"file": "_file",
