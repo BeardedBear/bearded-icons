@@ -3,8 +3,6 @@ import defsDark from "./defsDark.js";
 import defsLight from "./defsLight.js";
 import icons from "./icons.js";
 
-// const defsDark = {"bite": "poil", "chatte": "bite"};
-
 fs.writeFile(
 	"icons.json",
 	JSON.stringify({
