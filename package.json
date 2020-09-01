@@ -45,7 +45,7 @@
     "build": "node ./src/main.js",
     "watch": "nodemon -L ./src/main.js",
     "lint": "rome check --watch --apply",
-    "start": "run-p watch lint",
+    "start": "run-p  lint watch",
     "test": "node ./out/test/runTest.js"
   },
   "dependencies": {
