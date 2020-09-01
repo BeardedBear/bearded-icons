@@ -2,7 +2,7 @@
 
 ## 0.2.0 - 2020-09-01
 
-- Add support for vscode, rjson, less, stylus, postcss
+- Add support for vscode, rjson, less, stylus, postcss, ai, psd, pdf
 - Update screenshot
 
 ## 0.1.0 - 2020-08-27

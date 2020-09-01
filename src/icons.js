@@ -82,6 +82,9 @@ const icons = {
 	...icon("light_editorconfig"),
 	...icon("shell"),
 	...icon("vscode"),
+	...icon("ai"),
+	...icon("photoshop"),
+	...icon("pdf"),
 };
 
 export default icons;
