@@ -85,6 +85,11 @@ const icons = {
 	...icon("ai"),
 	...icon("photoshop"),
 	...icon("pdf"),
+	...icon("go"),
+	...icon("go_package"),
+	...icon("tmpl"),
+	...icon("svelte"),
+	...icon("browserslist"),
 };
 
 export default icons;

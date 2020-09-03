@@ -1055,6 +1055,7 @@ const defsDark = {
 		"zipx": "_f_zip",
 		"tgz": "_f_zip",
 		"styl": "_f_stylus",
+		"tmpl": "_f_tmpl",
 	},
 	"fileNames": {
 		...make(webpack, "_f_webpack"),

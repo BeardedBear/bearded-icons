@@ -1,5 +1,11 @@
 # Changelog for Bearded Icons
 
+## 0.3.0 - 2020-09-03
+
+- Add support for browserslist
+- Fix missing icons go (go, go.mod, tmpl) and svelte [Issue #1](https://github.com/BeardedBear/bearded-icons/issues/1)
+
+
 ## 0.2.0 - 2020-09-01
 
 - Add support for vscode, rjson, less, stylus, postcss, ai, psd, pdf
