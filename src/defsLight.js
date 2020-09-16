@@ -821,6 +821,7 @@ const defsLight = {
 			"elc": "_f_emacs",
 			"ensime": "_f_ensime",
 			"eps": "_f_eps",
+			"exs": "_f_exs",
 			"xls": "_f_excel",
 			"xlsx": "_f_excel",
 			"xlsm": "_f_excel",
@@ -1018,6 +1019,7 @@ const defsLight = {
 			"csv": "_f_text",
 			"todo": "_f_light_todo",
 			"tt2": "_f_tt",
+			"tsx": "_f_tsx",
 			"d.ts": "_f_typescriptdef",
 			"vala": "_f_vala",
 			"vapi": "_f_vapi",
@@ -1535,6 +1537,7 @@ const defsLight = {
 			".nowignore": "_f_light_zeit",
 			"vercel.json": "_f_light_zeit",
 			".vercelignore": "_f_light_zeit",
+			"vite.config.js": "_f_vite",
 		},
 		"languageIds": {
 			"actionscript": "_f_actionscript",

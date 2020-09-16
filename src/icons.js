@@ -39,6 +39,7 @@ const icons = {
 	...icon("jsmap"),
 	...icon("typescript"),
 	...icon("typescriptdef"),
+	...icon("tsx"),
 	...icon("vue"),
 	...icon("image"),
 	...icon("zip"),
@@ -71,6 +72,7 @@ const icons = {
 	...icon("babel"),
 	...icon("toml"),
 	...icon("elixir"),
+	...icon("exs"),
 	...icon("rust"),
 	...icon("reactjs"),
 	...icon("angular"),
@@ -90,6 +92,8 @@ const icons = {
 	...icon("tmpl"),
 	...icon("svelte"),
 	...icon("browserslist"),
+	...icon("erlang"),
+	...icon("vite"),
 };
 
 export default icons;

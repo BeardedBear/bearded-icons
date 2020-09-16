@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 0.4.0 - 2020-09-16
+
+- Add support for Vite
+- Add support for tsx, exs, erlang [Issue #2](https://github.com/BeardedBear/bearded-icons/issues/2)
+
 ## 0.3.0 - 2020-09-03
 
 - Add support for browserslist
