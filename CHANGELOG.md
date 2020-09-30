@@ -1,5 +1,11 @@
 # Changelog for Bearded Icons
 
+## 0.5.0 - 2020-09-30
+
+- Add support for mint
+- Fix CSS icon with postcss VSCode file association [Issue #3](https://github.com/BeardedBear/bearded-icons/issues/3)
+
+
 ## 0.4.0 - 2020-09-16
 
 - Add support for Vite

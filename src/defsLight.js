@@ -809,6 +809,7 @@ const defsLight = {
 			"csx": "_f_csharp",
 			"csproj": "_f_csproj",
 			"css.map": "_f_cssmap",
+			"css": "_f_css",
 			"db": "_f_light_db",
 			"djt": "_f_django",
 			"eco": "_f_light_docpad",
@@ -1058,6 +1059,7 @@ const defsLight = {
 			"zipx": "_f_zip",
 			"styl": "_f_stylus",
 			"tmpl": "_f_tmpl",
+			"mint": "_f_mint",
 		},
 		"fileNames": {
 			...make(webpack, "_f_webpack"),

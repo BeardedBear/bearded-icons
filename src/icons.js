@@ -94,6 +94,7 @@ const icons = {
 	...icon("browserslist"),
 	...icon("erlang"),
 	...icon("vite"),
+	...icon("mint"),
 };
 
 export default icons;

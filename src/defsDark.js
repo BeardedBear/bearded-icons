@@ -807,6 +807,7 @@ const defsDark = {
 		"hpp": "_f_cppheader",
 		"csx": "_f_csharp",
 		"csproj": "_f_csproj",
+		"css": "_f_css",
 		"css.map": "_f_cssmap",
 		"db": "_f_db",
 		"djt": "_f_django",
@@ -1058,6 +1059,7 @@ const defsDark = {
 		"tgz": "_f_zip",
 		"styl": "_f_stylus",
 		"tmpl": "_f_tmpl",
+		"mint": "_f_mint",
 	},
 	"fileNames": {
 		...make(webpack, "_f_webpack"),
