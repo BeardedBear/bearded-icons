@@ -95,6 +95,7 @@ const icons = {
 	...icon("erlang"),
 	...icon("vite"),
 	...icon("mint"),
+	...icon("eex"),
 };
 
 export default icons;
