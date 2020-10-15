@@ -1060,6 +1060,7 @@ const defsDark = {
 		"styl": "_f_stylus",
 		"tmpl": "_f_tmpl",
 		"mint": "_f_mint",
+		"eex": "_f_eex"
 	},
 	"fileNames": {
 		...make(webpack, "_f_webpack"),
