@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.6.0 - 2020-10-15
+
+- Add support for Eex templates (thanks [robgering](https://github.com/robgering))
+
 ## 0.5.0 - 2020-09-30
 
 - Add support for mint
