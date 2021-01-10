@@ -96,6 +96,14 @@ const icons = {
 	...icon("vite"),
 	...icon("mint"),
 	...icon("eex"),
+	...icon("env"),
+	...icon("nvm"),
+	...icon("sql"),
+	...icon("nginx"),
+	...icon("conf"),
+	...icon("c"),
+	...icon("cpp"),
+	...icon("powershell"),
 };
 
 export default icons;

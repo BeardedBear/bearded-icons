@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 0.7.0 - 2021-01-10
+
+- Add support for .sql, .env, NVM, nginx, conf, cpp, c, powershell.
+
+
 ## 0.6.0 - 2020-10-15
 
 - Add support for Eex templates (thanks [robgering](https://github.com/robgering))
