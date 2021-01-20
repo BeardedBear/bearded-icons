@@ -1065,6 +1065,7 @@ const defsDark = {
 		"c": "_f_c",
 		"cpp": "_f_cpp",
 		"ps1": "_f_powershell",
+		"njk": "_f_njk",
 	},
 	"fileNames": {
 		...make(webpack, "_f_webpack"),

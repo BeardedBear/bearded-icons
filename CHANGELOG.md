@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.8.0 - 2021-01-20
+
+- Add support for Nunjucks.
+
 ## 0.7.0 - 2021-01-10
 
 - Add support for .sql, .env, NVM, nginx, conf, cpp, c, powershell.

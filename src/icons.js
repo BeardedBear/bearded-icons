@@ -104,6 +104,7 @@ const icons = {
 	...icon("c"),
 	...icon("cpp"),
 	...icon("powershell"),
+	...icon("njk"),
 };
 
 export default icons;
