@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.9.1 - 2021-01-28
+
+- Fix folder icon export
+
 ## 0.9.0 - 2021-01-28
 
 - Add support for Blade. [Issue #11](https://github.com/BeardedBear/bearded-icons/issues/11)
