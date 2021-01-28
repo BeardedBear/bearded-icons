@@ -1,12 +1,20 @@
 # Changelog for Bearded Icons
 
+## 0.9.0 - 2021-01-28
+
+- Add support for Blade. [Issue #11](https://github.com/BeardedBear/bearded-icons/issues/11)
+- Fix render for the next VSCode version. [Issue #10](https://github.com/BeardedBear/bearded-icons/issues/10)
+
 ## 0.8.0 - 2021-01-20
 
 - Add support for Nunjucks.
 
 ## 0.7.0 - 2021-01-10
 
-- Add support for .sql, .env, NVM, nginx, conf, cpp, c, powershell.
+- Add support for .env, nginx, sql [Issue #9](https://github.com/BeardedBear/bearded-icons/issues/9)
+- Add support for cpp, c [Issue #6](https://github.com/BeardedBear/bearded-icons/issues/6)
+- Add support for powershell [Issue #5](https://github.com/BeardedBear/bearded-icons/issues/5).
+- Add support for NVM, conf.
 
 
 ## 0.6.0 - 2020-10-15

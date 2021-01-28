@@ -1065,6 +1065,8 @@ const defsLight = {
 			"cpp": "_f_cpp",
 			"ps1": "_f_powershell",
 			"njk": "_f_njk",
+			"blade.php": "_f_blade",
+			"blade": "_f_blade",
 		},
 		"fileNames": {
 			...make(webpack, "_f_webpack"),
