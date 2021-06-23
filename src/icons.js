@@ -1,7 +1,7 @@
 function icon(name) {
 	return {
 		[`_f_${name}`]: {
-			"iconPath": `./icons/${name}.svg`,
+			iconPath: `./icons/${name}.svg`,
 		},
 	};
 }
@@ -9,7 +9,7 @@ function icon(name) {
 function iconGeneric(name) {
 	return {
 		[`_${name}`]: {
-			"iconPath": `./icons/${name}.svg`,
+			iconPath: `./icons/${name}.svg`,
 		},
 	};
 }
@@ -22,6 +22,7 @@ const icons = {
 	...iconGeneric("folder_open"),
 	...iconGeneric("folder_light_open"),
 	...icon("elm"),
+	...icon("sass"),
 	...icon("scss"),
 	...icon("less"),
 	...icon("stylus"),
@@ -106,6 +107,10 @@ const icons = {
 	...icon("powershell"),
 	...icon("njk"),
 	...icon("blade"),
+	...icon("liquid"),
+	...icon("pug"),
+	...icon("swift"),
+	...icon("graphql"),
 };
 
 export default icons;

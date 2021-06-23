@@ -1,5 +1,18 @@
 # Changelog for Bearded Icons
 
+## 0.10 - 2021-06-23
+
+- Fix html icon
+- Add swift icon
+- Add graphql icon
+
+## 0.9.2 - 2021-04-21
+
+- Fix icons : C#, Lua, License, Log, C
+- Add icon for liquid
+- Add icon for SASS
+- Add icon for PUG
+
 ## 0.9.1 - 2021-01-28
 
 - Fix folder icon export
@@ -20,7 +33,6 @@
 - Add support for powershell [Issue #5](https://github.com/BeardedBear/bearded-icons/issues/5).
 - Add support for NVM, conf.
 
-
 ## 0.6.0 - 2020-10-15
 
 - Add support for Eex templates (thanks [robgering](https://github.com/robgering))
@@ -29,7 +41,6 @@
 
 - Add support for mint
 - Fix CSS icon with postcss VSCode file association [Issue #3](https://github.com/BeardedBear/bearded-icons/issues/3)
-
 
 ## 0.4.0 - 2020-09-16
 
@@ -40,7 +51,6 @@
 
 - Add support for browserslist
 - Fix missing icons go (go, go.mod, tmpl) and svelte [Issue #1](https://github.com/BeardedBear/bearded-icons/issues/1)
-
 
 ## 0.2.0 - 2020-09-01
 
