@@ -5,6 +5,7 @@
 - Fix html icon
 - Add swift icon
 - Add graphql icon
+- Add .h and .m icons
 
 ## 0.9.2 - 2021-04-21
 

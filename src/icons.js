@@ -109,6 +109,8 @@ const icons = {
 	...icon("blade"),
 	...icon("liquid"),
 	...icon("pug"),
+	...icon("cheader"),
+	...icon("m"),
 	...icon("swift"),
 	...icon("graphql"),
 };
