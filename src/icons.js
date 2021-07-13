@@ -105,6 +105,8 @@ const icons = {
 	...icon("c"),
 	...icon("cpp"),
 	...icon("powershell"),
+	...icon("powershelldata"),
+	...icon("powershellmodule"),
 	...icon("njk"),
 	...icon("blade"),
 	...icon("liquid"),
@@ -113,6 +115,7 @@ const icons = {
 	...icon("m"),
 	...icon("swift"),
 	...icon("graphql"),
+	...icon("groovy"),
 };
 
 export default icons;

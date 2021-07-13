@@ -1,18 +1,25 @@
 # Changelog for Bearded Icons
 
+## 0.11 - 2021-07-21
+
+- Add Vite icon for ts files
+- Add graphql icon for .gql files [Issue #14](https://github.com/BeardedBear/bearded-icons/issues/14)
+- Add PowerShell modules and data icons [Issue #15](https://github.com/BeardedBear/bearded-icons/issues/16) [Issue #16](https://github.com/BeardedBear/bearded-icons/issues/16)
+- Add Groovy icon [Issue #19](https://github.com/BeardedBear/bearded-icons/issues/19)
+
 ## 0.10 - 2021-06-23
 
 - Fix html icon
-- Add swift icon
-- Add graphql icon
-- Add .h and .m icons
+- Add swift icon [Issue #18](https://github.com/BeardedBear/bearded-icons/issues/18)
+- Add graphql icon [Issue #14](https://github.com/BeardedBear/bearded-icons/issues/14)
+- Add .h and .m icons [Issue #18](https://github.com/BeardedBear/bearded-icons/issues/18)
 
 ## 0.9.2 - 2021-04-21
 
 - Fix icons : C#, Lua, License, Log, C
-- Add icon for liquid
-- Add icon for SASS
-- Add icon for PUG
+- Add icon for liquid [Issue #13](https://github.com/BeardedBear/bearded-icons/issues/13)
+- Add icon for SASS [Issue #12](https://github.com/BeardedBear/bearded-icons/issues/12)
+- Add icon for PUG [Issue #12](https://github.com/BeardedBear/bearded-icons/issues/12)
 
 ## 0.9.1 - 2021-01-28
 
