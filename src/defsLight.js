@@ -730,6 +730,7 @@ const defsLight = {
       ...make(video, "_f_video"),
       ...make(image, "_f_image"),
       ...make(font, "_f_font"),
+      cmd: "_f_cli",
       erb: "_f_erb",
       m: "_f_m",
       accdb: "_f_access",

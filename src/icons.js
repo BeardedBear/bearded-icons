@@ -126,7 +126,9 @@ const icons = {
   ...icon("imagejpg"),
   ...icon("imagegif"),
   ...icon("imagewebp"),
-  ...icon("imageico")
+  ...icon("imageico"),
+  ...icon("cli"),
+  ...icon("bat")
 };
 
 export default icons;
