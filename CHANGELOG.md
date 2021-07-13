@@ -4,6 +4,8 @@
 
 - Add Vite icon for ts files
 - Change icon for tsx and jsx files
+- Improve lisibility for .toml icon
+- Add differents icons for image formats
 - Add graphql icon for .gql files [Issue #14](https://github.com/BeardedBear/bearded-icons/issues/14)
 - Add PowerShell modules and data icons [Issue #15](https://github.com/BeardedBear/bearded-icons/issues/16) [Issue #16](https://github.com/BeardedBear/bearded-icons/issues/16)
 - Add Groovy icon [Issue #19](https://github.com/BeardedBear/bearded-icons/issues/19)
