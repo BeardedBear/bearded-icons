@@ -69,6 +69,7 @@ const icons = {
 	...icon("handlebars"),
 	...icon("webpack"),
 	...icon("ruby"),
+	...icon("erb"),
 	...icon("jest"),
 	...icon("babel"),
 	...icon("toml"),

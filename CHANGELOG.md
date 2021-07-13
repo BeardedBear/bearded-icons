@@ -6,6 +6,7 @@
 - Add graphql icon for .gql files [Issue #14](https://github.com/BeardedBear/bearded-icons/issues/14)
 - Add PowerShell modules and data icons [Issue #15](https://github.com/BeardedBear/bearded-icons/issues/16) [Issue #16](https://github.com/BeardedBear/bearded-icons/issues/16)
 - Add Groovy icon [Issue #19](https://github.com/BeardedBear/bearded-icons/issues/19)
+- Add .erb file icon [Issue #21](https://github.com/BeardedBear/bearded-icons/issues/21)
 
 ## 0.10 - 2021-06-23
 
