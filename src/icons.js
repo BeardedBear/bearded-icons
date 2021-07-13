@@ -77,6 +77,7 @@ const icons = {
 	...icon("exs"),
 	...icon("rust"),
 	...icon("reactjs"),
+	...icon("reactts"),
 	...icon("angular"),
 	...icon("rollup"),
 	...icon("java"),
@@ -117,6 +118,10 @@ const icons = {
 	...icon("swift"),
 	...icon("graphql"),
 	...icon("groovy"),
+	...icon("testjs"),
+	...icon("testts"),
+	...icon("storybook"),
+	...icon("wasm"),
 };
 
 export default icons;

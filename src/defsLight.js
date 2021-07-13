@@ -1021,7 +1021,7 @@ const defsLight = {
 			csv: "_f_text",
 			todo: "_f_light_todo",
 			tt2: "_f_tt",
-			tsx: "_f_tsx",
+			tsx: "_f_reactts",
 			"d.ts": "_f_typescriptdef",
 			vala: "_f_vala",
 			vapi: "_f_vapi",
