@@ -139,6 +139,9 @@ const icons = {
 	...icon("nodemon"),
 	...icon("jinja"),
 	...icon("haml"),
+	...icon("smarty"),
+	...icon("haskell"),
+	...icon("gradle"),
 };
 
 export default icons;

@@ -1,14 +1,17 @@
 # Changelog for Bearded Icons
 
-## 0.13 - 2021-07-21
+## 0.13 - 2021-07-15
 
 - Add Netlify and Vercel icon
 - Add Tailwind and Windi icon
 - Add yarn error icon
 - Add Jinja icon
 - Add Haml icon
+- Add Smarty icon
+- Add Haskell icon
+- Add Gradle icon
 
-## 0.12 - 2021-07-21
+## 0.12 - 2021-07-14
 
 - Add Vite icon for ts files
 - Change icon for tsx and jsx files
