@@ -1,5 +1,13 @@
 # Changelog for Bearded Icons
 
+## 0.13 - 2021-07-21
+
+- Add Netlify and Vercel icon
+- Add Tailwind and Windi icon
+- Add yarn error icon
+- Add Jinja icon
+- Add Haml icon
+
 ## 0.12 - 2021-07-21
 
 - Add Vite icon for ts files
