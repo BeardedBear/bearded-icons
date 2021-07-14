@@ -128,7 +128,8 @@ const icons = {
   ...icon("imagewebp"),
   ...icon("imageico"),
   ...icon("cli"),
-  ...icon("bat")
+  ...icon("bat"),
+  ...icon("nuxt")
 };
 
 export default icons;
