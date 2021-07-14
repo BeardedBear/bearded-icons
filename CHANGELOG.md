@@ -1,6 +1,6 @@
 # Changelog for Bearded Icons
 
-## 0.11 - 2021-07-21
+## 0.12 - 2021-07-21
 
 - Add Vite icon for ts files
 - Change icon for tsx and jsx files
