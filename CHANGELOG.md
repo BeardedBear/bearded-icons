@@ -1,5 +1,13 @@
 # Changelog for Bearded Icons
 
+## 0.14 - 2021-07-18
+
+- Add Nim icon
+- Add Nest icons
+- Add ini icon
+- Add variations for font types
+- Add Jenkins icon
+
 ## 0.13 - 2021-07-15
 
 - Add Netlify and Vercel icon
