@@ -1,12 +1,17 @@
 # Changelog for Bearded Icons
 
-## 0.14 - 2021-07-18
+## 0.14 - 2021-07-24
 
 - Add Nim icon
 - Add Nest icons
 - Add ini icon
 - Add variations for font types
 - Add Jenkins icon
+- Add Vetur icon
+- Add variations for audio files
+- Add Txt icon
+- Add binary icons
+- Add cert and key icons
 
 ## 0.13 - 2021-07-15
 
