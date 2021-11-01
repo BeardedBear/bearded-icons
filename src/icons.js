@@ -158,6 +158,7 @@ const icons = {
 	...icon("binary"),
 	...icon("cert"),
 	...icon("key"),
+	...icon("prisma"),
 };
 
 export default icons;

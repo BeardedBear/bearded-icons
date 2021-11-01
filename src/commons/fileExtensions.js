@@ -393,4 +393,5 @@ export default {
 	twig: "_f_twig",
 	bat: "_f_bat",
 	ex: "_f_elixir",
+	prisma: "_f_prisma",
 };
