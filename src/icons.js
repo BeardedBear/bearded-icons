@@ -159,6 +159,7 @@ const icons = {
 	...icon("cert"),
 	...icon("key"),
 	...icon("prisma"),
+	...icon("compodoc"),
 };
 
 export default icons;
