@@ -8,6 +8,7 @@
 - Add Julia icon [Issue #24](https://github.com/BeardedBear/bearded-icons/issues/24)
 - Add CSV icon [Issue #25](https://github.com/BeardedBear/bearded-icons/issues/25)
 - Add Karma icon [Issue #26](https://github.com/BeardedBear/bearded-icons/issues/26)
+- Add tsconfig icon [Issue #27](https://github.com/BeardedBear/bearded-icons/issues/27)
 
 ## 0.14.0 - 2021-07-24
 

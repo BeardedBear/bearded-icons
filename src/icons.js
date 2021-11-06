@@ -165,7 +165,8 @@ const icons = {
   ...icon("compodoc"),
   ...icon("julia"),
   ...icon("csv"),
-  ...icon("karma")
+  ...icon("karma"),
+  ...icon("tsconfig")
 };
 
 export default icons;
