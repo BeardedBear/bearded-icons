@@ -9,6 +9,7 @@
 - Add CSV icon [Issue #25](https://github.com/BeardedBear/bearded-icons/issues/25)
 - Add Karma icon [Issue #26](https://github.com/BeardedBear/bearded-icons/issues/26)
 - Add tsconfig icon [Issue #27](https://github.com/BeardedBear/bearded-icons/issues/27)
+- Add Travis CI icon [Issue #28](https://github.com/BeardedBear/bearded-icons/issues/28)
 
 ## 0.14.0 - 2021-07-24
 
