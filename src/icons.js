@@ -153,11 +153,16 @@ const icons = {
 	...icon("nestjscontroller"),
 	...icon("nestjsservice"),
 	...icon("nestjsmodule"),
+	...icon("nestjsguard"),
+	...icon("nestjsdecorator"),
+	...icon("nestjsfilter"),
 	...icon("jenkins"),
 	...icon("txt"),
 	...icon("binary"),
 	...icon("cert"),
 	...icon("key"),
+	...icon("prisma"),
+	...icon("compodoc"),
 };
 
 export default icons;

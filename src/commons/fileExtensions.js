@@ -376,6 +376,12 @@ export default {
 	"module.ts": "_f_nestjsmodule",
 	"service.ts": "_f_nestjsservice",
 	"service.js": "_f_nestjsservice",
+	"guard.ts": "_f_nestjsguard",
+	"guard.js": "_f_nestjsguard",
+	"decorator.ts": "_f_nestjsdecorator",
+	"decorator.js": "_f_nestjsdecorator",
+	"filter.ts": "_f_nestjsfilter",
+	"filter.js": "_f_nestjsfilter",
 	txt: "_f_txt",
 	swift: "_f_swift",
 	rs: "_f_rust",
@@ -393,4 +399,5 @@ export default {
 	twig: "_f_twig",
 	bat: "_f_bat",
 	ex: "_f_elixir",
+	prisma: "_f_prisma",
 };
