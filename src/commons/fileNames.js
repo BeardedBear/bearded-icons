@@ -496,8 +496,8 @@ export default {
 	".jinja": "_f_jinja",
 	"jenkins.yaml": "_f_jenkins",
 	"jenkins.yml": "_f_jenkins",
-	".compodocrc": '_f_compodoc',
-	".compodocrc.json": '_f_compodoc',
-	".compodocrc.yaml": '_f_compodoc',
-	".compodocrc.yml": '_f_compodoc',
+	".compodocrc": "_f_compodoc",
+	".compodocrc.json": "_f_compodoc",
+	".compodocrc.yaml": "_f_compodoc",
+	".compodocrc.yml": "_f_compodoc",
 };

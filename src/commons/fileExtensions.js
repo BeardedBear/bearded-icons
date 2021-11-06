@@ -400,4 +400,5 @@ export default {
 	bat: "_f_bat",
 	ex: "_f_elixir",
 	prisma: "_f_prisma",
+	jl: "_f_julia",
 };

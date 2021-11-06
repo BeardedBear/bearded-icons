@@ -1,6 +1,13 @@
 # Changelog for Bearded Icons
 
-## 0.14 - 2021-07-24
+## 0.15.0 - 2021-11-21
+
+- Add Prisma icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
+- Add Nest{guard|decorator|filter} icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
+- Add Compodoc icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
+- Add Julia icon [Issue #24](https://github.com/BeardedBear/bearded-icons/issues/24)
+
+## 0.14.0 - 2021-07-24
 
 - Add Nim icon
 - Add Nest icons
@@ -13,7 +20,7 @@
 - Add binary icons
 - Add cert and key icons
 
-## 0.13 - 2021-07-15
+## 0.13.0 - 2021-07-15
 
 - Add Netlify and Vercel icon
 - Add Tailwind and Windi icon
@@ -24,7 +31,7 @@
 - Add Haskell icon
 - Add Gradle icon
 
-## 0.12 - 2021-07-14
+## 0.12.0 - 2021-07-14
 
 - Add Vite icon for ts files
 - Change icon for tsx and jsx files
@@ -38,7 +45,7 @@
 - Add .erb icon [Issue #21](https://github.com/BeardedBear/bearded-icons/issues/21)
 - Add .wasm icon [Issue #23](https://github.com/BeardedBear/bearded-icons/issues/23)
 
-## 0.10 - 2021-06-23
+## 0.10.0 - 2021-06-23
 
 - Fix html icon
 - Add swift icon [Issue #18](https://github.com/BeardedBear/bearded-icons/issues/18)

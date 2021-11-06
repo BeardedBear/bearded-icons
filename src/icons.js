@@ -163,6 +163,7 @@ const icons = {
 	...icon("key"),
 	...icon("prisma"),
 	...icon("compodoc"),
+	...icon("julia"),
 };
 
 export default icons;
