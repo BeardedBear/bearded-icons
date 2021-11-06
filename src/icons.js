@@ -164,6 +164,7 @@ const icons = {
 	...icon("prisma"),
 	...icon("compodoc"),
 	...icon("julia"),
+	...icon("csv"),
 };
 
 export default icons;

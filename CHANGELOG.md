@@ -6,6 +6,7 @@
 - Add Nest{guard|decorator|filter} icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
 - Add Compodoc icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
 - Add Julia icon [Issue #24](https://github.com/BeardedBear/bearded-icons/issues/24)
+- Add CSV icon [Issue #25](https://github.com/BeardedBear/bearded-icons/issues/25)
 
 ## 0.14.0 - 2021-07-24
 

@@ -307,7 +307,7 @@ export default {
 	"e2e-spec.tsx": "_f_testts",
 	texi: "_f_tex",
 	tikz: "_f_tex",
-	csv: "_f_text",
+	csv: "_f_csv",
 	todo: "_f_todo",
 	tt2: "_f_tt",
 	tsx: "_f_reactts",
