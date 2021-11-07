@@ -11,6 +11,7 @@
 - Add tsconfig icon [Issue #27](https://github.com/BeardedBear/bearded-icons/issues/27)
 - Add Travis CI icon [Issue #28](https://github.com/BeardedBear/bearded-icons/issues/28)
 - Add Razor and cshtml icons [Issue #30](https://github.com/BeardedBear/bearded-icons/issues/30)
+- Add JSP icon [Issue #32](https://github.com/BeardedBear/bearded-icons/issues/32)
 
 ## 0.14.0 - 2021-07-24
 
