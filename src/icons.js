@@ -174,7 +174,9 @@ const icons = {
   ...icon("avi"),
   ...icon("mp4"),
   ...icon("mov"),
-  ...icon("video")
+  ...icon("video"),
+  ...icon("rescript"),
+  ...icon("bsconfig")
 };
 
 export default icons;

@@ -405,5 +405,7 @@ export default {
   cshtml: "_f_cshtml",
   jsp: "_f_jsp",
   mp4: "_f_mp4",
-  mov: "_f_mov"
+  mov: "_f_mov",
+  res: "_f_rescript",
+  resi: "_f_rescript"
 };
