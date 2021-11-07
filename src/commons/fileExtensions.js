@@ -403,4 +403,8 @@ export default {
 	jl: "_f_julia",
 	vert: "_f_opengl",
 	frag: "_f_opengl",
+	tesc: "_f_opengl",
+	tese: "_f_opengl",
+	geom: "_f_opengl",
+	comp: "_f_opengl",
 };
