@@ -499,5 +499,6 @@ export default {
   ".compodocrc": "_f_compodoc",
   ".compodocrc.json": "_f_compodoc",
   ".compodocrc.yaml": "_f_compodoc",
-  ".compodocrc.yml": "_f_compodoc"
+  ".compodocrc.yml": "_f_compodoc",
+  "bsconfig.json": "_f_bsconfig"
 };
