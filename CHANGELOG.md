@@ -12,6 +12,8 @@
 - Add Travis CI icon [Issue #28](https://github.com/BeardedBear/bearded-icons/issues/28)
 - Add Razor and cshtml icons [Issue #30](https://github.com/BeardedBear/bearded-icons/issues/30)
 - Add JSP icon [Issue #32](https://github.com/BeardedBear/bearded-icons/issues/32)
+- Add MOV icon [Issue #33](https://github.com/BeardedBear/bearded-icons/issues/33)
+- Add MP4 icon [Issue #34](https://github.com/BeardedBear/bearded-icons/issues/34)
 
 ## 0.14.0 - 2021-07-24
 
