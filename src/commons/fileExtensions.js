@@ -401,4 +401,6 @@ export default {
 	ex: "_f_elixir",
 	prisma: "_f_prisma",
 	jl: "_f_julia",
+	vert: "_f_opengl",
+	frag: "_f_opengl",
 };
