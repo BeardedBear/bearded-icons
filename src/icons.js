@@ -167,7 +167,9 @@ const icons = {
   ...icon("csv"),
   ...icon("karma"),
   ...icon("tsconfig"),
-  ...icon("travis")
+  ...icon("travis"),
+  ...icon("razor"),
+  ...icon("cshtml")
 };
 
 export default icons;
