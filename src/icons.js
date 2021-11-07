@@ -168,6 +168,15 @@ const icons = {
   ...icon("karma"),
   ...icon("tsconfig"),
   ...icon("travis"),
+  ...icon("razor"),
+  ...icon("cshtml"),
+  ...icon("jsp"),
+  ...icon("avi"),
+  ...icon("mp4"),
+  ...icon("mov"),
+  ...icon("video"),
+  ...icon("rescript"),
+  ...icon("bsconfig"),
   ...icon("llvm")
 };
 
