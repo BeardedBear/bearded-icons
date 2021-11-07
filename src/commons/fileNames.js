@@ -499,5 +499,7 @@ export default {
   ".compodocrc": "_f_compodoc",
   ".compodocrc.json": "_f_compodoc",
   ".compodocrc.yaml": "_f_compodoc",
-  ".compodocrc.yml": "_f_compodoc"
+  ".compodocrc.yml": "_f_compodoc",
+  ".clang-format": "_f_llvm",
+  ".clang-tidy": "_f_llvm"
 };
