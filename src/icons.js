@@ -181,6 +181,7 @@ const icons = {
 	...icon("opengl"),
 	...icon("llvm"),
 	...icon("info"),
+	...icon("ipynb"),
 };
 
 export default icons;

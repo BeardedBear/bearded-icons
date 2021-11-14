@@ -418,4 +418,5 @@ export default {
 	ll: "_f_llvm",
 	bc: "_f_llvm",
 	info: "_f_info",
+	ipynb: "_f_ipynb",
 };

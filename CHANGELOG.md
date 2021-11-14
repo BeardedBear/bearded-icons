@@ -19,6 +19,7 @@
 - Add OpenGL icon [Thanks NadavT](https://github.com/BeardedBear/bearded-icons/pull/51)
 - Add info icon [Issue #40](https://github.com/BeardedBear/bearded-icons/issues/40)
 - Add package lock icon [Issue #41](https://github.com/BeardedBear/bearded-icons/issues/41)
+- Add ipynb icon [Issue #43](https://github.com/BeardedBear/bearded-icons/issues/43)
 
 ## 0.14.0 - 2021-07-24
 
