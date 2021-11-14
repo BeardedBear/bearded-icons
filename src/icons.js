@@ -48,6 +48,7 @@ const icons = {
 	...icon("yarnerror"),
 	...icon("error"),
 	...icon("npm"),
+	...icon("npmlock"),
 	...icon("svg"),
 	...icon("yaml"),
 	...icon("fontwoff2"),

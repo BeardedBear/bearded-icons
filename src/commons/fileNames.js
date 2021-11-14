@@ -276,7 +276,7 @@ export default {
 	".npmignore": "_f_npm",
 	".npmrc": "_f_npm",
 	"package.json": "_f_npm",
-	"package-lock.json": "_f_npm",
+	"package-lock.json": "_f_npmlock",
 	"npm-shrinkwrap.json": "_f_npm",
 	".nsrirc": "_f_nsri",
 	".nsriignore": "_f_nsri",
