@@ -186,6 +186,10 @@ const icons = {
 	...icon("ipynb"),
 	...icon("sol"),
 	...icon("bicep"),
+	...icon("qt"),
+	...icon("ui"),
+	...icon("prolog"),
+	...icon("user"),
 };
 
 export default icons;

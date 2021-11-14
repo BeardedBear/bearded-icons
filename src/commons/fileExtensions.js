@@ -420,4 +420,7 @@ export default {
 	ipynb: "_f_ipynb",
 	sol: "_f_sol",
 	bicep: "_f_bicep",
+	pri: "_f_qt",
+	user: "_f_user",
+	ui: "_f_ui",
 };
