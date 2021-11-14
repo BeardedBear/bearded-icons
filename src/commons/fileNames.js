@@ -501,4 +501,6 @@ export default {
 	".compodocrc.yaml": "_f_compodoc",
 	".compodocrc.yml": "_f_compodoc",
 	"bsconfig.json": "_f_bsconfig",
+	".clang-format": "_f_llvm",
+	".clang-tidy": "_f_llvm",
 };

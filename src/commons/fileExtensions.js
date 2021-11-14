@@ -415,4 +415,6 @@ export default {
 	comp: "_f_opengl",
 	glsl: "_f_opengl",
 	hlsl: "_f_opengl",
+	ll: "_f_llvm",
+	bc: "_f_llvm",
 };
