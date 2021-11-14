@@ -1,6 +1,6 @@
 # Changelog for Bearded Icons
 
-## 0.15.0 - 2021-11-21
+## 0.15.0 - 2021-11-14
 
 - Add Prisma icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
 - Add Nest{guard|decorator|filter} icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
@@ -15,6 +15,8 @@
 - Add MOV icon [Issue #33](https://github.com/BeardedBear/bearded-icons/issues/33)
 - Add MP4 icon [Issue #34](https://github.com/BeardedBear/bearded-icons/issues/34)
 - Add Rescript & BSconfig icons [Issue #39](https://github.com/BeardedBear/bearded-icons/issues/39)
+- Add llvm icon [Thanks NadavT](https://github.com/BeardedBear/bearded-icons/pull/50)
+- Add OpenGL icon [Thanks NadavT](https://github.com/BeardedBear/bearded-icons/pull/51)
 
 ## 0.14.0 - 2021-07-24
 
