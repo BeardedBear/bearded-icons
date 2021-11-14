@@ -178,7 +178,7 @@ const icons = {
 	...icon("rescript"),
 	...icon("bsconfig"),
 	...icon("opengl"),
-	...icon("llvm")
+	...icon("llvm"),
 };
 
 export default icons;
