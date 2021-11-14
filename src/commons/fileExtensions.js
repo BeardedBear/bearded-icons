@@ -417,4 +417,5 @@ export default {
 	hlsl: "_f_opengl",
 	ll: "_f_llvm",
 	bc: "_f_llvm",
+	info: "_f_info",
 };

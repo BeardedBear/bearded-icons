@@ -179,6 +179,7 @@ const icons = {
 	...icon("bsconfig"),
 	...icon("opengl"),
 	...icon("llvm"),
+	...icon("info"),
 };
 
 export default icons;
