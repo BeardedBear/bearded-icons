@@ -413,4 +413,6 @@ export default {
 	tese: "_f_opengl",
 	geom: "_f_opengl",
 	comp: "_f_opengl",
+	glsl: "_f_opengl",
+	hlsl: "_f_opengl",
 };
