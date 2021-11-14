@@ -152,7 +152,6 @@ export default {
 	"json-ld": "_f_jsonld",
 	rjson: "_f_rjson",
 	jss: "_f_jss",
-	ipynb: "_f_jupyter",
 	key: "_f_key",
 	pem: "_f_key",
 	master: "_f_layout",
@@ -419,4 +418,5 @@ export default {
 	bc: "_f_llvm",
 	info: "_f_info",
 	ipynb: "_f_ipynb",
+	sol: "_f_sol",
 };

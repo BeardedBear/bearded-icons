@@ -182,6 +182,7 @@ const icons = {
 	...icon("llvm"),
 	...icon("info"),
 	...icon("ipynb"),
+	...icon("sol"),
 };
 
 export default icons;
