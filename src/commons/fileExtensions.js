@@ -419,4 +419,5 @@ export default {
 	info: "_f_info",
 	ipynb: "_f_ipynb",
 	sol: "_f_sol",
+	bicep: "_f_bicep",
 };

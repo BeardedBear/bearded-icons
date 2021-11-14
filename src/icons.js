@@ -183,6 +183,7 @@ const icons = {
 	...icon("info"),
 	...icon("ipynb"),
 	...icon("sol"),
+	...icon("bicep"),
 };
 
 export default icons;
