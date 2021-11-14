@@ -28,6 +28,8 @@ const icons = {
 	...icon("stylus"),
 	...icon("postcssconfig"),
 	...icon("docker"),
+	...icon("dockerignore"),
+	...icon("dockerdebug"),
 	...icon("git"),
 	...icon("readme"),
 	...icon("html"),

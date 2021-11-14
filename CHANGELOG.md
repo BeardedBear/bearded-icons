@@ -22,6 +22,7 @@
 - Add ipynb icon [Issue #43](https://github.com/BeardedBear/bearded-icons/issues/43)
 - Add solidity icon [Issue #44](https://github.com/BeardedBear/bearded-icons/issues/44)
 - Add bicep icon [Issue #45](https://github.com/BeardedBear/bearded-icons/issues/45)
+- Add dockerignore & docker-compose.debug icon [Issue #47](https://github.com/BeardedBear/bearded-icons/issues/47)
 
 ## 0.14.0 - 2021-07-24
 
