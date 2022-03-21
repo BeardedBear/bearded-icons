@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 0.16.0 - 2022-03-21
+
+- Add Clojure icon [Thanks freshhops](https://github.com/BeardedBear/bearded-icons/pull/57)
+
+
 ## 0.15.0 - 2021-11-14
 
 - Add Prisma icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
