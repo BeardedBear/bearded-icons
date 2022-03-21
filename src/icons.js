@@ -193,6 +193,8 @@ const icons = {
   ...icon("clojure"),
   ...icon("terraform"),
   ...icon("parcel"),
+  ...icon("ocaml"),
+  ...icon("ocamli"),
 };
 
 export default icons;

@@ -429,4 +429,8 @@ export default {
   cljx: "_f_clojure",
   edn: "_f_clojure",
   tf: "_f_terraform",
+  ml: "_f_ocaml",
+  mli: "_f_ocamli",
+  mly: "_f_ocaml",
+  mll: "_f_ocaml",
 };
