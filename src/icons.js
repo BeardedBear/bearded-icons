@@ -192,6 +192,7 @@ const icons = {
   ...icon("user"),
   ...icon("clojure"),
   ...icon("terraform"),
+  ...icon("parcel"),
 };
 
 export default icons;

@@ -4,6 +4,7 @@
 
 - Add Clojure icon [Thanks freshhops](https://github.com/BeardedBear/bearded-icons/pull/57)
 - Add Terraform icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/54)
+- Add Parcel icon [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/pull/55)
 
 
 ## 0.15.0 - 2021-11-14
