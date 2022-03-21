@@ -195,6 +195,7 @@ const icons = {
   ...icon("parcel"),
   ...icon("ocaml"),
   ...icon("ocamli"),
+  ...icon("fsharp"),
 };
 
 export default icons;

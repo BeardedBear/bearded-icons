@@ -433,4 +433,5 @@ export default {
   mli: "_f_ocamli",
   mly: "_f_ocaml",
   mll: "_f_ocaml",
+  fs: "_f_fsharp",
 };
