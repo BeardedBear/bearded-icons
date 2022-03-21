@@ -428,4 +428,5 @@ export default {
   cljc: "_f_clojure",
   cljx: "_f_clojure",
   edn: "_f_clojure",
+  tf: "_f_terraform",
 };

@@ -191,6 +191,7 @@ const icons = {
   ...icon("prolog"),
   ...icon("user"),
   ...icon("clojure"),
+  ...icon("terraform"),
 };
 
 export default icons;
