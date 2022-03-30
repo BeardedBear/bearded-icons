@@ -6,7 +6,7 @@
 	"version": "0.16.0",
 	"type": "module",
 	"engines": {
-		"vscode": "^1.59.0"
+		"vscode": "^1.65.0"
 	},
 	"repository": {
 		"type": "git",
