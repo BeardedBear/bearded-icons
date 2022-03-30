@@ -1,6 +1,6 @@
 # Changelog for Bearded Icons
 
-## 0.16.0 - 2022-03-21
+## 0.16.0 - 2022-03-30
 
 - Add Clojure icon [Thanks freshhops](https://github.com/BeardedBear/bearded-icons/pull/57)
 - Add Terraform icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/54)
