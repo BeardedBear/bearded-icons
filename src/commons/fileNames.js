@@ -505,4 +505,6 @@ export default {
   ".clang-format": "_f_llvm",
   ".clang-tidy": "_f_llvm",
   ".parcelrc": "_f_parcel",
+  dune: "_f_dune",
+  "dune-project": "_f_duneproject",
 };

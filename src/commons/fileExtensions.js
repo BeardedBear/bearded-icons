@@ -431,7 +431,7 @@ export default {
   tf: "_f_terraform",
   ml: "_f_ocaml",
   mli: "_f_ocamli",
-  mly: "_f_ocaml",
-  mll: "_f_ocaml",
+  mly: "_f_ocamly",
+  mll: "_f_ocamll",
   fs: "_f_fsharp",
 };

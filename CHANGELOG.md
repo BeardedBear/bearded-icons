@@ -7,6 +7,7 @@
 - Add Parcel icon [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/pull/55)
 - Add Ocaml icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
 - Add Fsharp icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
+- Add Dune icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
 
 
 ## 0.15.0 - 2021-11-14
