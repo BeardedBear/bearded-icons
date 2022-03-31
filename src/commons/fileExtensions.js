@@ -434,4 +434,5 @@ export default {
   mly: "_f_ocamly",
   mll: "_f_ocamll",
   fs: "_f_fsharp",
+  edge: "_f_adonis",
 };

@@ -200,6 +200,8 @@ const icons = {
   ...icon("fsharp"),
   ...icon("dune"),
   ...icon("duneproject"),
+  ...icon("adonis"),
+  ...icon("adonisconfig"),
 };
 
 export default icons;

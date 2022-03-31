@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.17.0 - 2022-03-31
+
+- Add AdonisJS icons [Thanks JeanDevFR](https://github.com/BeardedBear/bearded-icons/pull/60)
+
 ## 0.16.0 - 2022-03-30
 
 - Add Clojure icon [Thanks freshhops](https://github.com/BeardedBear/bearded-icons/pull/57)

@@ -507,4 +507,5 @@ export default {
   ".parcelrc": "_f_parcel",
   dune: "_f_dune",
   "dune-project": "_f_duneproject",
+  ".adonisrc.json": "_f_adonisconfig",
 };
