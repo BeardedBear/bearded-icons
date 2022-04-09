@@ -435,4 +435,5 @@ export default {
   mll: "_f_ocamll",
   fs: "_f_fsharp",
   edge: "_f_adonis",
+  astro: "_f_astro",
 };

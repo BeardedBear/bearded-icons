@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.18.0 - 2022-04-09
+
+- Add Astro icons [Thanks msfleischer](https://github.com/BeardedBear/bearded-icons/pull/61)
+
 ## 0.17.0 - 2022-03-31
 
 - Add AdonisJS icons [Thanks JeanDevFR](https://github.com/BeardedBear/bearded-icons/pull/60)

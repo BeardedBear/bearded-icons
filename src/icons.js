@@ -1,17 +1,9 @@
 function icon(name) {
-  return {
-    [`_f_${name}`]: {
-      iconPath: `./icons/${name}.svg`,
-    },
-  };
+  return { [`_f_${name}`]: { iconPath: `./icons/${name}.svg` } };
 }
 
 function iconGeneric(name) {
-  return {
-    [`_${name}`]: {
-      iconPath: `./icons/${name}.svg`,
-    },
-  };
+  return { [`_${name}`]: { iconPath: `./icons/${name}.svg` } };
 }
 
 const icons = {
@@ -202,6 +194,8 @@ const icons = {
   ...icon("duneproject"),
   ...icon("adonis"),
   ...icon("adonisconfig"),
+  ...icon("astro"),
+  ...icon("astroconfig"),
 };
 
 export default icons;

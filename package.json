@@ -3,7 +3,7 @@
 	"displayName": "Bearded Icons",
 	"description": "The icons with a long beard.",
 	"publisher": "BeardedBear",
-	"version": "0.17.0",
+	"version": "0.18.0",
 	"type": "module",
 	"engines": {
 		"vscode": "^1.65.0"
@@ -47,12 +47,13 @@
 		"watch": "nodemon -L ./src/main.js",
 		"lint": "rome check --watch --apply",
 		"start": "run-p  lint watch",
-		"test": "node ./out/test/runTest.js"
+		"test": "node ./out/test/runTest.js",
+		"format": "rome format ."
 	},
 	"dependencies": {
 		"lodash": "^4.17.21",
 		"npm-run-all": "^4.1.5",
-		"rome": "^10.0.7-nightly.2021.2.10",
+		"rome": "^0.4.2-next --indent-style=space --indent-size 4",
 		"vsce": "^2.7.0"
 	}
 }

@@ -508,4 +508,5 @@ export default {
   dune: "_f_dune",
   "dune-project": "_f_duneproject",
   ".adonisrc.json": "_f_adonisconfig",
+  "astro.config.mjs": "_f_astroconfig",
 };
