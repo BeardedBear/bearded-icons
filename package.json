@@ -47,13 +47,12 @@
 		"watch": "nodemon -L ./src/main.js",
 		"lint": "rome check --watch --apply",
 		"start": "run-p  lint watch",
-		"test": "node ./out/test/runTest.js",
-		"format": "rome format ."
+		"test": "node ./out/test/runTest.js"
 	},
 	"dependencies": {
 		"lodash": "^4.17.21",
 		"npm-run-all": "^4.1.5",
-		"rome": "^0.4.2-next --indent-style=space --indent-size 4",
+		"rome": "^10.0.7-nightly.2021.2.10",
 		"vsce": "^2.7.0"
 	}
 }
