@@ -436,4 +436,8 @@ export default {
   fs: "_f_fsharp",
   edge: "_f_adonis",
   astro: "_f_astro",
+  godot: "_f_godot",
+  gd: "_f_godot",
+  tscn: "_f_tscn",
+  env: "_f_env",
 };

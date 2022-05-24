@@ -1,5 +1,14 @@
 # Changelog for Bearded Icons
 
+## 0.19.0 - 2022-05-24
+
+- Add conan icon
+- Add CMake icons
+- Add svelte config icon
+- Fix .env file detection [Thanks rmonteil](https://github.com/BeardedBear/bearded-icons/pull/65) [Thanks diminutivesloop](https://github.com/BeardedBear/bearded-icons/pull/67)
+- Add tool-versiions icon [Thanks rmonteil](https://github.com/BeardedBear/bearded-icons/pull/66)
+- Add Godot icons icons [Thanks tpolito](https://github.com/BeardedBear/bearded-icons/pull/63)
+
 ## 0.18.0 - 2022-04-09
 
 - Add Astro icons [Thanks msfleischer](https://github.com/BeardedBear/bearded-icons/pull/61)

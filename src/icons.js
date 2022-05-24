@@ -196,6 +196,12 @@ const icons = {
   ...icon("adonisconfig"),
   ...icon("astro"),
   ...icon("astroconfig"),
+  ...icon("godot"),
+  ...icon("tscn"),
+  ...icon("svelteconfig"),
+  ...icon("toolversions"),
+  ...icon("cmake"),
+  ...icon("conan"),
 };
 
 export default icons;
