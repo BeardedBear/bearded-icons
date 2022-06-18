@@ -202,6 +202,12 @@ const icons = {
   ...icon("toolversions"),
   ...icon("cmake"),
   ...icon("conan"),
+  ...icon("cargo"),
+  ...icon("cargolock"),
+  ...icon("pnpm"),
+  ...icon("pnpmlock"),
+  ...icon("tauri"),
+  ...icon("todo"),
 };
 
 export default icons;

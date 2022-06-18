@@ -1,5 +1,12 @@
 # Changelog for Bearded Icons
 
+## 0.21.0 - 2022-06-18
+
+- Add Cargo icons
+- Add PNPM icons
+- Add Tauri icons
+- Add todo icon
+
 ## 0.20.0 - 2022-06-10
 
 - Add sponsoring option
