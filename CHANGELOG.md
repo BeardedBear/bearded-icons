@@ -1,5 +1,12 @@
 # Changelog for Bearded Icons
 
+## 0.22.0 - 2022-07-07
+
+- Add nuxt icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/pull/72)
+- Add nextron icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/pull/72)
+- Add poetry icon [Thanks toolifelesstocode](https://github.com/BeardedBear/bearded-icons/pull/71)
+- Add hashicorp and sentinel icons [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/70)
+
 ## 0.21.0 - 2022-06-18
 
 - Add Cargo icons

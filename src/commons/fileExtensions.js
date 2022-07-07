@@ -440,4 +440,6 @@ export default {
   gd: "_f_godot",
   tscn: "_f_tscn",
   env: "_f_env",
+  hcl: "_f_hashicorp",
+  sentinel: "_f_sentinel",
 };

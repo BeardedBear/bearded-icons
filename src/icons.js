@@ -208,6 +208,11 @@ const icons = {
   ...icon("pnpmlock"),
   ...icon("tauri"),
   ...icon("todo"),
+  ...icon("nextconfig"),
+  ...icon("nextron"),
+  ...icon("hashicorp"),
+  ...icon("sentinel"),
+  ...icon("poetry"),
 };
 
 export default icons;
