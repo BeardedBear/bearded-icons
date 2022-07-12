@@ -533,4 +533,5 @@ export default {
   "nextron.config.ts": "_f_nextron",
   "poetry.toml": "_f_poetry",
   "poetry.lock": "_f_poetrylock",
+  "pyproject.toml": "_f_pyproject",
 };

@@ -214,6 +214,7 @@ const icons = {
   ...icon("sentinel"),
   ...icon("poetry"),
   ...icon("poetrylock"),
+  ...icon("pyproject"),
 };
 
 export default icons;
