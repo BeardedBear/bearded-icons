@@ -213,6 +213,7 @@ const icons = {
   ...icon("hashicorp"),
   ...icon("sentinel"),
   ...icon("poetry"),
+  ...icon("poetrylock"),
 };
 
 export default icons;

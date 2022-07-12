@@ -532,4 +532,5 @@ export default {
   "nextron.config.js": "_f_nextron",
   "nextron.config.ts": "_f_nextron",
   "poetry.toml": "_f_poetry",
+  "poetry.lock": "_f_poetrylock",
 };
