@@ -1,6 +1,6 @@
 # Changelog for Bearded Icons
 
-## 0.22.0 - 2022-07-07
+## 0.22.0 - 2022-07-12
 
 - Add nuxt icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/pull/72)
 - Add nextron icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/pull/72)
