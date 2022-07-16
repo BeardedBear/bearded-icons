@@ -4,7 +4,6 @@
 	"description": "The icons with a long beard.",
 	"publisher": "BeardedBear",
 	"version": "0.22.0",
-	"type": "module",
 	"engines": {
 		"vscode": "^1.65.0"
 	},
@@ -45,18 +44,20 @@
 		"vscode-test": "^1.6.1"
 	},
 	"scripts": {
-		"build": "node ./src/main.js",
+		"build": "vite-node src/main.ts",
 		"build:ext": "vsce package --no-yarn",
-		"watch": "nodemon -L ./src/main.js",
-		"lint": "rome check --watch --apply",
-		"start": "run-p  lint watch",
-		"test": "node ./out/test/runTest.js"
+		"dev": "vite-node src/main.ts -w",
+		"fix": "prettier --write src/**/*.ts"
 	},
 	"dependencies": {
-		"lodash": "^4.17.21",
-		"npm-run-all": "^4.1.5",
+		"@types/node": "^18.0.5",
+		"@typescript-eslint/eslint-plugin": "^5.30.6",
+		"@typescript-eslint/parser": "^5.30.6",
+		"eslint": "^8.19.0",
 		"ovsx": "^0.5.1",
-		"rome": "^10.0.7-nightly.2021.2.10",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4",
+		"vite-node": "^0.18.1",
 		"vsce": "^2.9.2"
 	}
 }

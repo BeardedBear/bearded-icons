@@ -1,6 +1,6 @@
-import fileExtensions from "./commons/fileExtensions.js";
-import fileNames from "./commons/fileNames.js";
-import languageIds from "./commons/languageIds.js";
+import fileExtensions from "./shared/fileExtensions";
+import fileNames from "./shared/fileNames";
+import languageIds from "./shared/languageIds";
 
 export default {
   light: {

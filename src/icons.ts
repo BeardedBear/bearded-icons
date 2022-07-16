@@ -1,8 +1,8 @@
-function icon(name) {
+function icon(name: string): Record<string, { iconPath: string }> {
   return { [`_f_${name}`]: { iconPath: `./icons/${name}.svg` } };
 }
 
-function iconGeneric(name) {
+function iconGeneric(name: string): Record<string, { iconPath: string }> {
   return { [`_${name}`]: { iconPath: `./icons/${name}.svg` } };
 }
 

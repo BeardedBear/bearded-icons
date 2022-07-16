@@ -1,9 +1,0 @@
-{
-	"root": true,
-	"name": "bearded-icons",
-	"format": {
-		"enabled": false,
-		"indentSize": 2,
-		"indentStyle": "space"
-	}
-}

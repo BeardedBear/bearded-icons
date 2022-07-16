@@ -1,5 +1,5 @@
-import { audio, image, video } from "../data/media.js";
-import { make } from "../helper.js";
+import { audio, image, video } from "../data/media";
+import { make } from "../helper";
 
 export default {
   ...make(audio, "_f_audio"),
@@ -91,8 +91,6 @@ export default {
   h: "_f_cheader",
   class: "_f_class",
   cjm: "_f_clojure",
-  cljc: "_f_clojure",
-  cljs: "_f_clojurescript",
   kit: "_f_codekit",
   plist: "_f_config",
   hpp: "_f_cppheader",

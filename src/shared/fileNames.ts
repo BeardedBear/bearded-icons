@@ -1,5 +1,5 @@
-import { make } from "../helper.js";
-import { webpack } from "../data/bundler.js";
+import { make } from "../helper";
+import { webpack } from "../data/bundler";
 
 export default {
   ...make(webpack, "_f_webpack"),
@@ -308,7 +308,6 @@ export default {
   "pipfile.lock": "_f_pip",
   "platformio.ini": "_f_platformio",
   "pnpmfile.js": "_f_pnpm",
-  "pnpm-lock.yaml": "_f_pnpm",
   "pnpm-workspace.yaml": "_f_pnpm",
   ".postcssrc": "_f_postcssconfig",
   ".postcssrc.json": "_f_postcssconfig",
@@ -518,10 +517,8 @@ export default {
   ".tool-versions": "_f_toolversions",
   "CMakeSettings.json": "_f_cmake",
   "CMakeLists.txt": "_f_cmake",
-  "conanfile.txt": "_f_conan",
   "Cargo.toml": "_f_cargo",
   "Cargo.lock": "_f_cargolock",
-  "pnpm-workspace.yaml": "_f_pnpm",
   "pnpm-lock.yaml": "_f_pnpmlock",
   "tauri.conf.json": "_f_tauri",
   "tauri.linux.conf.json": "_f_tauri",
