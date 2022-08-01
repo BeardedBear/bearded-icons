@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 0.23.0 - 2022-08-01
+
+- Add rust format icon (thanks myself)
+- Add Terraform vars icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/74)
+
 ## 0.22.0 - 2022-07-12
 
 - Add nuxt icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/pull/72)
@@ -44,7 +49,6 @@
 - Add Ocaml icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
 - Add Fsharp icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
 - Add Dune icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
-
 
 ## 0.15.0 - 2021-11-14
 

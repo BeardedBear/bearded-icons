@@ -531,4 +531,6 @@ export default {
   "poetry.toml": "_f_poetry",
   "poetry.lock": "_f_poetrylock",
   "pyproject.toml": "_f_pyproject",
+  "rustfmt.toml": "_f_rustfmt",
+  ".rustfmt.toml": "_f_rustfmt",
 };
