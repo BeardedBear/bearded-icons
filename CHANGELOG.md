@@ -1,5 +1,14 @@
 # Changelog for Bearded Icons
 
+## 0.24.0 - 2022-08-15
+
+- Add feature and cucumber icons [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/pull/76)
+- Fix tailwind and postcss icons [Thanks Eyewavu](https://github.com/BeardedBear/bearded-icons/pull/77)
+
+## 0.23.1 - 2022-08-09
+
+- Fix folders for HC series
+
 ## 0.23.0 - 2022-08-01
 
 - Add rust format icon (thanks myself)

@@ -217,6 +217,8 @@ const icons = {
   ...icon("poetry"),
   ...icon("poetrylock"),
   ...icon("pyproject"),
+  ...icon("cucumber"),
+  ...icon("cucumberfeature"),
 };
 
 export default icons;

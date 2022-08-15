@@ -441,4 +441,5 @@ export default {
   env: "_f_env",
   hcl: "_f_hashicorp",
   sentinel: "_f_sentinel",
+  feature: "_f_cucumberfeature",
 };
