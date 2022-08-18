@@ -442,4 +442,5 @@ export default {
   hcl: "_f_hashicorp",
   sentinel: "_f_sentinel",
   feature: "_f_cucumberfeature",
+  nix: "_f_nix",
 };

@@ -3,6 +3,7 @@
 ## 0.25.0 - 2022-08-18
 
 - Add root folder icon (for workspaces) [Thanks mikenavi](https://github.com/BeardedBear/bearded-icons/pull/75)
+- Add Nix and flake.lock icons [Thanks tedbyron ❤️](https://github.com/BeardedBear/bearded-icons/pull/78)
 
 ## 0.24.0 - 2022-08-15
 

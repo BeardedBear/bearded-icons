@@ -543,4 +543,5 @@ export default {
   "cucumber.cjs": "_f_cucumber",
   "cucumber.mjs": "_f_cucumber",
   "cucumber.json": "_f_cucumber",
+  "flake.lock": "_f_flakelock",
 };
