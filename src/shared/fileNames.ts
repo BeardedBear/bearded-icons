@@ -499,6 +499,8 @@ export default {
   ".env.local": "_f_env",
   ".env.dev": "_f_env",
   ".env.development": "_f_env",
+  ".env.example": "_f_env",
+  ".env.test": "_f_env",
   ".sql": "_f_sql",
   ".jinja": "_f_jinja",
   "jenkins.yaml": "_f_jenkins",
@@ -544,4 +546,6 @@ export default {
   "cucumber.mjs": "_f_cucumber",
   "cucumber.json": "_f_cucumber",
   "flake.lock": "_f_flakelock",
+  ace: "_f_ace",
+  "ace-manifest.json": "_f_acemanifest",
 };

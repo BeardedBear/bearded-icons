@@ -433,7 +433,6 @@ export default {
   mly: "_f_ocamly",
   mll: "_f_ocamll",
   fs: "_f_fsharp",
-  edge: "_f_adonis",
   astro: "_f_astro",
   godot: "_f_godot",
   gd: "_f_godot",
@@ -443,4 +442,5 @@ export default {
   sentinel: "_f_sentinel",
   feature: "_f_cucumberfeature",
   nix: "_f_nix",
+  edge: "_f_edge",
 };

@@ -225,6 +225,9 @@ const icons = {
   ...icon("cucumberfeature"),
   ...icon("nix"),
   ...icon("flakelock"),
+  ...icon("edge"),
+  ...icon("ace"),
+  ...icon("acemanifest"),
 };
 
 export default icons;

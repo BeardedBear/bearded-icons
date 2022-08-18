@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.26.0 - 2022-08-18
+
+- Add Adonis icons
+
 ## 0.25.0 - 2022-08-18
 
 - Add root folder icon (for workspaces) [Thanks mikenavi](https://github.com/BeardedBear/bearded-icons/pull/75)
