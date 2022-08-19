@@ -450,7 +450,6 @@ export default {
   ".vimrc": "_f_vim",
   ".gvimrc": "_f_vim",
   ".vscodeignore": "_f_vscode",
-  "launch.json": "_f_vscode",
   "tasks.json": "_f_vscode",
   "vscodeignore.json": "_f_vscode",
   ".vuerc": "_f_vueconfig",
@@ -548,4 +547,7 @@ export default {
   "flake.lock": "_f_flakelock",
   ace: "_f_ace",
   "ace-manifest.json": "_f_acemanifest",
+  "knexfile.js": "_f_knex",
+  "knexfile.ts": "_f_knex",
+  "launch.json": "_f_launch",
 };

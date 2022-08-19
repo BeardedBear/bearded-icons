@@ -229,6 +229,8 @@ const icons = {
   ...icon("ace"),
   ...icon("acemanifest"),
   ...icon("sqlite"),
+  ...icon("knex"),
+  ...icon("launch"),
 };
 
 export default icons;
