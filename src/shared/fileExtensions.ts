@@ -443,4 +443,5 @@ export default {
   feature: "_f_cucumberfeature",
   nix: "_f_nix",
   edge: "_f_edge",
+  nvim: "_f_nvim",
 };

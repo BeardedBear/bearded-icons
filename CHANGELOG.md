@@ -6,7 +6,8 @@
 - Add Knex.js icon
 - Add launch.json icon
 - Add Redis icon
-- Improve adonis files
+- Add nvim icon
+- Improve adonis icons
 
 ## 0.26.0 - 2022-08-18
 

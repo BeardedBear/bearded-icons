@@ -232,6 +232,7 @@ const icons = {
   ...icon("knex"),
   ...icon("launch"),
   ...icon("redis"),
+  ...icon("nvim"),
 };
 
 export default icons;
