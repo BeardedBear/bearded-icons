@@ -262,7 +262,7 @@ export default {
   rproj: "_f_rproj",
   sls: "_f_saltstack",
   sass: "_f_scss",
-  scssm: "_f_scss",
+  scss: "_f_scss",
   unity: "_f_shaderlab",
   fish: "_f_shell",
   sketch: "_f_sketch",
