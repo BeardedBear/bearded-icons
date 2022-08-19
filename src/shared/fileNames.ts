@@ -514,7 +514,7 @@ export default {
   ".parcelrc": "_f_parcel",
   dune: "_f_dune",
   "dune-project": "_f_duneproject",
-  ".adonisrc.json": "_f_adonisconfig",
+  ".adonisrc.json": "_f_adonis",
   "astro.config.mjs": "_f_astroconfig",
   "svelte.config.js": "_f_svelteconfig",
   "svelte.config.ts": "_f_svelteconfig",
@@ -550,4 +550,5 @@ export default {
   "knexfile.js": "_f_knex",
   "knexfile.ts": "_f_knex",
   "launch.json": "_f_launch",
+  "redis.conf": "_f_redis",
 };

@@ -3,8 +3,10 @@
 ## 0.27.0 - 2022-08-19
 
 - Add sqlite icon
-- Add knex js icon
+- Add Knex.js icon
 - Add launch.json icon
+- Add Redis icon
+- Improve adonis files
 
 ## 0.26.0 - 2022-08-18
 

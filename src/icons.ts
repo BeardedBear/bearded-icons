@@ -231,6 +231,7 @@ const icons = {
   ...icon("sqlite"),
   ...icon("knex"),
   ...icon("launch"),
+  ...icon("redis"),
 };
 
 export default icons;
