@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.27.0 - 2022-08-19
+
+- Add sqlite icon
+
 ## 0.26.0 - 2022-08-18
 
 - Add Adonis icons
