@@ -233,6 +233,7 @@ const icons = {
   ...icon("launch"),
   ...icon("redis"),
   ...icon("nvim"),
+  ...icon("sequelize"),
 };
 
 export default icons;

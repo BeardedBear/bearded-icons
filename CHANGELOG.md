@@ -7,6 +7,7 @@
 - Add launch.json icon
 - Add Redis icon
 - Add nvim icon
+- Add sequelize icon
 - Improve adonis icons
 
 ## 0.26.0 - 2022-08-18
