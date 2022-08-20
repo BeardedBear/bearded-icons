@@ -234,6 +234,12 @@ const icons = {
   ...icon("redis"),
   ...icon("nvim"),
   ...icon("sequelize"),
+  ...icon("tres"),
+  ...icon("sln"),
+  ...icon("suo"),
+  ...icon("csproj"),
+  ...icon("mesh"),
+  ...icon("gbl"),
 };
 
 export default icons;

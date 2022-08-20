@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.28.0 - 2022-08-20
+
+- Add Godot icons
+
 ## 0.27.1 - 2022-08-19
 
 - Fix scss files

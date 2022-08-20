@@ -267,7 +267,6 @@ export default {
   fish: "_f_shell",
   sketch: "_f_sketch",
   eskip: "_f_skipper",
-  sln: "_f_sln",
   sqlite: "_f_sqlite",
   sqlite3: "_f_sqlite",
   db3: "_f_sqlite",
@@ -444,4 +443,9 @@ export default {
   nix: "_f_nix",
   edge: "_f_edge",
   nvim: "_f_nvim",
+  tres: "_f_tres",
+  sln: "_f_sln",
+  suo: "_f_suo",
+  mesh: "_f_mesh",
+  gbl: "_f_gbl",
 };
