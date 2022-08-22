@@ -240,6 +240,9 @@ const icons = {
   ...icon("csproj"),
   ...icon("mesh"),
   ...icon("gbl"),
+  ...icon("cypress"),
+  ...icon("playright"),
+  ...icon("vitest"),
 };
 
 export default icons;

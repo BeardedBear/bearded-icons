@@ -1,5 +1,11 @@
 # Changelog for Bearded Icons
 
+## 0.29.0 - 2022-08-22
+
+- Add Cypress config icon [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/pull/79)
+- Add Playwight icon
+- Add vitest icon
+
 ## 0.28.0 - 2022-08-20
 
 - Add Godot icons
