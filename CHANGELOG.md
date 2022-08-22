@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 0.29.1 - 2022-08-22
+
+- Revert feature icon
+
 ## 0.29.0 - 2022-08-22
 
 - Add Cypress config icon [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/pull/79)

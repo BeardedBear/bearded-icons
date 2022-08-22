@@ -222,7 +222,6 @@ const icons = {
   ...icon("poetrylock"),
   ...icon("pyproject"),
   ...icon("cucumber"),
-  ...icon("cucumberfeature"),
   ...icon("nix"),
   ...icon("flakelock"),
   ...icon("edge"),

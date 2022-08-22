@@ -439,7 +439,7 @@ export default {
   env: "_f_env",
   hcl: "_f_hashicorp",
   sentinel: "_f_sentinel",
-  feature: "_f_cucumberfeature",
+  feature: "_f_cucumber",
   nix: "_f_nix",
   edge: "_f_edge",
   nvim: "_f_nvim",
