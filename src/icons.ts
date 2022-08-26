@@ -63,6 +63,7 @@ const icons = {
   ...icon("bundler"),
   ...icon("stylelint"),
   ...icon("prettier"),
+  ...icon("prettierignore"),
   ...icon("python"),
   ...icon("log"),
   ...icon("license"),
@@ -248,6 +249,7 @@ const icons = {
   ...icon("flutterlock"),
   ...icon("flutterpackage"),
   ...icon("htaccess"),
+  ...icon("nx"),
 };
 
 export default icons;

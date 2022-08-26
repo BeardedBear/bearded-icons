@@ -1,5 +1,13 @@
 # Changelog for Bearded Icons
 
+## 🎉 1.0.0 - 2022-08-27
+
+- Update readme with a brand new hilarious and beautiful presentation image, i'm so funny !
+- Add Nx ixons
+- Add prettierrcignore icon
+- Fix sql icon file
+- Fix jest preset icon
+
 ## 0.30.0 - 2022-08-26
 
 - Fix official icon for Edge

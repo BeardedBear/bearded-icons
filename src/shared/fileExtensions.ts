@@ -448,4 +448,5 @@ export default {
   suo: "_f_suo",
   mesh: "_f_mesh",
   gbl: "_f_gbl",
+  sql: "_f_sql",
 };
