@@ -1,5 +1,11 @@
 # Changelog for Bearded Icons
 
+## 0.30.0 - 2022-08-26
+
+- Fix official icon for Edge
+- Add flutter icons
+- Change composer icons
+
 ## 0.29.1 - 2022-08-22
 
 - Revert feature icon

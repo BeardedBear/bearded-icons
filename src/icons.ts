@@ -56,6 +56,7 @@ const icons = {
   ...icon("php"),
   ...icon("twig"),
   ...icon("composer"),
+  ...icon("composerlock"),
   ...icon("symfony"),
   ...icon("xml"),
   ...icon("robots"),
@@ -242,6 +243,11 @@ const icons = {
   ...icon("cypress"),
   ...icon("playright"),
   ...icon("vitest"),
+  ...icon("vitest"),
+  ...icon("flutter"),
+  ...icon("flutterlock"),
+  ...icon("flutterpackage"),
+  ...icon("htaccess"),
 };
 
 export default icons;
