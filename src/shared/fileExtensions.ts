@@ -450,4 +450,5 @@ export default {
   gbl: "_f_gbl",
   sql: "_f_sql",
   v: "_f_v",
+  rego: "_f_rego",
 };

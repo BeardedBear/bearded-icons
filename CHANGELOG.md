@@ -3,6 +3,8 @@
 ## 1.1.0 - 2022-09-21
 
 - Add hpp icon [Thanks emithethief](https://github.com/BeardedBear/bearded-icons/pull/81)
+- Add v icons [Thanks wreedb](https://github.com/BeardedBear/bearded-icons/pull/82)
+- Add rego icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/83)
 
 ## 🎉 1.0.0 - 2022-08-27
 
