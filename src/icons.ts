@@ -251,6 +251,7 @@ const icons = {
   ...icon("flutterpackage"),
   ...icon("htaccess"),
   ...icon("nx"),
+  ...icon("v"),
 };
 
 export default icons;
