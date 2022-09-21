@@ -252,6 +252,7 @@ const icons = {
   ...icon("htaccess"),
   ...icon("nx"),
   ...icon("v"),
+  ...icon("vmod"),
 };
 
 export default icons;

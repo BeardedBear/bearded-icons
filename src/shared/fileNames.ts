@@ -569,4 +569,5 @@ export default {
   ".htaccess": "_f_htaccess",
   "nx.json": "_f_nx",
   "project.json": "_f_nx",
+  "v.mod": "_f_vmod",
 };
