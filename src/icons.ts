@@ -254,6 +254,7 @@ const icons = {
   ...icon("v"),
   ...icon("vmod"),
   ...icon("rego"),
+  ...icon("scala"),
 };
 
 export default icons;

@@ -451,4 +451,6 @@ export default {
   sql: "_f_sql",
   v: "_f_v",
   rego: "_f_rego",
+  scala: "_f_scala",
+  sc: "_f_scala",
 };
