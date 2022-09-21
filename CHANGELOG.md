@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.1.0 - 2022-09-21
+
+- Add hpp icon [Thanks emithethief](https://github.com/BeardedBear/bearded-icons/pull/81)
+
 ## 🎉 1.0.0 - 2022-08-27
 
 - Update readme with a brand new hilarious and beautiful presentation image, i'm so funny !

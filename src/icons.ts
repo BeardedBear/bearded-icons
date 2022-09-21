@@ -116,6 +116,7 @@ const icons = {
   ...icon("conf"),
   ...icon("c"),
   ...icon("cpp"),
+  ...icon("hpp"),
   ...icon("powershell"),
   ...icon("powershelldata"),
   ...icon("powershellmodule"),
