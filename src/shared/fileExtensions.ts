@@ -454,4 +454,5 @@ export default {
   scala: "_f_scala",
   sc: "_f_scala",
   d: "_f_d",
+  adoc: "_f_adoc",
 };

@@ -256,6 +256,7 @@ const icons = {
   ...icon("rego"),
   ...icon("scala"),
   ...icon("d"),
+  ...icon("adoc"),
 };
 
 export default icons;

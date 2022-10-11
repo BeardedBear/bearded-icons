@@ -3,6 +3,7 @@
 ## 1.2.0 - 2022-10-11
 
 - Add d icon [Thanks cjbaratta](https://github.com/BeardedBear/bearded-icons/pull/86)
+- Add AsciiDoc icon [Thanks safarli](https://github.com/BeardedBear/bearded-icons/pull/87)
 
 ## 1.1.0 - 2022-09-21
 
