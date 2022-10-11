@@ -112,6 +112,7 @@ export default {
   ".eslintrc.yaml": "_f_eslint",
   ".eslintrc.yml": "_f_eslint",
   "eslint-preset.js": "_f_eslint",
+  "eslint.config.js": "_f_eslint",
   "app.json": "_f_expo",
   "app.config.js": "_f_expo",
   "app.config.json": "_f_expo",
