@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.2.0 - 2022-10-11
+
+- Add d icon [Thanks cjbaratta](https://github.com/BeardedBear/bearded-icons/pull/86)
+
 ## 1.1.0 - 2022-09-21
 
 - Add hpp icon [Thanks emithethief](https://github.com/BeardedBear/bearded-icons/pull/81)

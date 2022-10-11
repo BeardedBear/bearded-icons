@@ -453,4 +453,5 @@ export default {
   rego: "_f_rego",
   scala: "_f_scala",
   sc: "_f_scala",
+  d: "_f_d",
 };
