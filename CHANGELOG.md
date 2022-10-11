@@ -4,6 +4,7 @@
 
 - Add d icon [Thanks cjbaratta](https://github.com/BeardedBear/bearded-icons/pull/86)
 - Add AsciiDoc icon [Thanks safarli](https://github.com/BeardedBear/bearded-icons/pull/87)
+- Add new eslint config icon [Thanks lucasrmendonca](https://github.com/BeardedBear/bearded-icons/pull/88)
 - Add Motoko icon [Thanks LucasGuerraS](https://github.com/BeardedBear/bearded-icons/pull/91)
 
 ## 1.1.0 - 2022-09-21
