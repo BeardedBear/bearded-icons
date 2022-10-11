@@ -258,6 +258,8 @@ const icons = {
   ...icon("d"),
   ...icon("adoc"),
   ...icon("motoko"),
+  ...icon("diff"),
+  ...icon("quasar"),
 };
 
 export default icons;

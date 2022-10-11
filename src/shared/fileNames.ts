@@ -574,4 +574,8 @@ export default {
   "nx.json": "_f_nx",
   "project.json": "_f_nx",
   "v.mod": "_f_vmod",
+  "quasar.config.js": "_f_quasar",
+  "quasar.config.ts": "_f_quasar",
+  "quasar.config.cjs": "_f_quasar",
+  "quasar.config.mjs": "_f_quasar",
 };

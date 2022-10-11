@@ -206,7 +206,6 @@ export default {
   oft: "_f_outlook",
   ovpn: "_f_ovpn",
   pkg: "_f_package",
-  patch: "_f_patch",
   pcd: "_f_pcl",
   pdf: "_f_pdf",
   psd: "_f_photoshop",
@@ -455,4 +454,6 @@ export default {
   d: "_f_d",
   adoc: "_f_adoc",
   mo: "_f_motoko",
+  patch: "_f_diff",
+  diff: "_f_diff",
 };
