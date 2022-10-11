@@ -230,7 +230,6 @@ export default {
   pkh: "_f_plsql_package_header",
   pks: "_f_plsql_package_spec",
   po: "_f_poedit",
-  mo: "_f_poedit",
   pot: "_f_powerpoint",
   potx: "_f_powerpoint",
   potm: "_f_powerpoint",
@@ -455,4 +454,5 @@ export default {
   sc: "_f_scala",
   d: "_f_d",
   adoc: "_f_adoc",
+  mo: "_f_motoko",
 };
