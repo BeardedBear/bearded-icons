@@ -1,5 +1,26 @@
 # Changelog for Bearded Icons
 
+## 1.3.0 - 2023-02-04
+
+- ✨ Update extension icon
+- Add Quarkus icon
+- Add Freemarker icon
+- Add properties ico3
+- Add Maven icon
+- Add manifest icon
+- Change Astro icon
+- Add version icon
+- Add Kotlin icons [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/pull/92)
+- Add jar icon [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/pull/93)
+- Add Graddle KTS [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/pull/94)
+- Add VHD and VHDL icons [Thanks AdDraw](https://github.com/BeardedBear/bearded-icons/pull/96)
+- Add Crystal icon [Thanks my friens papey](https://github.com/BeardedBear/bearded-icons/pull/98)
+- Add Makefile icon [Thanks Lucas-COX](https://github.com/BeardedBear/bearded-icons/pull/99)
+- Fix missing icon for Postcss [Thanks zaneshaw](https://github.com/BeardedBear/bearded-icons/pull/100)
+- Add icon for wavepack [Thanks Eyewavu](https://github.com/BeardedBear/bearded-icons/pull/101)
+- Add icon asm [Thanks DylanMcBean](https://github.com/BeardedBear/bearded-icons/pull/102)
+- Revamp icons : Liquid, Jinja, tool-versions, rego, v
+
 ## 1.2.0 - 2022-10-11
 
 - Add d icon [Thanks cjbaratta](https://github.com/BeardedBear/bearded-icons/pull/86)

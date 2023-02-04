@@ -1,5 +1,5 @@
-import { make } from "../helper";
 import { webpack } from "../data/bundler";
+import { make } from "../helper";
 
 export default {
   ...make(webpack, "_f_webpack"),
@@ -81,6 +81,8 @@ export default {
   "docker-compose.override.yml": "_f_docker",
   "docker-compose.vs.debug.yml": "_f_docker",
   "docker-compose.vs.release.yml": "_f_docker",
+  "docker-compose-prod.yml": "_f_docker",
+  "Dockerfile-production": "_f_docker",
   "docker-compose.debug.yml": "_f_dockerdebug",
   "docker-cloud.yml": "_f_docker",
   ".dockerignore": "_f_dockerignore",
@@ -244,13 +246,15 @@ export default {
   ".lintstagedrc.yaml": "_f_lintstagedrc",
   ".lintstagedrc.yml": "_f_lintstagedrc",
   manifest: "_f_manifest",
-  "manifest.bak": "_f_manifest_bak",
-  "manifest.skip": "_f_manifest_skip",
+  "manifest.bak": "_f_manifest",
+  "manifest.json": "_f_manifest",
+  "manifest.skip": "_f_manifes",
   ".markdownlint.json": "_f_markdownlint",
   "maven.config": "_f_maven",
   "pom.xml": "_f_maven",
   "extensions.xml": "_f_maven",
   "settings.xml": "_f_maven",
+  "pom.properties": "_f_maven",
   ".hgignore": "_f_mercurial",
   "mocha.opts": "_f_mocha",
   ".mocharc.js": "_f_mocha",
@@ -345,6 +349,7 @@ export default {
   rakefile: "_f_rake",
   "razzle.config.js": "_f_razzle",
   "readme.md": "_f_readme",
+  "readme.txt": "_f_readme",
   ".rehyperc": "_f_rehype",
   ".rehypeignore": "_f_rehype",
   ".rehyperc.js": "_f_rehype",
@@ -578,4 +583,15 @@ export default {
   "quasar.config.ts": "_f_quasar",
   "quasar.config.cjs": "_f_quasar",
   "quasar.config.mjs": "_f_quasar",
+  "quarkus.properties": "_f_quarkus",
+  "theme.properties": "_f_ui",
+  gradlew: "_f_gradle",
+  "gradle-wrapper.properties": "_f_gradle",
+  "gradlew.bat": "_f_gradlebat",
+  "makefile.win": "_f_makefile",
+  makefile: "_f_makefile",
+  make: "_f_makefile",
+  version: "_f_version",
+  server: "_f_sql",
+  migrate: "_f_sql",
 };
