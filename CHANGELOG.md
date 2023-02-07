@@ -1,5 +1,11 @@
 # Changelog for Bearded Icons
 
+## 1.4.0 - 2023-02-07
+
+- Fix `prettier.config.cjs` and `next.config.mjs` icons [Thanks retconned](https://github.com/BeardedBear/bearded-icons/pull/104)
+- Add Commitlint icon [Thanks retconned](https://github.com/BeardedBear/bearded-icons/issues/105)
+- Add tex icon [Thanks g8row](https://github.com/BeardedBear/bearded-icons/issues/103)
+
 ## 1.3.0 - 2023-02-04
 
 - ✨ Update extension icon
@@ -10,32 +16,32 @@
 - Add manifest icon
 - Change Astro icon
 - Add version icon
-- Add Kotlin icons [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/pull/92)
-- Add jar icon [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/pull/93)
-- Add Graddle KTS [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/pull/94)
-- Add VHD and VHDL icons [Thanks AdDraw](https://github.com/BeardedBear/bearded-icons/pull/96)
-- Add Crystal icon [Thanks my friens papey](https://github.com/BeardedBear/bearded-icons/pull/98)
-- Add Makefile icon [Thanks Lucas-COX](https://github.com/BeardedBear/bearded-icons/pull/99)
-- Fix missing icon for Postcss [Thanks zaneshaw](https://github.com/BeardedBear/bearded-icons/pull/100)
-- Add icon for wavepack [Thanks Eyewavu](https://github.com/BeardedBear/bearded-icons/pull/101)
-- Add icon asm [Thanks DylanMcBean](https://github.com/BeardedBear/bearded-icons/pull/102)
+- Add Kotlin icons [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/issues/92)
+- Add jar icon [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/issues/93)
+- Add Graddle KTS [Thanks nirajsapkota](https://github.com/BeardedBear/bearded-icons/issues/94)
+- Add VHD and VHDL icons [Thanks AdDraw](https://github.com/BeardedBear/bearded-icons/issues/96)
+- Add Crystal icon [Thanks my friens papey](https://github.com/BeardedBear/bearded-icons/issues/98)
+- Add Makefile icon [Thanks Lucas-COX](https://github.com/BeardedBear/bearded-icons/issues/99)
+- Fix missing icon for Postcss [Thanks zaneshaw](https://github.com/BeardedBear/bearded-icons/issues/100)
+- Add icon for wavepack [Thanks Eyewavu](https://github.com/BeardedBear/bearded-icons/issues/101)
+- Add icon asm [Thanks DylanMcBean](https://github.com/BeardedBear/bearded-icons/issues/102)
 - Revamp icons : Liquid, Jinja, tool-versions, rego, v
 
 ## 1.2.0 - 2022-10-11
 
-- Add d icon [Thanks cjbaratta](https://github.com/BeardedBear/bearded-icons/pull/86)
-- Add AsciiDoc icon [Thanks safarli](https://github.com/BeardedBear/bearded-icons/pull/87)
-- Add new eslint config icon [Thanks lucasrmendonca](https://github.com/BeardedBear/bearded-icons/pull/88)
-- Add Motoko icon [Thanks LucasGuerraS](https://github.com/BeardedBear/bearded-icons/pull/91)
+- Add d icon [Thanks cjbaratta](https://github.com/BeardedBear/bearded-icons/issues/86)
+- Add AsciiDoc icon [Thanks safarli](https://github.com/BeardedBear/bearded-icons/issues/87)
+- Add new eslint config icon [Thanks lucasrmendonca](https://github.com/BeardedBear/bearded-icons/issues/88)
+- Add Motoko icon [Thanks LucasGuerraS](https://github.com/BeardedBear/bearded-icons/issues/91)
 - Add diff/patch files icon
 - Add quasar config icon
 
 ## 1.1.0 - 2022-09-21
 
-- Add hpp icon [Thanks emithethief](https://github.com/BeardedBear/bearded-icons/pull/81)
-- Add v icons [Thanks wreedb](https://github.com/BeardedBear/bearded-icons/pull/82)
-- Add rego icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/83)
-- Add scala icon [Thanks prabutdr](https://github.com/BeardedBear/bearded-icons/pull/84)
+- Add hpp icon [Thanks emithethief](https://github.com/BeardedBear/bearded-icons/issues/81)
+- Add v icons [Thanks wreedb](https://github.com/BeardedBear/bearded-icons/issues/82)
+- Add rego icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/83)
+- Add scala icon [Thanks prabutdr](https://github.com/BeardedBear/bearded-icons/issues/84)
 
 ## 🎉 1.0.0 - 2022-08-27
 
@@ -57,7 +63,7 @@
 
 ## 0.29.0 - 2022-08-22
 
-- Add Cypress config icon [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/pull/79)
+- Add Cypress config icon [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/issues/79)
 - Add Playwight icon
 - Add vitest icon
 
@@ -85,13 +91,13 @@
 
 ## 0.25.0 - 2022-08-18
 
-- Add root folder icon (for workspaces) [Thanks mikenavi](https://github.com/BeardedBear/bearded-icons/pull/75)
-- Add Nix and flake.lock icons [Thanks tedbyron ❤️](https://github.com/BeardedBear/bearded-icons/pull/78)
+- Add root folder icon (for workspaces) [Thanks mikenavi](https://github.com/BeardedBear/bearded-icons/issues/75)
+- Add Nix and flake.lock icons [Thanks tedbyron ❤️](https://github.com/BeardedBear/bearded-icons/issues/78)
 
 ## 0.24.0 - 2022-08-15
 
-- Add feature and cucumber icons [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/pull/76)
-- Fix tailwind and postcss icons [Thanks Eyewavu](https://github.com/BeardedBear/bearded-icons/pull/77)
+- Add feature and cucumber icons [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/issues/76)
+- Fix tailwind and postcss icons [Thanks Eyewavu](https://github.com/BeardedBear/bearded-icons/issues/77)
 
 ## 0.23.1 - 2022-08-09
 
@@ -100,14 +106,14 @@
 ## 0.23.0 - 2022-08-01
 
 - Add rust format icon (thanks myself)
-- Add Terraform vars icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/74)
+- Add Terraform vars icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/74)
 
 ## 0.22.0 - 2022-07-12
 
-- Add nuxt icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/pull/72)
-- Add nextron icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/pull/72)
-- Add poetry, pyproject.toml and poetrylock icons [Thanks toolifelesstocode](https://github.com/BeardedBear/bearded-icons/pull/71)
-- Add hashicorp and sentinel icons [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/70)
+- Add nuxt icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/issues/72)
+- Add nextron icon [Thanks theo-capturama](https://github.com/BeardedBear/bearded-icons/issues/72)
+- Add poetry, pyproject.toml and poetrylock icons [Thanks toolifelesstocode](https://github.com/BeardedBear/bearded-icons/issues/71)
+- Add hashicorp and sentinel icons [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/70)
 - Rework Python icon
 
 ## 0.21.0 - 2022-06-18
@@ -126,31 +132,31 @@
 - Add conan icon
 - Add CMake icons
 - Add svelte config icon
-- Fix .env file detection [Thanks rmonteil](https://github.com/BeardedBear/bearded-icons/pull/65) [Thanks diminutivesloop](https://github.com/BeardedBear/bearded-icons/pull/67)
-- Add tool-versions icon [Thanks rmonteil](https://github.com/BeardedBear/bearded-icons/pull/66)
-- Add Godot icons icons [Thanks tpolito](https://github.com/BeardedBear/bearded-icons/pull/63)
+- Fix .env file detection [Thanks rmonteil](https://github.com/BeardedBear/bearded-icons/issues/65) [Thanks diminutivesloop](https://github.com/BeardedBear/bearded-icons/issues/67)
+- Add tool-versions icon [Thanks rmonteil](https://github.com/BeardedBear/bearded-icons/issues/66)
+- Add Godot icons icons [Thanks tpolito](https://github.com/BeardedBear/bearded-icons/issues/63)
 
 ## 0.18.0 - 2022-04-09
 
-- Add Astro icons [Thanks msfleischer](https://github.com/BeardedBear/bearded-icons/pull/61)
+- Add Astro icons [Thanks msfleischer](https://github.com/BeardedBear/bearded-icons/issues/61)
 
 ## 0.17.0 - 2022-03-31
 
-- Add AdonisJS icons [Thanks JeanDevFR](https://github.com/BeardedBear/bearded-icons/pull/60)
+- Add AdonisJS icons [Thanks JeanDevFR](https://github.com/BeardedBear/bearded-icons/issues/60)
 
 ## 0.16.0 - 2022-03-30
 
-- Add Clojure icon [Thanks freshhops](https://github.com/BeardedBear/bearded-icons/pull/57)
-- Add Terraform icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/pull/54)
-- Add Parcel icon [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/pull/55)
-- Add Ocaml icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
-- Add Fsharp icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
-- Add Dune icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/pull/58)
+- Add Clojure icon [Thanks freshhops](https://github.com/BeardedBear/bearded-icons/issues/57)
+- Add Terraform icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/54)
+- Add Parcel icon [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/issues/55)
+- Add Ocaml icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/issues/58)
+- Add Fsharp icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/issues/58)
+- Add Dune icons [Thanks benfaerber](https://github.com/BeardedBear/bearded-icons/issues/58)
 
 ## 0.15.0 - 2021-11-14
 
 - Add Prisma icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
-- Add Nest{guard|decorator|filter} icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
+- Add Nest{guard|decorator|filter} icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/issues/46)
 - Add Compodoc icon [Thanks dotpresso](https://github.com/BeardedBear/bearded-icons/pull/46)
 - Add Julia icon [Issue #24](https://github.com/BeardedBear/bearded-icons/issues/24)
 - Add CSV icon [Issue #25](https://github.com/BeardedBear/bearded-icons/issues/25)
@@ -163,7 +169,7 @@
 - Add MP4 icon [Issue #34](https://github.com/BeardedBear/bearded-icons/issues/34)
 - Add Rescript & BSconfig icons [Issue #39](https://github.com/BeardedBear/bearded-icons/issues/39)
 - Add llvm icon [Thanks NadavT](https://github.com/BeardedBear/bearded-icons/pull/50)
-- Add OpenGL icon [Thanks NadavT](https://github.com/BeardedBear/bearded-icons/pull/51)
+- Add OpenGL icon [Thanks NadavT](https://github.com/BeardedBear/bearded-icons/issues/51)
 - Add info icon [Issue #40](https://github.com/BeardedBear/bearded-icons/issues/40)
 - Add package lock icon [Issue #41](https://github.com/BeardedBear/bearded-icons/issues/41)
 - Add ipynb icon [Issue #43](https://github.com/BeardedBear/bearded-icons/issues/43)
@@ -246,7 +252,7 @@
 
 ## 0.6.0 - 2020-10-15
 
-- Add support for Eex templates (thanks [robgering](https://github.com/robgering))
+- Add support for Eex templates (thanks [robgering](https://github.com/BeardedBear/bearded-icons/pull/4))
 
 ## 0.5.0 - 2020-09-30
 

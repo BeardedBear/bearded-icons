@@ -478,4 +478,5 @@ export default {
   vhd: "_f_vhd",
   vhdl: "_f_vhdl",
   cr: "_f_crystal",
+  tex: "_f_latex",
 };

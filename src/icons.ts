@@ -276,6 +276,8 @@ const icons = {
   ...icon("crystal"),
   ...icon("makefile"),
   ...icon("version"),
+  ...icon("commitlint"),
+  ...icon("latex"),
 };
 
 export default icons;
