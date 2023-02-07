@@ -533,6 +533,7 @@ export default {
   "tauri.windows.conf.json": "_f_tauri",
   "tauri.macos.conf.json": "_f_tauri",
   "next.config.js": "_f_nextconfig",
+  "next.config.mjs": "_f_nextconfig",
   "next.config.ts": "_f_nextconfig",
   "nextron.config.js": "_f_nextron",
   "nextron.config.ts": "_f_nextron",
