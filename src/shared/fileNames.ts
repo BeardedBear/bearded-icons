@@ -505,6 +505,8 @@ export default {
   ".env.development": "_f_env",
   ".env.example": "_f_env",
   ".env.test": "_f_env",
+  ".env.dist": "_f_env",
+  ".env.default": "_f_env",
   ".jinja": "_f_jinja",
   "jenkins.yaml": "_f_jenkins",
   "jenkins.yml": "_f_jenkins",
