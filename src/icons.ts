@@ -278,6 +278,8 @@ const icons = {
   ...icon("version"),
   ...icon("commitlint"),
   ...icon("latex"),
+  ...icon("perl"),
+  ...icon("perlm"),
 };
 
 export default icons;

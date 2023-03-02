@@ -479,4 +479,6 @@ export default {
   vhdl: "_f_vhdl",
   cr: "_f_crystal",
   tex: "_f_latex",
+  pl: "_f_perl",
+  pm: "_f_perlm",
 };

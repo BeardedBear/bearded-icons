@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 1.5.0 - 2023-03-03
+
+- Improve folders readibility [Thanks kud](https://github.com/BeardedBear/bearded-icons/issues/109)
+- Add perl icons [Thanks audx-dev](https://github.com/BeardedBear/bearded-icons/issues/111)
+
 ## 1.4.0 - 2023-02-07
 
 - Fix `prettier.config.cjs` and `next.config.mjs` icons [Thanks retconned](https://github.com/BeardedBear/bearded-icons/pull/104)
