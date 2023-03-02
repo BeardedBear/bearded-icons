@@ -481,4 +481,5 @@ export default {
   tex: "_f_latex",
   pl: "_f_perl",
   pm: "_f_perlm",
+  neon: "_f_neon",
 };
