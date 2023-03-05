@@ -195,6 +195,7 @@ const icons = {
   ...icon("user"),
   ...icon("clojure"),
   ...icon("terraform"),
+  ...icon("terraformversion"),
   ...icon("terraformvars"),
   ...icon("parcel"),
   ...icon("ocaml"),
