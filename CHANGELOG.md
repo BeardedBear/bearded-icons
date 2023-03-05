@@ -2,6 +2,7 @@
 
 ## 1.5.0 - 2023-03-?
 
+- Add mjml icon [Thanks myself](https://github.com/BeardedBear/bearded-icons/issues/106)
 - Improve folders readibility [Thanks kud](https://github.com/BeardedBear/bearded-icons/issues/109)
 - Add perl icons [Thanks audx-dev](https://github.com/BeardedBear/bearded-icons/issues/111)
 - Add neon icon [Thanks freost](https://github.com/BeardedBear/bearded-icons/issues/113)

@@ -483,4 +483,5 @@ export default {
   pm: "_f_perlm",
   neon: "_f_neon",
   zig: "_f_zig",
+  mjml: "_f_mjml",
 };

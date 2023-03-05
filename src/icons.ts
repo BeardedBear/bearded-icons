@@ -282,6 +282,7 @@ const icons = {
   ...icon("perlm"),
   ...icon("neon"),
   ...icon("zig"),
+  ...icon("mjml"),
 };
 
 export default icons;
