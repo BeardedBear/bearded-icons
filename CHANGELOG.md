@@ -5,6 +5,7 @@
 - Add terraform version icon [Thanks myself](https://github.com/BeardedBear/bearded-icons/issues/106)
 - Add mjml icon [Thanks myself](https://github.com/BeardedBear/bearded-icons/issues/107)
 - Improve folders readibility [Thanks kud](https://github.com/BeardedBear/bearded-icons/issues/109)
+- Improve c, header and cpp [Thanks abusch8](https://github.com/BeardedBear/bearded-icons/issues/110)
 - Add perl icons [Thanks audx-dev](https://github.com/BeardedBear/bearded-icons/issues/111)
 - Add neon icon [Thanks freost](https://github.com/BeardedBear/bearded-icons/issues/113)
 - Add zig icon [Thanks Sup0088](https://github.com/BeardedBear/bearded-icons/issues/114)
