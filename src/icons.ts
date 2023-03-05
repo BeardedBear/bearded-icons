@@ -285,6 +285,7 @@ const icons = {
   ...icon("zig"),
   ...icon("mjml"),
   ...icon("figma"),
+  ...icon("imba"),
 };
 
 export default icons;

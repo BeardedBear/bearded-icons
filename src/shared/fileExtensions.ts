@@ -484,4 +484,5 @@ export default {
   zig: "_f_zig",
   mjml: "_f_mjml",
   fig: "_f_figma",
+  imba: "_f_imba",
 };
