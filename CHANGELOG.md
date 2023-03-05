@@ -12,6 +12,7 @@
 - Add figma icon
 - Add Imba icon
 - Fix unknown icon
+- Add mdx icon
 
 ## 1.4.0 - 2023-02-07
 

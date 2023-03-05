@@ -32,6 +32,7 @@ const icons = {
   ...icon("json"),
   ...icon("rjson"),
   ...icon("markdown"),
+  ...icon("markdownx"),
   ...icon("css"),
   ...icon("cssmap"),
   ...icon("js"),

@@ -183,7 +183,7 @@ export default {
   slddc: "_f_matlab",
   smv: "_f_matlab",
   xvc: "_f_matlab",
-  mdx: "_f_mdx",
+  mdx: "_f_markdownx",
   mustache: "_f_mustache",
   mst: "_f_mustache",
   njsproj: "_f_njsproj",
