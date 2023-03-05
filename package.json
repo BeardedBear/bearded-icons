@@ -5,7 +5,7 @@
 	"publisher": "BeardedBear",
 	"version": "1.5.0",
 	"engines": {
-		"vscode": "^1.75.0"
+		"vscode": "^1.76.0"
 	},
 	"repository": {
 		"type": "git",
