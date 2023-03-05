@@ -171,7 +171,6 @@ export default {
   mdown: "_f_markdown",
   markdown: "_f_markdown",
   "marko.js": "_f_markojs",
-  fig: "_f_matlab",
   mex: "_f_matlab",
   mexn: "_f_matlab",
   mexrs6: "_f_matlab",
@@ -484,4 +483,5 @@ export default {
   neon: "_f_neon",
   zig: "_f_zig",
   mjml: "_f_mjml",
+  fig: "_f_figma",
 };

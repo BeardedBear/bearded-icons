@@ -9,6 +9,7 @@
 - Add perl icons [Thanks audx-dev](https://github.com/BeardedBear/bearded-icons/issues/111)
 - Add neon icon [Thanks freost](https://github.com/BeardedBear/bearded-icons/issues/113)
 - Add zig icon [Thanks Sup0088](https://github.com/BeardedBear/bearded-icons/issues/114)
+- Add figma icon
 - Fix unknown icon
 
 ## 1.4.0 - 2023-02-07
