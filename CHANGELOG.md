@@ -13,6 +13,7 @@
 - Add Imba icon
 - Fix unknown icon
 - Add mdx icon
+- Add civet icon
 
 ## 1.4.0 - 2023-02-07
 

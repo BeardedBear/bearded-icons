@@ -485,4 +485,5 @@ export default {
   mjml: "_f_mjml",
   fig: "_f_figma",
   imba: "_f_imba",
+  civet: "_f_civet",
 };
