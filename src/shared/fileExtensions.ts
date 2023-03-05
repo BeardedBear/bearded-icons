@@ -482,4 +482,5 @@ export default {
   pl: "_f_perl",
   pm: "_f_perlm",
   neon: "_f_neon",
+  zig: "_f_zig",
 };

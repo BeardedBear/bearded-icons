@@ -1,10 +1,11 @@
 # Changelog for Bearded Icons
 
-## 1.5.0 - 2023-03-03
+## 1.5.0 - 2023-03-?
 
 - Improve folders readibility [Thanks kud](https://github.com/BeardedBear/bearded-icons/issues/109)
 - Add perl icons [Thanks audx-dev](https://github.com/BeardedBear/bearded-icons/issues/111)
-- Add neon icons [Thanks freost](https://github.com/BeardedBear/bearded-icons/issues/113)
+- Add neon icon [Thanks freost](https://github.com/BeardedBear/bearded-icons/issues/113)
+- Add zig icon [Thanks Sup0088](https://github.com/BeardedBear/bearded-icons/issues/114)
 - Fix unknown icon
 
 ## 1.4.0 - 2023-02-07
