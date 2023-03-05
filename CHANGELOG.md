@@ -1,6 +1,6 @@
 # Changelog for Bearded Icons
 
-## 1.5.0 - 2023-03-?
+## 1.5.0 - 2023-03-06
 
 - Add terraform version icon [Thanks myself](https://github.com/BeardedBear/bearded-icons/issues/106)
 - Add mjml icon [Thanks myself](https://github.com/BeardedBear/bearded-icons/issues/107)
