@@ -103,7 +103,6 @@ export default {
   db: "_f_db",
   djt: "_f_django",
   eco: "_f_docpad",
-  drawio: "_f_drawio",
   dio: "_f_drawio",
   "drawio.png": "_f_drawio",
   "drawio.svg": "_f_drawio",
@@ -486,4 +485,5 @@ export default {
   fig: "_f_figma",
   imba: "_f_imba",
   civet: "_f_civet",
+  drawio: "_f_drawio",
 };

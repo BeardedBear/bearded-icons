@@ -288,6 +288,7 @@ const icons = {
   ...icon("figma"),
   ...icon("imba"),
   ...icon("civet"),
+  ...icon("drawio"),
 };
 
 export default icons;
