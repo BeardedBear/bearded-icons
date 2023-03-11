@@ -615,4 +615,5 @@ export default {
   "commitlint.config.ts": "_f_commitlint",
   "commitlint.config.cts": "_f_commitlint",
   ".terraform-version": "_f_terraformversion",
+  TerraFile: "_f_terrafile",
 };

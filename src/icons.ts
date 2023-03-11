@@ -289,6 +289,7 @@ const icons = {
   ...icon("imba"),
   ...icon("civet"),
   ...icon("drawio"),
+  ...icon("terrafile"),
 };
 
 export default icons;
