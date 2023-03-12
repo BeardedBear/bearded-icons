@@ -298,6 +298,7 @@ const icons = {
   ...icon("spc"),
   ...icon("pvk"),
   ...icon("pfx"),
+  ...icon("brotli"),
 };
 
 export default icons;

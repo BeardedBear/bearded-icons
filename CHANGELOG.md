@@ -8,6 +8,7 @@
 - Add icons for Affinity Designer/Photo/Publisher
 - Add icon for code workspace
 - Add icons for pvk, pfx, spc
+- Add brotli icon
 
 ## 1.5.0 - 2023-03-06
 
