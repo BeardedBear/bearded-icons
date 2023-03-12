@@ -490,5 +490,7 @@ export default {
   zig: "_f_zig",
   zip: "_f_zip",
   zipx: "_f_zip",
+  zz: "_f_zip",
+  deflate: "_f_zip",
   brotli: "_f_brotli",
 };
