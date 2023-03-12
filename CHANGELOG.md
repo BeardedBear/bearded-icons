@@ -6,6 +6,7 @@
 - Add drawio icon
 - Add eot icon
 - Add icons for Affinity Designer/Photo/Publisher
+- Add icon for code workspace
 
 ## 1.5.0 - 2023-03-06
 

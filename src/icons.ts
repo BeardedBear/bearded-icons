@@ -294,6 +294,7 @@ const icons = {
   ...icon("afdesign"),
   ...icon("afpub"),
   ...icon("afphoto"),
+  ...icon("codeworkspace"),
 };
 
 export default icons;
