@@ -1,5 +1,11 @@
 # Changelog for Bearded Icons
 
+## 1.6.0 - 2023-03-12
+
+- Add TerraFile icon
+- Add drawio icon
+- Add eot icon
+
 ## 1.5.0 - 2023-03-06
 
 - Add terraform version icon [Thanks myself](https://github.com/BeardedBear/bearded-icons/issues/106)

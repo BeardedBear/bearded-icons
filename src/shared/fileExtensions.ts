@@ -465,6 +465,7 @@ export default {
   webp: "_f_imagewebp",
   wll: "_f_word",
   woff: "_f_fontwoff",
+  eot: "_f_fonteot",
   woff2: "_f_fontwoff2",
   wv: "_f_audiowv",
   wxml: "_f_wxml",

@@ -54,6 +54,7 @@ const icons = {
   ...icon("fontwoff"),
   ...icon("fontttf"),
   ...icon("fontotf"),
+  ...icon("fonteot"),
   ...icon("php"),
   ...icon("twig"),
   ...icon("composer"),
