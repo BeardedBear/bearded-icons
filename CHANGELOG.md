@@ -5,6 +5,7 @@
 - Add TerraFile icon
 - Add drawio icon
 - Add eot icon
+- Add icons for Affinity Designer/Photo/Publisher
 
 ## 1.5.0 - 2023-03-06
 

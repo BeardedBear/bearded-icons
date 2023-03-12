@@ -291,6 +291,9 @@ const icons = {
   ...icon("civet"),
   ...icon("drawio"),
   ...icon("terrafile"),
+  ...icon("afdesign"),
+  ...icon("afpub"),
+  ...icon("afphoto"),
 };
 
 export default icons;
