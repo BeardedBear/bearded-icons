@@ -299,6 +299,7 @@ const icons = {
   ...icon("pvk"),
   ...icon("pfx"),
   ...icon("brotli"),
+  ...icon("hardhat"),
 };
 
 export default icons;

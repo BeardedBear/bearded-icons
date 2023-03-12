@@ -617,4 +617,9 @@ export default {
   ".terraform-version": "_f_terraformversion",
   TerraFile: "_f_terrafile",
   ".code-workspace": "_f_codeworkspace",
+  "hardhat.config.js": "_f_hardhat",
+  "hardhat.config.ts": "_f_hardhat",
+  "hardhat.config.cts": "_f_hardhat",
+  "hardhat.config.cjs": "_f_hardhat",
+  "hardhat.config.mjs": "_f_hardhat",
 };
