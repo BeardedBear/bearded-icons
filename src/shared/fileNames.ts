@@ -109,6 +109,7 @@ export default {
   ".eslintrc.js": "_f_eslint",
   ".eslintrc.mjs": "_f_eslint",
   ".eslintrc.cjs": "_f_eslint",
+  "_eslintrc.cjs": "_f_eslint",
   ".eslintrc.json": "_f_eslint",
   ".eslintrc.yaml": "_f_eslint",
   ".eslintrc.yml": "_f_eslint",
