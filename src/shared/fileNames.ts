@@ -629,4 +629,13 @@ export default {
   "taze.config.cjs": "_f_taze",
   "taze.config.mjs": "_f_taze",
   ".tazerc.json": "_f_taze",
+  "turbo.json": "_f_turbo",
+  "unocss.config.ts": "_f_unocss",
+  "unocss.config.js": "_f_unocss",
+  "unocss.config.mjs": "_f_unocss",
+  "unocss.config.cjs": "_f_unocss",
+  "atomizer.config.js": "_f_atomizer",
+  "atomizer.config.cjs": "_f_atomizer",
+  "atomizer.config.mjs": "_f_atomizer",
+  "atomizer.config.ts": "_f_atomizer",
 };

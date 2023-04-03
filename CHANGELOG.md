@@ -3,12 +3,15 @@
 ## 1.7.0 - 2023-04-03
 
 - Fix .yarn.installed icon
-- Add krita icon
+- Add Krita icon
 - Improve Vite icon readibility
 - Improve video icons
 - Improve vitest icon
 - Improve images icons
 - Add Taze icon
+- Add Turbo icon
+- Add unocss icon
+- Add Atomizer icon
 
 ## 1.6.0 - 2023-03-12
 
