@@ -89,4 +89,5 @@ export const webpack = [
   "webpack.test.conf.js",
   "webpack.test.conf.coffee",
   "webpack.test.conf.ts",
+  "webpack.config.images.js",
 ];

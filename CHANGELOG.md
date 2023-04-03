@@ -12,6 +12,7 @@
 - Add Turbo icon
 - Add unocss icon
 - Add Atomizer icon
+- Add Esbuild icon
 
 ## 1.6.0 - 2023-03-12
 

@@ -306,6 +306,7 @@ const icons = {
   ...icon("turbo"),
   ...icon("unocss"),
   ...icon("atomizer"),
+  ...icon("esbuild"),
 };
 
 export default icons;

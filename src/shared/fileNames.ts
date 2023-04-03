@@ -112,6 +112,8 @@ export default {
   ".eslintrc.json": "_f_eslint",
   ".eslintrc.yaml": "_f_eslint",
   ".eslintrc.yml": "_f_eslint",
+  ".eslintrc.browser.json": "_f_eslint",
+  ".eslintrc.base.json": "_f_eslint",
   "eslint-preset.js": "_f_eslint",
   "eslint.config.js": "_f_eslint",
   "eslint.config.cjs": "_f_eslint",
@@ -638,4 +640,8 @@ export default {
   "atomizer.config.cjs": "_f_atomizer",
   "atomizer.config.mjs": "_f_atomizer",
   "atomizer.config.ts": "_f_atomizer",
+  "esbuild.js": "_f_esbuild",
+  "esbuild.mjs": "_f_esbuild",
+  "esbuild.cjs": "_f_esbuild",
+  "esbuild.ts": "_f_esbuild",
 };
