@@ -143,6 +143,7 @@ export default {
   "gatsby-browser.ts": "_f_gatsby",
   "gatsby-ssr.js": "_f_gatsby",
   "gatsby-ssr.ts": "_f_gatsby",
+  ".git-blame-ignore-revs": "_f_git",
   ".gitattributes": "_f_git",
   ".gitconfig": "_f_git",
   ".gitignore": "_f_git",
