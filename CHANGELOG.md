@@ -13,6 +13,7 @@
 - Add unocss icon
 - Add Atomizer icon
 - Add Esbuild icon
+- Add tox icon
 
 ## 1.6.0 - 2023-03-12
 
