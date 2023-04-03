@@ -15,6 +15,7 @@
 - Add Esbuild icon
 - Add tox icon
 - Add Mix icons
+- Update Netlify icon
 
 ## 1.6.0 - 2023-03-12
 
