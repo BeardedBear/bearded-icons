@@ -7,6 +7,8 @@
 - Improve Vite icon readibility
 - Improve video icons
 - Improve vitest icon
+- Improve images icons
+- Add Taze icon
 
 ## 1.6.0 - 2023-03-12
 

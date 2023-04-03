@@ -302,6 +302,7 @@ const icons = {
   ...icon("hardhat"),
   ...icon("azure"),
   ...icon("krita"),
+  ...icon("taze"),
 };
 
 export default icons;

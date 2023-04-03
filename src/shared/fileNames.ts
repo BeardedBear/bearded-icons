@@ -497,6 +497,7 @@ export default {
   "vite.config.js": "_f_vite",
   "vite.config.ts": "_f_vite",
   ".nvmrc": "_f_nvm",
+  "example.env": "_f_env",
   ".env.staging": "_f_env",
   ".env.preprod": "_f_env",
   ".env.prod": "_f_env",
@@ -623,4 +624,9 @@ export default {
   "hardhat.config.cts": "_f_hardhat",
   "hardhat.config.cjs": "_f_hardhat",
   "hardhat.config.mjs": "_f_hardhat",
+  "taze.config.js": "_f_taze",
+  "taze.config.ts": "_f_taze",
+  "taze.config.cjs": "_f_taze",
+  "taze.config.mjs": "_f_taze",
+  ".tazerc.json": "_f_taze",
 };
