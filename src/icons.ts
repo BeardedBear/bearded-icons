@@ -308,6 +308,8 @@ const icons = {
   ...icon("atomizer"),
   ...icon("esbuild"),
   ...icon("tox"),
+  ...icon("mix"),
+  ...icon("mixlock"),
 };
 
 export default icons;

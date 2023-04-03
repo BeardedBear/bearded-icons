@@ -646,4 +646,6 @@ export default {
   "esbuild.mjs": "_f_esbuild",
   "esbuild.cjs": "_f_esbuild",
   "esbuild.ts": "_f_esbuild",
+  "mix.exs": "_f_mix",
+  "mix.lock": "_f_mixlock",
 };
