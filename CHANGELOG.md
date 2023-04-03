@@ -4,6 +4,9 @@
 
 - Fix .yarn.installed icon
 - Add krita icon
+- Improve Vite icon readibility
+- Improve video icons
+- Improve vitest icon
 
 ## 1.6.0 - 2023-03-12
 
