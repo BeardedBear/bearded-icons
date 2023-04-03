@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 1.7.0 - 2023-04-03
+
+- Fix .yarn.installed icon
+- Add krita icon
+
 ## 1.6.0 - 2023-03-12
 
 - Add TerraFile icon

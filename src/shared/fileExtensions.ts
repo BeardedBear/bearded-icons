@@ -493,4 +493,5 @@ export default {
   zz: "_f_zip",
   deflate: "_f_zip",
   brotli: "_f_brotli",
+  kra: "_f_krita",
 };

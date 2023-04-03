@@ -300,6 +300,8 @@ const icons = {
   ...icon("pfx"),
   ...icon("brotli"),
   ...icon("hardhat"),
+  ...icon("azure"),
+  ...icon("krita"),
 };
 
 export default icons;
