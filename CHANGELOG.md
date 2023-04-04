@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.8.0 - 2023-04-04
+
+- Add mgcb icon
+
 ## 1.7.0 - 2023-04-03
 
 - Fix .yarn.installed icon

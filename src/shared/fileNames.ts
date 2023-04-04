@@ -503,6 +503,7 @@ export default {
   ".nvmrc": "_f_nvm",
   "example.env": "_f_env",
   ".env.staging": "_f_env",
+  ".env.sample": "_f_env",
   ".env.preprod": "_f_env",
   ".env.prod": "_f_env",
   ".env.production": "_f_env",
