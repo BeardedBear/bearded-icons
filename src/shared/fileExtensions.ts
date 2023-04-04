@@ -495,4 +495,5 @@ export default {
   brotli: "_f_brotli",
   kra: "_f_krita",
   mgcb: "_f_mgcb",
+  anim: "_f_anim",
 };

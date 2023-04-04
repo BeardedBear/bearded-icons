@@ -311,6 +311,7 @@ const icons = {
   ...icon("mix"),
   ...icon("mixlock"),
   ...icon("mgcb"),
+  ...icon("anim"),
 };
 
 export default icons;
