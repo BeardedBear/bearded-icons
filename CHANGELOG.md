@@ -1,5 +1,13 @@
 # Changelog for Bearded Icons
 
+## 1.9.0 - 2023-04-05
+
+- Revert vite icon
+- Fix db file icon
+- Rework civet icon
+- Add dsstore icon
+- Add icon for cypress ts/js files
+
 ## 1.8.0 - 2023-04-04
 
 - Add mgcb icon

@@ -623,6 +623,7 @@ export default {
   "commitlint.config.cts": "_f_commitlint",
   ".terraform-version": "_f_terraformversion",
   TerraFile: "_f_terrafile",
+  "tfstate.backup": "_f_terraform",
   ".code-workspace": "_f_codeworkspace",
   "hardhat.config.js": "_f_hardhat",
   "hardhat.config.ts": "_f_hardhat",
@@ -649,4 +650,5 @@ export default {
   "esbuild.ts": "_f_esbuild",
   "mix.exs": "_f_mix",
   "mix.lock": "_f_mixlock",
+  ".DS_Store": "_f_dsstore",
 };
