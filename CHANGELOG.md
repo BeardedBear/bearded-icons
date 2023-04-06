@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 1.10.0 - 2023-04-06
+
+- Add mustache icon
+-
+
 ## 1.9.0 - 2023-04-05
 
 - Revert vite icon

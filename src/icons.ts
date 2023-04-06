@@ -315,6 +315,7 @@ const icons = {
   ...icon("mgcb"),
   ...icon("anim"),
   ...icon("dsstore"),
+  ...icon("mustache"),
 };
 
 export default icons;
