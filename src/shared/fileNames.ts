@@ -654,4 +654,8 @@ export default {
   "mix.exs": "_f_mix",
   "mix.lock": "_f_mixlock",
   ".DS_Store": "_f_dsstore",
+  "remix.config.js": "_f_remix",
+  "remix.config.cjs": "_f_remix",
+  "remix.config.mjs": "_f_remix",
+  "remix.config.ts": "_f_remix",
 };

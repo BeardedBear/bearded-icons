@@ -2,8 +2,9 @@
 
 ## 1.10.0 - 2023-04-06
 
-- Add mustache icon [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/issues/125)
-- Add vite env icon
+- Add Mustache icon [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/issues/125)
+- Add Vite env icon
+- Add Remix icon
 
 ## 1.9.0 - 2023-04-05
 

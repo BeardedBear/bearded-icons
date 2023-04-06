@@ -317,6 +317,7 @@ const icons = {
   ...icon("anim"),
   ...icon("dsstore"),
   ...icon("mustache"),
+  ...icon("remix"),
 };
 
 export default icons;
