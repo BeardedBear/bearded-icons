@@ -110,6 +110,7 @@ const icons = {
   ...icon("browserslist"),
   ...icon("erlang"),
   ...icon("vite"),
+  ...icon("viteenv"),
   ...icon("mint"),
   ...icon("eex"),
   ...icon("env"),

@@ -2,8 +2,8 @@
 
 ## 1.10.0 - 2023-04-06
 
-- Add mustache icon
--
+- Add mustache icon [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/issues/125)
+- Add vite env icon
 
 ## 1.9.0 - 2023-04-05
 
@@ -20,6 +20,7 @@
 
 ## 1.7.0 - 2023-04-03
 
+- Add azure icon [Thanks burakkaygusuz](https://github.com/BeardedBear/bearded-icons/issues/123)
 - Fix .yarn.installed icon
 - Add Krita icon
 - Improve Vite icon readibility
