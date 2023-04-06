@@ -658,4 +658,5 @@ export default {
   "remix.config.cjs": "_f_remix",
   "remix.config.mjs": "_f_remix",
   "remix.config.ts": "_f_remix",
+  "xmake.lua": "_f_xmake",
 };

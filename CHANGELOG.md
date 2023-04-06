@@ -5,6 +5,7 @@
 - Add Mustache icon [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/issues/125)
 - Add Vite env icon
 - Add Remix icon
+- Add xmake icon
 
 ## 1.9.0 - 2023-04-05
 

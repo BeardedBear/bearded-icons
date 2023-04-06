@@ -318,6 +318,7 @@ const icons = {
   ...icon("dsstore"),
   ...icon("mustache"),
   ...icon("remix"),
+  ...icon("xmake"),
 };
 
 export default icons;
