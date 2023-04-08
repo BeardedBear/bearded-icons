@@ -444,6 +444,7 @@ export default {
   tscn: "_f_tscn",
   tst: "_f_test",
   tsx: "_f_reactts",
+  jsx: "_f_reactjs",
   tt2: "_f_tt",
   ttf: "_f_fontttf",
   twig: "_f_twig",

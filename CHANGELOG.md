@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 1.11.0 - 2023-04-08
+
+- Fix JSX icon [Thanks Tarmiel](https://github.com/BeardedBear/bearded-icons/issues/126)
+- Fix folders icons for HC-light variations
+
 ## 1.10.0 - 2023-04-06
 
 - Add Mustache icon [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/issues/125)
