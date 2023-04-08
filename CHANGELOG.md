@@ -4,6 +4,7 @@
 
 - Fix JSX icon [Thanks Tarmiel](https://github.com/BeardedBear/bearded-icons/issues/126)
 - Fix folders icons for HC-light variations
+- Add Sails icon
 
 ## 1.10.0 - 2023-04-06
 

@@ -395,7 +395,6 @@ export default {
   ".rubocop.yml": "_f_rubocop",
   ".rubocop_todo.yml": "_f_rubocop",
   "rust-toolchain": "_f_rust_toolchain",
-  ".sailsrc": "_f_sails",
   ".sentryclirc": "_f_sentry",
   "serverless.yml": "_f_serverless",
   "snapcraft.yaml": "_f_snapcraft",
@@ -659,4 +658,5 @@ export default {
   "remix.config.mjs": "_f_remix",
   "remix.config.ts": "_f_remix",
   "xmake.lua": "_f_xmake",
+  ".sailsrc": "_f_sails",
 };
