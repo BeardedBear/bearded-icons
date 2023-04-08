@@ -659,4 +659,9 @@ export default {
   "remix.config.ts": "_f_remix",
   "xmake.lua": "_f_xmake",
   ".sailsrc": "_f_sails",
+  "farm.config.ts": "_f_farm",
+  "farm.config.js": "_f_farm",
+  "bunfig.toml": "_f_bun",
+  ".bunfig.toml": "_f_bun",
+  ".air.toml": "_f_air",
 };
