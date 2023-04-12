@@ -10,10 +10,7 @@ export default {
     rootFolder: "_root_folder_light",
     rootFolderExpanded: "_root_folder_light_open",
     fileExtensions,
-    fileNames: {
-      ...fileNames,
-      ...{ ".editorconfig": "_f_light_editorconfig" },
-    },
+    fileNames: { ...fileNames },
     languageIds,
   },
 };

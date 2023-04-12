@@ -4,6 +4,7 @@
 
 - Add Haxe icons [Thanks enderpuff](https://github.com/BeardedBear/bearded-icons/issues/127)
 - Fix JS icons size, to make consistent with TS icons
+- Fix editor config file for HC light themes
 
 ## 1.11.0 - 2023-04-08
 
