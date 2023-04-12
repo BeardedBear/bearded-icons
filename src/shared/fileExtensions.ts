@@ -500,4 +500,6 @@ export default {
   anim: "_f_anim",
   "cy.ts": "_f_cypressts",
   "cy.js": "_f_cypressjs",
+  hx: "_f_haxe",
+  hxml: "_f_haxeml",
 };
