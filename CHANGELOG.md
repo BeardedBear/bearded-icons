@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.13.0 - 2023-07-22
+
+- Add icon for Grain
+
 ## 1.12.0 - 2023-04-12
 
 - Add Haxe icons [Thanks enderpuff](https://github.com/BeardedBear/bearded-icons/issues/127)

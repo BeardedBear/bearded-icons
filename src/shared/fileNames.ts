@@ -119,6 +119,7 @@ export default {
   "eslint.config.cjs": "_f_eslint",
   "eslint.config.mjs": "_f_eslint",
   "eslint.config.ts": "_f_eslint",
+  "_eslintrc.cjs": "_f_eslint",
   "app.json": "_f_expo",
   "app.config.js": "_f_expo",
   "app.config.json": "_f_expo",
