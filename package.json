@@ -5,7 +5,7 @@
 	"publisher": "BeardedBear",
 	"version": "1.12.0",
 	"engines": {
-		"vscode": "^1.77.0"
+		"vscode": "^1.80.0"
 	},
 	"repository": {
 		"type": "git",
@@ -42,8 +42,8 @@
 		]
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.77.0",
-		"node": "^19.8.1",
+		"@types/vscode": "^1.80.0",
+		"node": "^20.5.0",
 		"vscode-test": "^1.6.1"
 	},
 	"scripts": {
@@ -53,15 +53,15 @@
 		"fix": "prettier --write src/**/*.ts"
 	},
 	"dependencies": {
-		"@types/node": "^18.15.11",
-		"@typescript-eslint/eslint-plugin": "^5.57.0",
-		"@typescript-eslint/parser": "^5.57.0",
-		"eslint": "^8.37.0",
-		"globby": "^13.1.3",
-		"ovsx": "^0.8.0",
-		"prettier": "^2.8.7",
-		"typescript": "^5.0.3",
-		"vite-node": "^0.29.8",
+		"@types/node": "^20.4.3",
+		"@typescript-eslint/eslint-plugin": "^6.1.0",
+		"@typescript-eslint/parser": "^6.1.0",
+		"eslint": "^8.45.0",
+		"globby": "^13.2.2",
+		"ovsx": "^0.8.2",
+		"prettier": "^3.0.0",
+		"typescript": "^5.1.6",
+		"vite-node": "^0.33.0",
 		"vsce": "^2.15.0"
 	}
 }
