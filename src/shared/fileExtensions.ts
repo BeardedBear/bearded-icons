@@ -502,5 +502,6 @@ export default {
   "cy.js": "_f_cypressjs",
   hx: "_f_haxe",
   hxml: "_f_haxeml",
-  gr : "_f_grain",
+  gr: "_f_grain",
+  slim: "_f_slim",
 };
