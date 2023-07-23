@@ -2,6 +2,8 @@
 
 ## 1.13.0 - 2023-07-22
 
+- 🎉 Massive reduction of the icons size (~40/50%)
+
 - Add icon for Grain
 - Add icon for .vercel
 - Add Rome config icon [Thanks FelixKLG](https://github.com/BeardedBear/bearded-icons/issues/133)
