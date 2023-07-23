@@ -1,14 +1,15 @@
 # Changelog for Bearded Icons
 
-## 1.13.0 - 2023-07-22
+## 1.13.0 - 2023-07-23
 
 - 🎉 Massive reduction of the icons size (~40/50%)
 
-- Add icon for Grain
-- Add icon for .vercel
 - Add Rome config icon [Thanks FelixKLG](https://github.com/BeardedBear/bearded-icons/issues/133)
 - Add .bicepparam icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/134)
 - Add Slim icon [Thanks Ra9e](https://github.com/BeardedBear/bearded-icons/issues/135)
+- Add Drizzle icon [Thanks ColinEspinas](https://github.com/BeardedBear/bearded-icons/issues/137)
+- Add icon for Grain
+- Add icon for .vercel
 - Update Razor icon
 - Add icon for .obj
 - Add icon for .mtl

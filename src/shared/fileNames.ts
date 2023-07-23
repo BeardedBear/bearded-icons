@@ -673,4 +673,7 @@ export default {
   "rome.json": "_f_rome",
   ".bicepparam": "_f_bicepparam",
   "bicepconfig.json": "_f_bicepparam",
+  "drizzle.config.ts": "_f_drizzle",
+  "drizzle.config.js": "_f_drizzle",
+  "drizzle.config.json": "_f_drizzle",
 };
