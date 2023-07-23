@@ -498,6 +498,7 @@ export default {
   "now.json": "_f_vercel",
   ".nowignore": "_f_vercel",
   "vercel.json": "_f_vercel",
+  ".vercel": "_f_vercel",
   ".vercelignore": "_f_vercel",
   "vite.config.js": "_f_vite",
   "vite.config.ts": "_f_vite",
@@ -669,4 +670,7 @@ export default {
   "bunfig.toml": "_f_bun",
   ".bunfig.toml": "_f_bun",
   ".air.toml": "_f_air",
+  "rome.json": "_f_rome",
+  ".bicepparam": "_f_bicepparam",
+  "bicepconfig.json": "_f_bicepparam",
 };

@@ -3,6 +3,9 @@
 ## 1.13.0 - 2023-07-22
 
 - Add icon for Grain
+- Add icon for .vercel
+- Add Rome config icon [Thanks FelixKLG](https://github.com/BeardedBear/bearded-icons/issues/133)
+- Add .bicepparam icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/134)
 
 ## 1.12.0 - 2023-04-12
 
