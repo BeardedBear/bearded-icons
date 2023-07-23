@@ -10,6 +10,8 @@
 - Add .bicepparam icon [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/134)
 - Add Slim icon [Thanks Ra9e](https://github.com/BeardedBear/bearded-icons/issues/135)
 - Update Razor icon
+- Add icon for .obj
+- Add icon for .mtl
 
 ## 1.12.0 - 2023-04-12
 

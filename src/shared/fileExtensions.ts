@@ -294,7 +294,6 @@ export default {
   nuspec: "_f_nuget",
   nvim: "_f_nvim",
   o: "_f_binary",
-  obj: "_f_binary",
   ocrec: "_f_lync",
   ods: "_f_excel",
   oft: "_f_outlook",
@@ -504,4 +503,6 @@ export default {
   hxml: "_f_haxeml",
   gr: "_f_grain",
   slim: "_f_slim",
+  obj: "_f_obj",
+  mtl: "_f_mtl",
 };
