@@ -3,7 +3,7 @@
 	"displayName": "Bearded Icons",
 	"description": "The icons with a long beard.",
 	"publisher": "BeardedBear",
-	"version": "1.13.0",
+	"version": "1.13.1",
 	"engines": {
 		"vscode": "^1.80.0"
 	},
@@ -53,9 +53,9 @@
 		"fix": "prettier --write src/**/*.ts"
 	},
 	"dependencies": {
-		"@types/node": "^20.4.3",
-		"@typescript-eslint/eslint-plugin": "^6.1.0",
-		"@typescript-eslint/parser": "^6.1.0",
+		"@types/node": "^20.4.5",
+		"@typescript-eslint/eslint-plugin": "^6.2.0",
+		"@typescript-eslint/parser": "^6.2.0",
 		"eslint": "^8.45.0",
 		"globby": "^13.2.2",
 		"ovsx": "^0.8.2",
