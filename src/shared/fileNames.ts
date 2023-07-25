@@ -671,7 +671,6 @@ export default {
   ".bunfig.toml": "_f_bun",
   ".air.toml": "_f_air",
   "rome.json": "_f_rome",
-  ".bicepparam": "_f_bicepparam",
   "bicepconfig.json": "_f_bicepparam",
   "drizzle.config.ts": "_f_drizzle",
   "drizzle.config.js": "_f_drizzle",

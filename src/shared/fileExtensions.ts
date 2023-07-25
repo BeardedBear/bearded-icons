@@ -505,4 +505,5 @@ export default {
   slim: "_f_slim",
   obj: "_f_obj",
   mtl: "_f_mtl",
+  bicepparam: "_f_bicepparam",
 };

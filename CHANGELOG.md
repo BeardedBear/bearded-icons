@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.13.1 - 2023-07-26
+
+- Fix bicepparam [Thanks nahlian](https://github.com/BeardedBear/bearded-icons/issues/138)
+
 ## 1.13.0 - 2023-07-23
 
 - 🎉 Massive reduction of the icons size (~40/50%)
