@@ -331,6 +331,7 @@ export default {
   ".prettierignore": "_f_prettierignore",
   "prettier.config.js": "_f_prettier",
   "prettier.config.cjs": "_f_prettier",
+  "prettier.config.mjs": "_f_prettier",
   "prettier.config.ts": "_f_prettier",
   "prettier.config.coffee": "_f_prettier",
   ".prettierrc.js": "_f_prettier",
