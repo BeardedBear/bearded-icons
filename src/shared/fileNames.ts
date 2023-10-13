@@ -76,6 +76,7 @@ export default {
   "dependencies.yml": "_f_dependencies",
   "devcontainer.json": "_f_devcontainer",
   "docker-compose.yml": "_f_docker",
+  "docker-compose.yaml": "_f_docker",
   "docker-compose.ci-build.yml": "_f_docker",
   "docker-compose.override.yml": "_f_docker",
   "docker-compose.vs.debug.yml": "_f_docker",
