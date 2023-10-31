@@ -506,4 +506,5 @@ export default {
   obj: "_f_obj",
   mtl: "_f_mtl",
   bicepparam: "_f_bicepparam",
+  proto: "_f_proto",
 };
