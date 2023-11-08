@@ -509,4 +509,8 @@ export default {
   proto: "_f_proto",
   wren: "_f_wren",
   "docker-compose.yml": "_f_docker",
+  excalidraw: "_f_excalidraw",
+  "excalidraw.json": "_f_excalidraw",
+  "excalidraw.svg": "_f_excalidraw",
+  "excalidraw.png": "_f_excalidraw",
 };
