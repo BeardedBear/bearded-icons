@@ -4,6 +4,7 @@
 
 - Add protobuf icon [Thanks gustavobarca](https://github.com/BeardedBear/bearded-icons/issues/139)
 - Add wren icon [Thanks Sup0088](https://github.com/BeardedBear/bearded-icons/issues/140)
+- Fix missing icons for docker-compose and prettier [Thanks retconned](https://github.com/BeardedBear/bearded-icons/pull/145)
 
 ## 1.13.2 - 2023-07-26
 
