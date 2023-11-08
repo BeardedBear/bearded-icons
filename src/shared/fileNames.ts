@@ -671,6 +671,7 @@ export default {
   "farm.config.js": "_f_farm",
   "bunfig.toml": "_f_bun",
   ".bunfig.toml": "_f_bun",
+  "bun.lockb": "_f_bunlock",
   ".air.toml": "_f_air",
   "rome.json": "_f_rome",
   "bicepconfig.json": "_f_bicepparam",
