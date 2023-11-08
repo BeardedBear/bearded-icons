@@ -508,4 +508,5 @@ export default {
   bicepparam: "_f_bicepparam",
   proto: "_f_proto",
   wren: "_f_wren",
+  "docker-compose.yml": "_f_docker",
 };
