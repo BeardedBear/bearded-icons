@@ -3,7 +3,7 @@
 	"displayName": "Bearded Icons",
 	"description": "The icons with a long beard.",
 	"publisher": "BeardedBear",
-	"version": "1.13.2",
+	"version": "1.14.0",
 	"engines": {
 		"vscode": "^1.80.0"
 	},

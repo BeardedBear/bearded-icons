@@ -1,5 +1,10 @@
 # Changelog for Bearded Icons
 
+## 1.14.0 - 2023-10-31
+
+- Add protobuf icon [Thanks gustavobarca](https://github.com/BeardedBear/bearded-icons/issues/139)
+- Add wren icon [Thanks Sup0088](https://github.com/BeardedBear/bearded-icons/issues/140)
+
 ## 1.13.2 - 2023-07-26
 
 - Fix changelog
