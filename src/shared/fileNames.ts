@@ -466,6 +466,7 @@ export default {
   "vscodeignore.json": "_f_vscode",
   ".vuerc": "_f_vueconfig",
   "vue.config.js": "_f_vueconfig",
+  "vue.config.ts": "_f_vueconfig",
   "wallaby.json": "_f_wallaby",
   "wallaby.js": "_f_wallaby",
   "wallaby.ts": "_f_wallaby",
