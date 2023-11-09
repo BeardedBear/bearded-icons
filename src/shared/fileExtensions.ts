@@ -521,4 +521,5 @@ export default {
   rkt: "_f_racket",
   rktl: "_f_racket",
   bru: "_f_bruno",
+  nelua: "_f_nelua",
 };
