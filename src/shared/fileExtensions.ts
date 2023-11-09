@@ -513,4 +513,8 @@ export default {
   "excalidraw.json": "_f_excalidraw",
   "excalidraw.svg": "_f_excalidraw",
   "excalidraw.png": "_f_excalidraw",
+  bazel: "_f_bazel",
+  bzl: "_f_bazel",
+  bazelignore: "_f_bazelignore",
+  bazelrc: "_f_bazel",
 };

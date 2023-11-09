@@ -30,6 +30,7 @@ export default {
   ".bazelrc": "_f_bazel",
   "bazel.rc": "_f_bazel",
   "bazel.bazelrc": "_f_bazel",
+  BUILD: "_f_bazel",
   "bitbucket-pipelines.yml": "_f_bitbucketpipeline",
   ".bithoundrc": "_f_bithound",
   ".bowerrc": "_f_bower",
