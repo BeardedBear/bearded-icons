@@ -520,4 +520,5 @@ export default {
   http: "_f_http",
   rkt: "_f_racket",
   rktl: "_f_racket",
+  bru: "_f_bruno",
 };
