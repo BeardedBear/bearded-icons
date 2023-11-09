@@ -517,4 +517,5 @@ export default {
   bzl: "_f_bazel",
   bazelignore: "_f_bazelignore",
   bazelrc: "_f_bazel",
+  http: "_f_http",
 };
