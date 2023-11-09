@@ -8,6 +8,7 @@
 - Add vue config icon [Thanks myself 🐻](https://github.com/BeardedBear/bearded-icons/issues/142)
 - Add excalidraw icon [Thanks eye-wave](https://github.com/BeardedBear/bearded-icons/issues/143)
 - Add bazel icons [Thanks apockoffork](https://github.com/BeardedBear/bearded-icons/issues/146)
+- Add biome icon [Thanks myself 🐻](https://github.com/BeardedBear/bearded-icons/issues/147)
 - Add possibility to create custom name for docker compose file [Thanks haziqfiqri](https://github.com/BeardedBear/bearded-icons/issues/144)
 - Fix missing icons for docker-compose and prettier [Thanks retconned](https://github.com/BeardedBear/bearded-icons/pull/145)
 

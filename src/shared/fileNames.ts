@@ -720,6 +720,7 @@ export default {
   "bun.lockb": "_f_bunlock",
   ".air.toml": "_f_air",
   "rome.json": "_f_rome",
+  "biome.json": "_f_biome",
   "bicepconfig.json": "_f_bicepparam",
   "drizzle.config.ts": "_f_drizzle",
   "drizzle.config.js": "_f_drizzle",
