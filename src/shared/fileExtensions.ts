@@ -518,4 +518,6 @@ export default {
   bazelignore: "_f_bazelignore",
   bazelrc: "_f_bazel",
   http: "_f_http",
+  rkt: "_f_racket",
+  rktl: "_f_racket",
 };

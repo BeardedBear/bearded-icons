@@ -1,6 +1,6 @@
 # Changelog for Bearded Icons
 
-## 1.14.0 - 2023-10-31
+## 1.14.0 - 2023-11-09
 
 - Add protobuf icon [Thanks gustavobarca](https://github.com/BeardedBear/bearded-icons/issues/139)
 - Add wren icon [Thanks Sup0088](https://github.com/BeardedBear/bearded-icons/issues/140)
@@ -11,6 +11,7 @@
 - Fix missing icons stylelint [Thanks issam-seghir](https://github.com/BeardedBear/bearded-icons/pull/148)
 - Add biome icon [Thanks myself 🐻](https://github.com/BeardedBear/bearded-icons/issues/147)
 - Add http icon [Thanks alexeira](https://github.com/BeardedBear/bearded-icons/issues/150)
+- Add racket icon [Thanks g8row](https://github.com/BeardedBear/bearded-icons/issues/151)
 - Add possibility to create custom name for docker compose file [Thanks haziqfiqri](https://github.com/BeardedBear/bearded-icons/issues/144)
 - Fix missing icons for docker-compose and prettier [Thanks retconned](https://github.com/BeardedBear/bearded-icons/pull/145)
 
