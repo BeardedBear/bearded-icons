@@ -12,6 +12,7 @@
 - Add biome icon [Thanks myself 🐻](https://github.com/BeardedBear/bearded-icons/issues/147)
 - Add http icon [Thanks alexeira](https://github.com/BeardedBear/bearded-icons/issues/150)
 - Add racket icon [Thanks g8row](https://github.com/BeardedBear/bearded-icons/issues/151)
+- Add bruno icon [Thanks jmag-ic](https://github.com/BeardedBear/bearded-icons/issues/152)
 - Add possibility to create custom name for docker compose file [Thanks haziqfiqri](https://github.com/BeardedBear/bearded-icons/issues/144)
 - Fix missing icons for docker-compose and prettier [Thanks retconned](https://github.com/BeardedBear/bearded-icons/pull/145)
 
