@@ -524,4 +524,5 @@ export default {
   nelua: "_f_nelua",
   mermaid: "_f_mermaid",
   mmd: "_f_mermaid",
+  bal: "_f_ballerina",
 };

@@ -736,4 +736,5 @@ export default {
   "panda.config.cts": "_f_panda",
   "panda.config.mts": "_f_panda",
   ".buckconfig": "_f_buck",
+  "Ballerina.toml": "_f_ballerinaconfig",
 };

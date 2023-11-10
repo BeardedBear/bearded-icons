@@ -5,6 +5,7 @@
 - Add panda css icon
 - Add mermaid icon
 - Add buck icon
+- Add ballerina icon
 - Improve groovy icon
 - Improve patch and diff icon
 - Improve todo icon
