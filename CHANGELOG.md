@@ -7,6 +7,7 @@
 - Add buck icon
 - Add ballerina icon
 - Improve groovy icon
+- Update nuxt icon
 - Improve patch and diff icon
 - Improve todo icon
 - Fix astro icon colors
