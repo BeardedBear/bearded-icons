@@ -1,5 +1,12 @@
 # Changelog for Bearded Icons
 
+## 1.15.0 - 2023-11-10
+
+- Add panda css icon
+- Improve groovy icon
+- Fix astro icon colors
+- Fix grey's icons
+
 ## 1.14.0 - 2023-11-09
 
 - Add protobuf icon [Thanks gustavobarca](https://github.com/BeardedBear/bearded-icons/issues/139)
