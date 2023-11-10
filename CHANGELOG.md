@@ -4,6 +4,7 @@
 
 - Add panda css icon
 - Improve groovy icon
+- Improve patch and diff icon
 - Improve todo icon
 - Fix astro icon colors
 - Fix grey's icons
