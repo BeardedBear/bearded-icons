@@ -3,6 +3,7 @@
 ## 1.15.0 - 2023-11-10
 
 - Add panda css icon
+- Add mermaid icon
 - Improve groovy icon
 - Improve patch and diff icon
 - Improve todo icon
