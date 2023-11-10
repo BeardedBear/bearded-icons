@@ -37,7 +37,6 @@ export default {
   "bower.json": "_f_bower",
   ".browserslistrc": "_f_browserslist",
   browserslist: "_f_browserslist",
-  ".buckconfig": "_f_buckbuild",
   gemfile: "_f_bundler",
   "gemfile.lock": "_f_bundler",
   "capacitor.config.json": "_f_capacitor",
@@ -736,4 +735,5 @@ export default {
   "panda.config.mjs": "_f_panda",
   "panda.config.cts": "_f_panda",
   "panda.config.mts": "_f_panda",
+  ".buckconfig": "_f_buck",
 };
