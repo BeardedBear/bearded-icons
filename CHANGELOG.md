@@ -1,5 +1,18 @@
 # Changelog for Bearded Icons
 
+## 1.15.0 - 2023-11-10
+
+- Add panda css icon
+- Add mermaid icon
+- Add buck icon
+- Add ballerina icon
+- Improve groovy icon
+- Update nuxt icon
+- Improve patch and diff icon
+- Improve todo icon
+- Fix astro icon colors
+- Fix grey's icons
+
 ## 1.14.0 - 2023-11-09
 
 - Add protobuf icon [Thanks gustavobarca](https://github.com/BeardedBear/bearded-icons/issues/139)

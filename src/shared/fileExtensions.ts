@@ -522,4 +522,7 @@ export default {
   rktl: "_f_racket",
   bru: "_f_bruno",
   nelua: "_f_nelua",
+  mermaid: "_f_mermaid",
+  mmd: "_f_mermaid",
+  bal: "_f_ballerina",
 };
