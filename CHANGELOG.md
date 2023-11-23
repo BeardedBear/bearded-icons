@@ -5,6 +5,7 @@
 - Fix tsconfig icons
 - Fix .yarnrc.yml icon
 - Add icon for eslintignore
+- Add more icon matching for todo files
 
 ## 1.15.0 - 2023-11-10
 
