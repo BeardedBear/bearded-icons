@@ -149,7 +149,7 @@ export default {
   emakefile: "_f_erlang",
   ".emakerfile": "_f_erlang",
   ".eslintrc": "_f_eslint",
-  ".eslintignore": "_f_eslint",
+  ".eslintignore": "_f_eslintignore",
   ".eslintcache": "_f_eslint",
   ".eslintrc.js": "_f_eslint",
   ".eslintrc.mjs": "_f_eslint",
