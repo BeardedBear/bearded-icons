@@ -3,6 +3,7 @@
 ## 1.16.0 - 2023-11-24
 
 - Fix tsconfig icons
+- Add icon for eslintignore
 
 ## 1.15.0 - 2023-11-10
 
