@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.16.0 - 2023-11-24
+
+- Fix tsconfig icons
+
 ## 1.15.0 - 2023-11-10
 
 - Add panda css icon

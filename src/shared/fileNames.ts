@@ -497,6 +497,8 @@ export default {
   "tsconfig.test.json": "_f_tsconfig",
   "tsconfig.tsd.json": "_f_tsconfig",
   "tsconfig.node.json": "_f_tsconfig",
+  "tsconfig.lib.json": "_f_tsconfig",
+  "tsconfig.storybook.json": "_f_tsconfig",
   "tslint.json": "_f_tslint",
   "tslint.yaml": "_f_tslint",
   "tslint.yml": "_f_tslint",
