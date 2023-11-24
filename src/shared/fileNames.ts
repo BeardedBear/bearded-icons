@@ -541,6 +541,7 @@ export default {
   ".yaspeller.json": "_f_yandex",
   "yarn.lock": "_f_yarnlock",
   ".yarnrc": "_f_yarn",
+  ".yarn.installed": "_f_yarn",
   ".yarnclean": "_f_yarn",
   ".yarn-integrity": "_f_yarn",
   ".yarn-metadata.json": "_f_yarn",

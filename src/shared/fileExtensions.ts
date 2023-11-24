@@ -525,4 +525,5 @@ export default {
   mermaid: "_f_mermaid",
   mmd: "_f_mermaid",
   bal: "_f_ballerina",
+  hash: "_f_hash",
 };
