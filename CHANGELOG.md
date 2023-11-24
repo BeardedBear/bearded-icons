@@ -6,6 +6,7 @@
 - Fix .yarnrc.yml icon
 - Add icon for eslintignore
 - Add more icon matching for todo files
+- Add hash icon
 - Change log icon
 
 ## 1.15.0 - 2023-11-10
