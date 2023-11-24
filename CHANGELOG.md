@@ -2,12 +2,13 @@
 
 ## 1.16.0 - 2023-11-24
 
-- Fix tsconfig icons
-- Fix .yarnrc.yml icon
+- Add resi icon [Thanks bvitanov](https://github.com/BeardedBear/bearded-icons/issues/171)
 - Add icon for eslintignore
 - Add more icon matching for todo files
 - Add hash icon
 - Change log icon
+- Fix tsconfig icons
+- Fix .yarnrc.yml icon
 
 ## 1.15.0 - 2023-11-10
 
