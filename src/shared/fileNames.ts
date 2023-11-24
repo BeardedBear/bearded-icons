@@ -747,4 +747,9 @@ export default {
   "panda.config.mts": "_f_panda",
   ".buckconfig": "_f_buck",
   "Ballerina.toml": "_f_ballerinaconfig",
+  "todo.md": "_f_todo",
+  ".todo.md": "_f_todo",
+  "todo.txt": "_f_todo",
+  ".todo.txt": "_f_todo",
+  todo: "_f_todo",
 };
