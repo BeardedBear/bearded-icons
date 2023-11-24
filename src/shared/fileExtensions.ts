@@ -382,7 +382,7 @@ export default {
   reg: "_f_registry",
   rego: "_f_rego",
   res: "_f_rescript",
-  resi: "_f_rescript",
+  resi: "_f_rescriptinterface",
   rjson: "_f_rjson",
   rproj: "_f_rproj",
   rs: "_f_rust",
