@@ -372,6 +372,7 @@ export default {
   "postcss.config.js": "_f_postcssconfig",
   "postcss.config.cjs": "_f_postcssconfig",
   ".pre-commit-config.yaml": "_f_precommit",
+  ".pre-commit-hooks.yaml": "_f_precommit",
   ".prettierrc": "_f_prettier",
   ".prettierignore": "_f_prettierignore",
   "prettier.config.js": "_f_prettier",
