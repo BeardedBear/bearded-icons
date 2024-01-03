@@ -753,4 +753,6 @@ export default {
   "todo.txt": "_f_todo",
   ".todo.txt": "_f_todo",
   todo: "_f_todo",
+  "mkdocs.yml": "_f_mkdocs",
+  "mkdocs.yaml": "_f_mkdocs",
 };
