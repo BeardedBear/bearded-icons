@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.17.0 - 2024-02-13
+
+- Add ron icon [Thanks Jamie](https://twitter.com/jamiepine)
+
 ## 1.16.0 - 2023-11-24
 
 - Add resi icon [Thanks bvitanov](https://github.com/BeardedBear/bearded-icons/issues/171)
