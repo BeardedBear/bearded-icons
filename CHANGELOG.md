@@ -5,6 +5,7 @@
 - Add ron icon [Thanks Jamie](https://twitter.com/jamiepine)
 - Add odin icon [Thanks SabeDoesThings](https://github.com/BeardedBear/bearded-icons/issues/184)
 - Fix language id for phoenix-heex [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/issues/190)
+- Fix icon for WebGPU shaders files [Thanks matubu](https://github.com/BeardedBear/bearded-icons/issues/191)
 
 ## 1.16.0 - 2023-11-24
 

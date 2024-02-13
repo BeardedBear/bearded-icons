@@ -468,6 +468,7 @@ export default {
   wasm: "_f_wasm",
   wav: "_f_audiowav",
   webp: "_f_imagewebp",
+  wgsl: "_f_wgsl",
   wll: "_f_word",
   woff: "_f_fontwoff",
   eot: "_f_fonteot",
