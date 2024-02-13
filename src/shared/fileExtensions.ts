@@ -387,6 +387,7 @@ export default {
   rproj: "_f_rproj",
   rs: "_f_rust",
   rsx: "_f_rust",
+  ron: "_f_ron",
   rt: "_f_reacttemplate",
   rwd: "_f_matlab",
   sass: "_f_scss",
