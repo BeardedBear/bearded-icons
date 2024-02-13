@@ -388,6 +388,7 @@ export default {
   rs: "_f_rust",
   rsx: "_f_rust",
   ron: "_f_ron",
+  odin: "_f_odin",
   rt: "_f_reacttemplate",
   rwd: "_f_matlab",
   sass: "_f_scss",
