@@ -3,6 +3,7 @@
 ## 1.17.0 - 2024-02-13
 
 - Add ron icon [Thanks Jamie](https://twitter.com/jamiepine)
+- Add odin icon [Thanks SabeDoesThings](https://github.com/BeardedBear/bearded-icons/issues/184)
 
 ## 1.16.0 - 2023-11-24
 
