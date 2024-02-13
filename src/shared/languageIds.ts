@@ -197,6 +197,7 @@ export default {
   pddl: "_f_pddl",
   happenings: "_f_pddl_happenings",
   plan: "_f_pddl_plan",
+  "phoenix-heex": "_f_eex",
   perl: "_f_perl",
   perl6: "_f_perl6",
   pgsql: "_f_pgsql",
