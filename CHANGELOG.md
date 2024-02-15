@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.17.1 - 2024-02-15
+
+- Fix vite and vitest extensions file [Thanks dominikbulaj](https://github.com/BeardedBear/bearded-icons/issues/196)
+
 ## 1.17.0 - 2024-02-13
 
 - Add ron icon [Thanks Jamie](https://twitter.com/jamiepine)
