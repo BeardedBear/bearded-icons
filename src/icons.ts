@@ -11,7 +11,7 @@ const array: string[] = [];
 readdirSync("icons").forEach((file) => array.push(file.split(".")[0]));
 
 const iconList: Icon = array.reduce((acc, curr) => {
-  return { ...acc, [`_f_${curr}`]: { iconPath: `./icons/${curr}.svg` } };
+  return { ...acc, [`${curr}`]: { iconPath: `./icons/${curr}.svg` } };
 }, {});
 
 const icons = {
