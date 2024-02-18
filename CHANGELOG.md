@@ -1,5 +1,12 @@
 # Changelog for Bearded Icons
 
+## 1.18.0 - 2024-02-18
+
+- Add R icon
+- Add Cuda icon
+- Add vb icon
+- Add coffeescript icon
+
 ## 1.17.1 - 2024-02-15
 
 - Fix vite and vitest extensions file [Thanks dominikbulaj](https://github.com/BeardedBear/bearded-icons/issues/196)
