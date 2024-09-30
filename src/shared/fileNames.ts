@@ -474,6 +474,7 @@ export default {
   "tailwind.js": "tailwind",
   "tailwind.coffee": "tailwind",
   "tailwind.ts": "tailwind",
+  "tailwind.config.mjs": "tailwind",
   "tailwind.config.js": "tailwind",
   "tailwind.config.cjs": "tailwind",
   "tailwind.config.coffee": "tailwind",
