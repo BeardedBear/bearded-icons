@@ -597,6 +597,7 @@ export default {
   "bsconfig.json": "bsconfig",
   ".clang-format": "llvm",
   ".clang-tidy": "llvm",
+  ".clangd": "llvm",
   ".parcelrc": "parcel",
   dune: "dune",
   "dune-project": "duneproject",
