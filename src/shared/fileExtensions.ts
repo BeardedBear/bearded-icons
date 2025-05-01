@@ -225,7 +225,7 @@ export default {
   jar: "jar",
   java: "java",
   jbuilder: "jbuilder",
-  jepg: "imagejpg",
+  jpeg: "imagejpg",
   j2: "jinja",
   jinja: "jinja",
   jinja2: "jinja",
