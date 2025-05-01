@@ -1,5 +1,9 @@
 # Changelog for Bearded Icons
 
+## 1.19.0 - 2025-05-01
+
+- Add icon for precommit files [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/issues/186)
+
 ## 1.18.0 - 2024-02-18
 
 - Add R icon
