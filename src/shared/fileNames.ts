@@ -625,6 +625,7 @@ export default {
   "Cargo.lock": "cargolock",
   "pnpm-lock.yaml": "pnpmlock",
   "tauri.conf.json": "tauri",
+  "tauri.conf.json5": "tauri",
   "tauri.linux.conf.json": "tauri",
   "tauri.windows.conf.json": "tauri",
   "tauri.macos.conf.json": "tauri",
