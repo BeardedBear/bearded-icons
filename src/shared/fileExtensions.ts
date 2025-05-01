@@ -342,6 +342,7 @@ export default {
   png: "imagepng",
   po: "poedit",
   postcss: "postcssconfig",
+  pcss: "postcssconfig",
   pot: "powerpoint",
   potm: "powerpoint",
   potx: "powerpoint",

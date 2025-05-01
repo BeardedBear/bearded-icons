@@ -372,6 +372,7 @@ export default {
   "postcss.config.js": "postcssconfig",
   "postcss.config.cjs": "postcssconfig",
   ".pre-commit-config.yaml": "precommit",
+  ".pre-commit-hooks.yaml": "precommit",
   ".prettierrc": "prettier",
   ".prettierignore": "prettierignore",
   "prettier.config.js": "prettier",
@@ -760,4 +761,6 @@ export default {
   "todo.txt": "todo",
   ".todo.txt": "todo",
   todo: "todo",
+  "mkdocs.yml": "mkdocs",
+  "mkdocs.yaml": "mkdocs",
 };
