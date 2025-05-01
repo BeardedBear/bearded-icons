@@ -752,6 +752,7 @@ export default {
   "bunfig.toml": "bun",
   ".bunfig.toml": "bun",
   "bun.lockb": "bunlock",
+  "bun.lock": "bunlock",
   ".air.toml": "air",
   "rome.json": "rome",
   "biome.json": "biome",
