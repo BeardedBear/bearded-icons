@@ -533,4 +533,6 @@ export default {
   mmd: "mermaid",
   bal: "ballerina",
   hash: "hash",
+  "css.js": "vanillaextract",
+  "css.ts": "vanillaextract",
 };
