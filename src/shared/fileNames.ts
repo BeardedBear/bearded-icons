@@ -761,4 +761,6 @@ export default {
   "todo.txt": "todo",
   ".todo.txt": "todo",
   todo: "todo",
+  "mkdocs.yml": "mkdocs",
+  "mkdocs.yaml": "mkdocs",
 };
