@@ -602,6 +602,7 @@ export default {
   dune: "dune",
   "dune-project": "duneproject",
   ".adonisrc.json": "adonis",
+  "astro.config.js": "astroconfig",
   "astro.config.mjs": "astroconfig",
   "svelte.config.js": "svelteconfig",
   "svelte.config.ts": "svelteconfig",
