@@ -11,6 +11,8 @@ export default {
   "cfg.dist": "conf",
   "cjs.map": "jsmap",
   "controller.js": "nestjscontroller",
+  "css.js": "vanillaextract",
+  "css.ts": "vanillaextract",
   "controller.ts": "nestjscontroller",
   "css.map": "cssmap",
   "d.ts": "typescriptdef",
@@ -533,6 +535,4 @@ export default {
   mmd: "mermaid",
   bal: "ballerina",
   hash: "hash",
-  "css.js": "vanillaextract",
-  "css.ts": "vanillaextract",
 };
