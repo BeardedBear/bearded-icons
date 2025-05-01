@@ -427,6 +427,7 @@ export default {
   swift: "swift",
   tar: "zip",
   tcl: "tcl",
+  templ: "tmpl",
   tesc: "opengl",
   tese: "opengl",
   tex: "latex",
