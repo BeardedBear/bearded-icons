@@ -3,6 +3,7 @@
 ## 1.19.0 - 2025-05-01
 
 - Add icon for precommit files [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/issues/186)
+- Add icon for mkdocs [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/pull/188)
 
 ## 1.18.0 - 2024-02-18
 
