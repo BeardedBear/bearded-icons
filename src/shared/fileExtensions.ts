@@ -548,4 +548,5 @@ export default {
   bal: "ballerina",
   hash: "hash",
   gleam: "gleam",
+  lock: "lock",
 };
