@@ -798,4 +798,12 @@ export default {
   "mkdocs.yml": "mkdocs",
   "mkdocs.yaml": "mkdocs",
   "gleam.toml": "gleamconfig",
+  ".oxlintrc.json": "oxlint",
+  "oxlint.json": "oxlint",
+  "oxlint.config.js": "oxlint",
+  "oxlint.config.ts": "oxlint",
+  "oxlint.config.cjs": "oxlint",
+  "oxlint.config.mjs": "oxlint",
+  "oxlint.config.cts": "oxlint",
+  "oxlint.config.mts": "oxlint",
 };
