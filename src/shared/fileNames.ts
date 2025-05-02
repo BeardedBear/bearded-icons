@@ -793,4 +793,5 @@ export default {
   todo: "todo",
   "mkdocs.yml": "mkdocs",
   "mkdocs.yaml": "mkdocs",
+  "gleam.toml": "gleamconfig",
 };
