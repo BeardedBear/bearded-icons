@@ -549,4 +549,6 @@ export default {
   hash: "hash",
   gleam: "gleam",
   lock: "lock",
+  yang: "yang",
+  yin: "yin",
 };
