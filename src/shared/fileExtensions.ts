@@ -547,4 +547,5 @@ export default {
   mmd: "mermaid",
   bal: "ballerina",
   hash: "hash",
+  gleam: "gleam",
 };
