@@ -553,4 +553,5 @@ export default {
   lock: "lock",
   yang: "yang",
   yin: "yin",
+  mdc: "cursor",
 };
