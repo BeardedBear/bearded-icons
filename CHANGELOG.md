@@ -30,6 +30,7 @@
 - Fix icon for templ [Thanks SherzodAli](https://github.com/BeardedBear/bearded-icons/issues/207)
 - Fix icon gruntfile [Thanks babakfp](https://github.com/BeardedBear/bearded-icons/issues/210)
 - Fix icon for cmake
+- Fix icon for vitest workspace
 
 ## 1.18.0 - 2024-02-18
 
