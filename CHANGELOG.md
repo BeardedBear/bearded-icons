@@ -19,6 +19,7 @@
 - Add icon gleam [Thanks tpolito](https://github.com/BeardedBear/bearded-icons/issues/209)
 - Add icon for plantuml
 - Add icon for plop
+- Add icon for identifier
 
 ### Fixes
 

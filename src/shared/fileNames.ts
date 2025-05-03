@@ -518,6 +518,7 @@ export default {
   "tsconfig.tsd.json": "tsconfig",
   "tsconfig.node.json": "tsconfig",
   "tsconfig.lib.json": "tsconfig",
+  "tsconfig.eslint.json": "tsconfig",
   "tsconfig.storybook.json": "tsconfig",
   "tslint.json": "tslint",
   "tslint.yaml": "tslint",

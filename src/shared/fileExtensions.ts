@@ -555,4 +555,5 @@ export default {
   yin: "yin",
   mdc: "cursor",
   uml: "plantuml",
+  Identifier: "identifier",
 };
