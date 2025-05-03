@@ -806,4 +806,5 @@ export default {
   "oxlint.config.mjs": "oxlint",
   "oxlint.config.cts": "oxlint",
   "oxlint.config.mts": "oxlint",
+  ".cursorrules": "cursor",
 };
