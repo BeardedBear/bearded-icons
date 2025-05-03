@@ -117,7 +117,7 @@ async function optimizeSvgFiles(): Promise<void> {
       return;
     }
 
-    let summary: OptimizationSummary = {
+    const summary: OptimizationSummary = {
       totalFiles: svgFiles.length,
       filesOptimized: 0,
       errors: 0,

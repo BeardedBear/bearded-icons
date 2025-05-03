@@ -1,9 +1,37 @@
 # Changelog for Bearded Icons
 
-## 1.19.0 - 2025-05-01
+## 1.19.0 - 2025-05-03
 
-- Add icon for precommit files [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/issues/186)
+### Features
+
+- Add icon for cursor config [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/issues/231)
+- Add icon for gitlab CI [Thanks bogga](https://github.com/BeardedBear/bearded-icons/issues/221)
+- Add icon for jinja2 [Thanks jrmejiaa](https://github.com/BeardedBear/bearded-icons/pull/227)
+- Add icon for knip [Thanks lucasrmendonca](https://github.com/BeardedBear/bearded-icons/issues/202)
+- Add icon for LLVM/clangd [Thanks MarkLagodych](https://github.com/BeardedBear/bearded-icons/pull/225)
+- Add icon for LLVM/clangd [Thanks MarkLagodych](https://github.com/BeardedBear/bearded-icons/pull/225)
+- Add icon for lock files [Thanks matubu](https://github.com/BeardedBear/bearded-icons/issues/215)
+- Add icon for lock files [Thanks matubu](https://github.com/BeardedBear/bearded-icons/issues/215)
 - Add icon for mkdocs [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/pull/188)
+- Add icon for oxlint [Thanks alexeira](https://github.com/BeardedBear/bearded-icons/issues/211)
+- Add icon for Pascal/Delphi [Thanks SabeDoesThings](https://github.com/BeardedBear/bearded-icons/issues/222)
+- Add icon for precommit [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/pull/186)
+- Add icon for precommit [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/pull/186)
+- Add icon for precommit files [Thanks BrunoB81HK](https://github.com/BeardedBear/bearded-icons/issues/186)
+- Add icon for vanilla extract [Thanks redhaazmei](https://github.com/BeardedBear/bearded-icons/issues/200)
+- Add icon for yang [Thanks jrmejiaa](https://github.com/BeardedBear/bearded-icons/issues/226)
+- Add icon gleam [Thanks tpolito](https://github.com/BeardedBear/bearded-icons/issues/209)
+
+### Fixes
+
+- Fix icon for astro config [Thanks GrimLink](https://github.com/BeardedBear/bearded-icons/issues/216)
+- Fix icon for bun lock [Thanks akhaled01](https://github.com/BeardedBear/bearded-icons/issues/223)
+- Fix icon for postCSS config [Thanks mollymorphous](https://github.com/BeardedBear/bearded-icons/pull/232)
+- Fix icon for stories with svelte [Thanks sean-mcgarrity](https://github.com/BeardedBear/bearded-icons/issues/228)
+- Fix icon for tailwind [Thanks lassejlv](https://github.com/BeardedBear/bearded-icons/pull/220)
+- Fix icon for tauri [Thanks navtoj](https://github.com/BeardedBear/bearded-icons/issues/230)
+- Fix icon for templ [Thanks SherzodAli](https://github.com/BeardedBear/bearded-icons/issues/207)
+- Fix icon gruntfile [Thanks babakfp](https://github.com/BeardedBear/bearded-icons/issues/210)
 
 ## 1.18.0 - 2024-02-18
 
