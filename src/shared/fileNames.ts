@@ -632,6 +632,8 @@ export default {
   ".tool-versions": "toolversions",
   "CMakeSettings.json": "cmake",
   "CMakeLists.txt": "cmake",
+  "toolchain.cmake": "cmake",
+  ".cmake": "cmake",
   "Cargo.toml": "cargo",
   "Cargo.lock": "cargolock",
   "pnpm-lock.yaml": "pnpmlock",
