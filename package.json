@@ -43,14 +43,18 @@
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.84.1",
+		"chalk": "^4.1.2",
 		"node": "^20.5.0",
+		"svgo": "^3.3.2",
+		"ts-node": "^10.9.2",
 		"vscode-test": "^1.6.1"
 	},
 	"scripts": {
 		"build": "vite-node src/main.ts",
 		"build:ext": "vsce package --no-yarn",
 		"dev": "vite-node src/main.ts -w",
-		"fix": "prettier --write src/**/*.ts"
+		"fix": "prettier --write src/**/*.ts",
+		"optimize-svg": "ts-node scripts/optimize-svg.ts"
 	},
 	"dependencies": {
 		"@types/node": "^20.9.0",
