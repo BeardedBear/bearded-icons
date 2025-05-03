@@ -18,6 +18,7 @@
 - Add icon for yang [Thanks jrmejiaa](https://github.com/BeardedBear/bearded-icons/issues/226)
 - Add icon gleam [Thanks tpolito](https://github.com/BeardedBear/bearded-icons/issues/209)
 - Add icon for plantuml
+- Add icon for plop
 
 ### Fixes
 

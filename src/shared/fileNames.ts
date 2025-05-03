@@ -815,4 +815,9 @@ export default {
   "oxlint.config.cts": "oxlint",
   "oxlint.config.mts": "oxlint",
   ".cursorrules": "cursor",
+  "plopfile.js": "plop",
+  "plopfile.cjs": "plop",
+  "plopfile.mjs": "plop",
+  "plopfile.ts": "plop",
+  "plopfile.cts": "plop",
 };
