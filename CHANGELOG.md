@@ -20,6 +20,7 @@
 - Add icon for plantuml
 - Add icon for plop
 - Add icon for identifier
+- Add icon for mockoon
 
 ### Fixes
 
