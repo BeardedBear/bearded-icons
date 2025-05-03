@@ -554,4 +554,5 @@ export default {
   yang: "yang",
   yin: "yin",
   mdc: "cursor",
+  uml: "plantuml",
 };
