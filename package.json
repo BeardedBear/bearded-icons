@@ -51,7 +51,7 @@
 	},
 	"scripts": {
 		"build": "vite-node src/main.ts",
-		"build:ext": "vsce package --no-yarn",
+		"build:ext": "vsce package",
 		"dev": "vite-node src/main.ts -w",
 		"fix": "prettier --write src/**/*.ts",
 		"optimize-svg": "ts-node scripts/optimize-svg.ts"
