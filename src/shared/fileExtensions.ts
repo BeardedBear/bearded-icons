@@ -557,4 +557,9 @@ export default {
   uml: "plantuml",
   Identifier: "identifier",
   cls: "salesforce",
+  ".instructions.md": "instructions",
+  ".instructions.txt": "instructions",
+  ".instructions.json": "instructions",
+  ".instructions.yaml": "instructions",
+  ".instructions.yml": "instructions",
 };

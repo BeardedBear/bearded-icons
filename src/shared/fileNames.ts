@@ -865,4 +865,11 @@ export default {
   "mockoon.env.mts": "mockoon",
   "copilot-instructions.md": "copilot",
   ".copilot-instructions": "copilot",
+  ".instructions": "instructions",
+  "instructions.md": "instructions",
+  "instructions.txt": "instructions",
+  instructions: "instructions",
+  "instructions.json": "instructions",
+  "instructions.yaml": "instructions",
+  "instructions.yml": "instructions",
 };

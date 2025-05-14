@@ -109,6 +109,10 @@ export default {
   glyphs: "glyphs",
   gnuplot: "gnuplot",
   go: "go",
+  golang: "go",
+  "go-sum": "go",
+  "go-mod": "go",
+  "go-xml": "go",
   gdscript: "godot",
   graphql: "graphql",
   dot: "graphviz",
@@ -335,4 +339,7 @@ export default {
   "yaml-tmlanguage": "yaml",
   yang: "yang",
   zig: "zig",
+  "vitest-snapshot": "vitest",
+  instructions: "instructions",
+  prompt: "prompt",
 };
