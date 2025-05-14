@@ -556,4 +556,5 @@ export default {
   mdc: "cursor",
   uml: "plantuml",
   Identifier: "identifier",
+  cls: "salesforce",
 };
