@@ -835,4 +835,5 @@ export default {
   "mockoon.env.mjs": "mockoon",
   "mockoon.env.cts": "mockoon",
   "mockoon.env.mts": "mockoon",
+  "copilot-instructions.md": "copilot",
 };

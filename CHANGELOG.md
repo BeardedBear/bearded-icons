@@ -1,5 +1,11 @@
 # Changelog for Bearded Icons
 
+## 1.20.0 - 2025-05-14
+
+### Features
+
+- Add icon for copilot instructions (Thanks myself)
+
 ## 1.19.0 - 2025-05-03
 
 ### Features
