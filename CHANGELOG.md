@@ -8,6 +8,7 @@
 - Add icon for copilot instructions (Thanks myself)
 - Add icon for node and nvm (Thanks myself)
 - Add icon for instructions files (Thanks myself)
+- Add icon for keep files (Thanks myself)
 
 ## 1.19.0 - 2025-05-03
 

@@ -872,4 +872,6 @@ export default {
   "instructions.json": "instructions",
   "instructions.yaml": "instructions",
   "instructions.yml": "instructions",
+  ".keep": "keep",
+  ".keepignore": "keep",
 };
