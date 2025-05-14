@@ -5,6 +5,7 @@
 ### Features
 
 - Add icon for copilot instructions (Thanks myself)
+- Add icon for node and nvm (Thanks myself)
 
 ## 1.19.0 - 2025-05-03
 
