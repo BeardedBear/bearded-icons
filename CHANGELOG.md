@@ -1,5 +1,15 @@
 # Changelog for Bearded Icons
 
+## 1.20.0 - 2025-05-14
+
+### Features
+
+- Add icon for salesforce [Thanks jesicabiecherdh](https://github.com/BeardedBear/bearded-icons/issues/252)
+- Add icon for copilot instructions (Thanks myself)
+- Add icon for node and nvm (Thanks myself)
+- Add icon for instructions files (Thanks myself)
+- Add icon for keep files (Thanks myself)
+
 ## 1.19.0 - 2025-05-03
 
 ### Features
