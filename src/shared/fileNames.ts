@@ -200,6 +200,7 @@ export default {
   "glide.yml": "glide",
   "go.sum": "go_package",
   "go.mod": "go_package",
+  "go.work": "go_package",
   ".gqlconfig": "graphql",
   ".graphqlconfig": "graphql_config",
   ".graphqlconfig.yml": "graphql_config",
