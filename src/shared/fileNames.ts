@@ -773,6 +773,7 @@ export default {
   "taze.config.mjs": "taze",
   ".tazerc.json": "taze",
   "turbo.json": "turbo",
+  "turbo.jsonc": "turbo",
   "uno.config.ts": "unocss",
   "uno.config.js": "unocss",
   "uno.config.mjs": "unocss",
