@@ -1,5 +1,12 @@
 # Changelog for Bearded Icons
 
+## 1.21.0 - 2025-05-21
+
+### Features
+
+- Add icon for turbo with comments [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/pull/254)
+- Add icon for go workspace [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/pull/250)
+
 ## 1.20.0 - 2025-05-14
 
 ### Features
