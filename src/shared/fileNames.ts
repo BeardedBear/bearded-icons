@@ -39,6 +39,7 @@ export default {
   browserslist: "browserslist",
   gemfile: "bundler",
   "gemfile.lock": "bundler",
+  ".ruby-version": "bundler",
   "capacitor.config.json": "capacitor",
   "cargo.toml": "cargo",
   "cargo.lock": "cargo",
