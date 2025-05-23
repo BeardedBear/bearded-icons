@@ -6,6 +6,7 @@
 
 - Add icon for turbo with comments [Thanks dBianchii](https://github.com/BeardedBear/bearded-icons/pull/254)
 - Add icon for go workspace [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/pull/250)
+- Full rework of nest icons [Thanks Whiskyrie](https://github.com/BeardedBear/bearded-icons/issues/255)
 
 ## 1.20.0 - 2025-05-14
 
