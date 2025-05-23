@@ -8,6 +8,7 @@
 - Add icon for go workspace [Thanks tedbyron](https://github.com/BeardedBear/bearded-icons/pull/250)
 - Full rework of nest icons [Thanks Whiskyrie](https://github.com/BeardedBear/bearded-icons/issues/255)
 - Add icon for silq [Thanks LFPaiser](https://github.com/BeardedBear/bearded-icons/issues/256)
+- Add icon for eraserdiagram [Thanks antpowell](https://github.com/BeardedBear/bearded-icons/issues/258)
 
 ## 1.20.0 - 2025-05-14
 

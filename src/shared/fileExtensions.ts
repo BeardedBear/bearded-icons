@@ -571,4 +571,5 @@ export default {
   ".instructions.yaml": "instructions",
   ".instructions.yml": "instructions",
   silq: "silq",
+  eraserdiagram: "eraser",
 };
