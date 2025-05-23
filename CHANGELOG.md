@@ -1,6 +1,6 @@
 # Changelog for Bearded Icons
 
-## 1.21.0 - 2025-05-21
+## 1.21.0 - 2025-05-23
 
 ### Features
 
