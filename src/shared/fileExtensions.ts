@@ -14,6 +14,8 @@ export default {
   "controller.ts": "nestjscontroller",
   "repository.js": "nestjsrepository",
   "repository.ts": "nestjsrepository",
+  "scheduler.js": "nestscheduler",
+  "scheduler.ts": "nestscheduler",
   "css.js": "vanillaextract",
   "css.ts": "vanillaextract",
   "css.map": "cssmap",
