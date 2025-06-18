@@ -1,5 +1,12 @@
 # Changelog for Bearded Icons
 
+## 1.22.0 - 2025-06-18
+
+### Features
+
+- Add icon for claude instructions (Thanks myself)
+- Add icon for nest scheduler [Thanks carlosgolivas](https://github.com/BeardedBear/bearded-icons/issues/255#issuecomment-2920132560)
+
 ## 1.21.0 - 2025-05-23
 
 ### Features
