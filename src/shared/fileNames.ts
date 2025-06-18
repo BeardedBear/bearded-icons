@@ -809,7 +809,7 @@ export default {
   ".air.toml": "air",
   "rome.json": "rome",
   "biome.json": "biome",
-  "bicepconfig.json": "bicepparam",
+  "bicepconfig.json": "bicepconfig",
   "drizzle.config.ts": "drizzle",
   "drizzle.config.js": "drizzle",
   "drizzle.config.json": "drizzle",
