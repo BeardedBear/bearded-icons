@@ -481,6 +481,7 @@ export default {
   twig: "twig",
   txt: "txt",
   ui: "ui",
+  um: "umbral",
   unity: "shaderlab",
   user: "user",
   v: "v",
