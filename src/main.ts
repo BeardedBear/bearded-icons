@@ -31,13 +31,10 @@ writeFile(
 );
 
 try {
-  cpSync(join(process.cwd(), "icons"), join(vscodeDist, "icons"), {
+  cpSync(join(process.cwd(), "shared", "icons"), join(vscodeDist, "icons"), {
     recursive: true,
   });
-  copyFileSync(
-    join(process.cwd(), "README.md"),
-    join(vscodeDist, "README.md"),
-  );
+  copyFileSync(join(process.cwd(), "README.md"), join(vscodeDist, "README.md"));
   copyFileSync(join(process.cwd(), "LICENSE"), join(vscodeDist, "LICENSE"));
   copyFileSync(join(process.cwd(), "icon.png"), join(vscodeDist, "icon.png"));
   console.log("Copied assets to packages/vscode");
@@ -79,8 +76,8 @@ const zedTheme = {
       name: "Bearded Icons",
       appearance: "dark",
       directory_icons: {
-        collapsed: zedFileIcons["_folder"]?.path || "./icons/folder.svg",
-        expanded: zedFileIcons["_folder_open"]?.path || "./icons/folder_open.svg",
+        collapsed: zedFileIcons["_folder"]?.path || "./shared/icons/folder.svg",
+        expanded: zedFileIcons["_folder_open"]?.path || "./shared/icons/folder_open.svg",
       },
       file_icons: zedFileIcons,
       file_suffixes: defsDark.fileExtensions,
@@ -89,20 +86,16 @@ const zedTheme = {
   ],
 };
 
-writeFile(
-  join(zedThemeDir, "bearded-icons.json"),
-  JSON.stringify(zedTheme, null, 2),
-  (err) => {
-    if (err) {
-      console.log("Error writing Zed theme json", err);
-    } else {
-      console.log("Generated packages/zed/icon_themes/bearded-icons.json");
-    }
-  },
-);
+writeFile(join(zedThemeDir, "bearded-icons.json"), JSON.stringify(zedTheme, null, 2), (err) => {
+  if (err) {
+    console.log("Error writing Zed theme json", err);
+  } else {
+    console.log("Generated packages/zed/icon_themes/bearded-icons.json");
+  }
+});
 
 try {
-  cpSync(join(process.cwd(), "icons"), join(zedDist, "icons"), {
+  cpSync(join(process.cwd(), "shared", "icons"), join(zedDist, "icons"), {
     recursive: true,
   });
   copyFileSync(join(process.cwd(), "README.md"), join(zedDist, "README.md"));

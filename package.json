@@ -3,8 +3,12 @@
   "private": true,
   "scripts": {
     "build": "vite-node src/main.ts",
-    "build:ext": "cd packages/vscode && vsce package",
+    "build:vscode": "vite-node src/build-vscode.ts",
+    "build:zed": "vite-node src/build-zed.ts",
+    "build:ext": "cd dist/vscode && vsce package",
     "dev": "vite-node src/main.ts -w",
+    "dev:vscode": "vite-node src/build-vscode.ts -w",
+    "dev:zed": "vite-node src/build-zed.ts -w",
     "fix": "prettier --write src/**/*.ts",
     "optimize-svg": "ts-node scripts/optimize-svg.ts"
   },

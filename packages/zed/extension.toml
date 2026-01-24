@@ -1,9 +1,0 @@
-id = "bearded-icons"
-name = "Bearded Icons"
-version = "1.0.0"
-schema_version = 1
-authors = ["BeardedBear <beardedbearbear@gmail.com>"]
-description = "The icons with a long beard."
-repository = "https://github.com/BeardedBear/bearded-icons"
-
-icon_themes = ["icon_themes/bearded-icons.json"]
