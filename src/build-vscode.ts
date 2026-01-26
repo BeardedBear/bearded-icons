@@ -1,41 +1,13 @@
-import { readdirSync } from "fs";
-import { cpSync, copyFileSync } from "fs";
 import { join } from "path";
-import { existsSync, mkdirSync, writeFileSync } from "fs";
-
-type Icon = Record<string, { iconPath: string }>;
-
-function iconGeneric(name: string): Icon {
-  return { [`_${name}`]: { iconPath: `./icons/${name}.svg` } };
-}
-
-// Generate icon list from /shared/icons folder
-const array: string[] = [];
-readdirSync(join(process.cwd(), "shared", "icons")).forEach((file) => array.push(file.split(".")[0]));
-
-const iconList: Icon = array.reduce((acc, curr) => {
-  return { ...acc, [`${curr}`]: { iconPath: `./icons/${curr}.svg` } };
-}, {});
-
-const icons = {
-  ...iconGeneric("file"),
-  ...iconGeneric("folder"),
-  ...iconGeneric("folder_open"),
-  ...iconGeneric("root_folder"),
-  ...iconGeneric("root_folder_open"),
-  ...iconGeneric("root_folder_light"),
-  ...iconGeneric("root_folder_light_open"),
-  ...iconList,
-};
+import { writeFileSync } from "fs";
+import { commonConfig } from "./shared/commonConfig.js";
+import { generateIcons, createDistDirectory, copyAssets, logSuccess } from "./shared/buildUtils.js";
 
 // --- VS Code Build ---
 console.log("Building VS Code extension...");
 
 const vscodeDist = join(process.cwd(), "dist", "vscode");
-
-if (!existsSync(vscodeDist)) {
-  mkdirSync(vscodeDist, { recursive: true });
-}
+createDistDirectory(vscodeDist);
 
 // Import theme definitions
 import defsDark from "./defsDark.js";
@@ -43,12 +15,14 @@ import defsLight from "./defsLight.js";
 import folderNames from "./shared/folderNames.js";
 import folderNamesExpanded from "./shared/folderNamesExpanded.js";
 
+const icons = generateIcons();
+
 // Construct VS Code Theme
 const vscodeTheme = {
-  name: "Bearded Icons",
-  publisher: "BeardedBear",
-  description: "Icon theme for VS Code with a bearded style",
-  version: "1.0.0",
+  name: commonConfig.name,
+  publisher: commonConfig.author,
+  description: `Icon theme for VS Code with ${commonConfig.description.toLowerCase()}`,
+  version: commonConfig.version,
   engines: {
     vscode: "*",
   },
@@ -57,13 +31,13 @@ const vscodeTheme = {
     themes: [
       {
         id: "bearded-icons",
-        label: "Bearded Icons",
+        label: commonConfig.name,
         path: "./icons.json",
         uiTheme: "vs-dark",
       },
       {
         id: "bearded-icons-light",
-        label: "Bearded Icons Light",
+        label: `${commonConfig.name} Light`,
         path: "./icons-light.json",
         uiTheme: "vs",
       },
@@ -99,15 +73,5 @@ const lightThemeJson = {
 writeFileSync(join(vscodeDist, "icons-light.json"), JSON.stringify(lightThemeJson, null, 2));
 
 // Copy assets
-try {
-  cpSync(join(process.cwd(), "shared", "icons"), join(vscodeDist, "icons"), {
-    recursive: true,
-  });
-  copyFileSync(join(process.cwd(), "README.md"), join(vscodeDist, "README.md"));
-  copyFileSync(join(process.cwd(), "LICENSE"), join(vscodeDist, "LICENSE"));
-  copyFileSync(join(process.cwd(), "icon.png"), join(vscodeDist, "icon.png"));
-  console.log("✅ VS Code extension built successfully");
-  console.log(`📦 Location: ${vscodeDist}`);
-} catch (e) {
-  console.error("❌ Error copying VS Code assets:", e);
-}
+copyAssets(vscodeDist);
+logSuccess("VS Code", vscodeDist);
