@@ -14,6 +14,7 @@ createDistDirectory(zedThemeDir);
 
 // Import theme definitions
 import defsDark from "./defsDark.js";
+import fileNames from "./shared/fileNames.js";
 
 const icons = generateIcons();
 
@@ -46,7 +47,7 @@ const zedTheme = {
       },
       file_icons: zedFileIcons,
       file_suffixes: defsDark.fileExtensions,
-      file_stems: defsDark.fileNames,
+      file_stems: fileNames,
     },
   ],
 };
