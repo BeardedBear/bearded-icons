@@ -17,6 +17,26 @@ import folderNamesExpanded from "./shared/folderNamesExpanded.js";
 
 const icons = generateIcons();
 
+function expandCaseVariants(mapping: Record<string, unknown>): Record<string, unknown> {
+  const result: Record<string, unknown> = { ...mapping };
+
+  Object.keys(mapping).forEach((key) => {
+    // Skip dotted names (extensions or dotfiles)
+    if (key.includes(".") || key.startsWith(".")) return;
+
+    // Only expand canonical lowercase keys to avoid overriding intentional mixed/uppercase keys
+    if (key !== key.toLowerCase()) return;
+
+    const capitalized = key.charAt(0).toUpperCase() + key.slice(1);
+    if (!(capitalized in result)) result[capitalized] = (mapping as any)[key];
+
+    const upper = key.toUpperCase();
+    if (!(upper in result)) result[upper] = (mapping as any)[key];
+  });
+
+  return result;
+}
+
 // Construct VS Code Theme
 const vscodeTheme = {
   name: commonConfig.name,
@@ -51,7 +71,7 @@ writeFileSync(join(vscodeDist, "package.json"), JSON.stringify(vscodeTheme, null
 // Generate icons.json (dark theme)
 const darkThemeJson = {
   iconDefinitions: icons,
-  fileNames: defsDark.fileNames,
+  fileNames: expandCaseVariants(defsDark.fileNames),
   fileExtensions: defsDark.fileExtensions,
   folderNames: folderNames,
   folderNamesExpanded: folderNamesExpanded,
@@ -63,7 +83,7 @@ writeFileSync(join(vscodeDist, "icons.json"), JSON.stringify(darkThemeJson, null
 // Generate icons-light.json (light theme)
 const lightThemeJson = {
   iconDefinitions: icons,
-  fileNames: defsLight.light.fileNames,
+  fileNames: expandCaseVariants(defsLight.light.fileNames),
   fileExtensions: defsLight.light.fileExtensions,
   folderNames: folderNames,
   folderNamesExpanded: folderNamesExpanded,

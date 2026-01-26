@@ -436,7 +436,7 @@ export default {
   ".pyup.yml": "pyup",
   qmldir: "qmldir",
   "quasar.conf.js": "quasar",
-  rakefile: "rake",
+  rakefile: "ruby",
   "razzle.config.js": "razzle",
   "readme.md": "readme",
   "readme.txt": "readme",

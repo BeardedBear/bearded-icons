@@ -32,6 +32,27 @@ if (zedFileIcons["_file"]) {
   zedFileIcons["default"] = zedFileIcons["_file"];
 }
 
+// Add case variant expansion for file stems so that files like
+// Makefile, LICENSE, Gemfile, Rakefile are matched.
+function expandCaseVariants(mapping: Record<string, unknown>): Record<string, unknown> {
+  const result: Record<string, unknown> = { ...mapping };
+  Object.keys(mapping).forEach((key) => {
+    // Skip dotted names (extensions or dotfiles)
+    if (key.includes(".") || key.startsWith(".")) return;
+
+    // Only expand canonical lowercase keys to avoid overriding intentional mixed/uppercase keys
+    if (key !== key.toLowerCase()) return;
+
+    const capitalized = key.charAt(0).toUpperCase() + key.slice(1);
+    if (!(capitalized in result)) result[capitalized] = (mapping as any)[key];
+
+    const upper = key.toUpperCase();
+    if (!(upper in result)) result[upper] = (mapping as any)[key];
+  });
+
+  return result;
+}
+
 // Construct Zed Theme (Schema v0.3.0)
 const zedTheme = {
   $schema: "https://zed.dev/schema/icon_themes/v0.3.0.json",
@@ -47,7 +68,7 @@ const zedTheme = {
       },
       file_icons: zedFileIcons,
       file_suffixes: defsDark.fileExtensions,
-      file_stems: fileNames,
+      file_stems: expandCaseVariants(fileNames),
     },
   ],
 };
