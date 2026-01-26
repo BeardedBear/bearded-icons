@@ -21,7 +21,7 @@ const icons = generateIcons();
 const vscodeTheme = {
   name: commonConfig.name,
   publisher: commonConfig.author,
-  description: `Icon theme for VS Code with ${commonConfig.description.toLowerCase()}`,
+  description: commonConfig.description,
   version: commonConfig.version,
   engines: {
     vscode: "*",

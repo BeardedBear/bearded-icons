@@ -1,7 +1,8 @@
 export const commonConfig = {
   name: "Bearded Icons",
   author: "BeardedBear",
-  description: "Icon theme with a bearded style",
+  mail: "beardedbearbear@gmail.com",
+  description: "The icons with a long beard",
   version: "1.0.0",
   repository: "https://github.com/BeardedBear/bearded-icons",
   genericIcons: [

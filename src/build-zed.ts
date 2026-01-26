@@ -8,6 +8,7 @@ console.log("Building Zed extension...");
 
 const zedDist = join(process.cwd(), "dist", "zed");
 const zedThemeDir = join(zedDist, "icon_themes");
+const authorFull = `"${commonConfig.author} <${commonConfig.mail}>"`;
 
 createDistDirectory(zedThemeDir);
 
@@ -58,8 +59,8 @@ const zedManifest = `schema_version = 1
 id = "bearded-icons"
 name = "${commonConfig.name}"
 version = "${commonConfig.version}"
-description = "Icon theme for Zed with ${commonConfig.description.toLowerCase()}"
-author = "${commonConfig.author}"
+description = "${commonConfig.description}"
+authors = [${authorFull}]
 repository = "${commonConfig.repository}"
 
 [theme]
