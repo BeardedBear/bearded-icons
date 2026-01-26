@@ -1,0 +1,97 @@
+import { join } from "path";
+import { writeFileSync } from "fs";
+import { commonConfig } from "./shared/commonConfig.js";
+import { generateIcons, createDistDirectory, copyAssets, logSuccess } from "./shared/buildUtils.js";
+
+// --- VS Code Build ---
+console.log("Building VS Code extension...");
+
+const vscodeDist = join(process.cwd(), "dist", "vscode");
+createDistDirectory(vscodeDist);
+
+// Import theme definitions
+import defsDark from "./defsDark.js";
+import defsLight from "./defsLight.js";
+import folderNames from "./shared/folderNames.js";
+import folderNamesExpanded from "./shared/folderNamesExpanded.js";
+
+const icons = generateIcons();
+
+function expandCaseVariants(mapping: Record<string, unknown>): Record<string, unknown> {
+  const result: Record<string, unknown> = { ...mapping };
+
+  Object.keys(mapping).forEach((key) => {
+    // Skip dotted names (extensions or dotfiles)
+    if (key.includes(".") || key.startsWith(".")) return;
+
+    // Only expand canonical lowercase keys to avoid overriding intentional mixed/uppercase keys
+    if (key !== key.toLowerCase()) return;
+
+    const capitalized = key.charAt(0).toUpperCase() + key.slice(1);
+    if (!(capitalized in result)) result[capitalized] = (mapping as any)[key];
+
+    const upper = key.toUpperCase();
+    if (!(upper in result)) result[upper] = (mapping as any)[key];
+  });
+
+  return result;
+}
+
+// Construct VS Code Theme
+const vscodeTheme = {
+  name: commonConfig.name,
+  publisher: commonConfig.author,
+  description: commonConfig.description,
+  version: commonConfig.version,
+  engines: {
+    vscode: "*",
+  },
+  categories: ["Themes"],
+  contributes: {
+    themes: [
+      {
+        id: "bearded-icons",
+        label: commonConfig.name,
+        path: "./icons.json",
+        uiTheme: "vs-dark",
+      },
+      {
+        id: "bearded-icons-light",
+        label: `${commonConfig.name} Light`,
+        path: "./icons-light.json",
+        uiTheme: "vs",
+      },
+    ],
+  },
+};
+
+// Write package.json
+writeFileSync(join(vscodeDist, "package.json"), JSON.stringify(vscodeTheme, null, 2));
+
+// Generate icons.json (dark theme)
+const darkThemeJson = {
+  iconDefinitions: icons,
+  fileNames: expandCaseVariants(defsDark.fileNames),
+  fileExtensions: defsDark.fileExtensions,
+  folderNames: folderNames,
+  folderNamesExpanded: folderNamesExpanded,
+  languageIds: defsDark.languageIds,
+};
+
+writeFileSync(join(vscodeDist, "icons.json"), JSON.stringify(darkThemeJson, null, 2));
+
+// Generate icons-light.json (light theme)
+const lightThemeJson = {
+  iconDefinitions: icons,
+  fileNames: expandCaseVariants(defsLight.light.fileNames),
+  fileExtensions: defsLight.light.fileExtensions,
+  folderNames: folderNames,
+  folderNamesExpanded: folderNamesExpanded,
+  languageIds: defsLight.light.languageIds,
+};
+
+writeFileSync(join(vscodeDist, "icons-light.json"), JSON.stringify(lightThemeJson, null, 2));
+
+// Copy assets
+copyAssets(vscodeDist);
+logSuccess("VS Code", vscodeDist);
