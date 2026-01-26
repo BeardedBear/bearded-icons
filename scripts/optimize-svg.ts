@@ -30,7 +30,7 @@ interface OptimizationSummary {
 }
 
 // Paths
-const ICONS_DIR = path.resolve(__dirname, "..", "icons");
+const ICONS_DIR = path.resolve(__dirname, "..", "src/shared/icons");
 const SVG_FILES_PATTERN = "**/*.svg";
 
 // SVGO Configuration

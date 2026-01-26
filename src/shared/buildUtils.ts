@@ -13,7 +13,7 @@ export function iconGeneric(name: string): Icon {
 export function generateIcons(): Record<string, { iconPath: string }> {
   // Generate icon list from /shared/icons folder
   const array: string[] = [];
-  readdirSync(join(process.cwd(), "shared", "icons")).forEach((file) => array.push(file.split(".")[0]));
+  readdirSync(join(process.cwd(), "src", "shared", "icons")).forEach((file) => array.push(file.split(".")[0]));
 
   const iconList: Icon = array.reduce((acc, curr) => {
     return { ...acc, [`${curr}`]: { iconPath: `./icons/${curr}.svg` } };
@@ -35,7 +35,7 @@ export function createDistDirectory(distPath: string): void {
 
 export function copyAssets(distPath: string): void {
   try {
-    cpSync(join(process.cwd(), "shared", "icons"), join(distPath, "icons"), {
+    cpSync(join(process.cwd(), "src", "shared", "icons"), join(distPath, "icons"), {
       recursive: true,
     });
 
