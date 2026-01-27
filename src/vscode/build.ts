@@ -1,7 +1,8 @@
-import { writeFileSync } from "fs";
+import { copyFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { commonConfig } from "../shared/config/common.js";
 import { copyAssets, createDistDirectory, generateIcons, logSuccess } from "../shared/utils/build.js";
+import { config } from "./config.js";
 
 // --- VS Code Build ---
 console.log("Building VS Code extension...");
@@ -43,7 +44,7 @@ const vscodeTheme = {
   displayName: commonConfig.name,
   publisher: commonConfig.author,
   description: commonConfig.description,
-  version: commonConfig.version,
+  version: config.version,
   engines: {
     vscode: "*",
   },
@@ -95,4 +96,5 @@ writeFileSync(join(vscodeDist, "icons-light.json"), JSON.stringify(lightThemeJso
 
 // Copy assets
 copyAssets(vscodeDist);
+copyFileSync(join(process.cwd(), "src", "vscode", "CHANGELOG.md"), join(vscodeDist, "CHANGELOG.md"));
 logSuccess("VS Code", vscodeDist);

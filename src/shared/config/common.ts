@@ -4,7 +4,6 @@ export const commonConfig = {
   author: "BeardedBear",
   mail: "beardedbearbear@gmail.com",
   description: "The icons with a long beard",
-  version: "1.0.0",
   repository: "https://github.com/BeardedBear/bearded-icons",
   genericIcons: [
     "file",

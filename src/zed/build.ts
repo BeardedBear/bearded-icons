@@ -1,7 +1,8 @@
-import { writeFileSync } from "fs";
+import { copyFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { commonConfig } from "../shared/config/common.js";
 import { copyAssets, createDistDirectory, generateIcons, logSuccess } from "../shared/utils/build.js";
+import { config } from "./config.js";
 
 // --- Zed Build ---
 console.log("Building Zed extension...");
@@ -80,7 +81,7 @@ writeFileSync(join(zedThemeDir, "bearded-icons.json"), JSON.stringify(zedTheme, 
 const zedManifest = `schema_version = 1
 id = "${commonConfig.id}"
 name = "${commonConfig.name}"
-version = "${commonConfig.version}"
+version = "${config.version}"
 description = "${commonConfig.description}"
 authors = [${authorFull}]
 repository = "${commonConfig.repository}"
@@ -95,4 +96,5 @@ writeFileSync(join(zedDist, "extension.toml"), zedManifest);
 
 // Copy assets
 copyAssets(zedDist);
+copyFileSync(join(process.cwd(), "src", "zed", "CHANGELOG.md"), join(zedDist, "CHANGELOG.md"));
 logSuccess("Zed", zedDist);
