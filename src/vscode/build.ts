@@ -1,7 +1,7 @@
-import { join } from "path";
 import { writeFileSync } from "fs";
-import { commonConfig } from "./shared/commonConfig.js";
-import { generateIcons, createDistDirectory, copyAssets, logSuccess } from "./shared/buildUtils.js";
+import { join } from "path";
+import { commonConfig } from "../shared/config/common.js";
+import { copyAssets, createDistDirectory, generateIcons, logSuccess } from "../shared/utils/build.js";
 
 // --- VS Code Build ---
 console.log("Building VS Code extension...");
@@ -10,10 +10,10 @@ const vscodeDist = join(process.cwd(), "dist", "vscode");
 createDistDirectory(vscodeDist);
 
 // Import theme definitions
-import defsDark from "./defsDark.js";
-import defsLight from "./defsLight.js";
-import folderNames from "./shared/folderNames.js";
-import folderNamesExpanded from "./shared/folderNamesExpanded.js";
+import folderNamesExpanded from "../shared/config/folder-names-expanded.js";
+import folderNames from "../shared/config/folder-names.js";
+import defsDark from "./theme-dark.js";
+import defsLight from "./theme-light.js";
 
 const icons = generateIcons();
 

@@ -1,5 +1,5 @@
-import { audio, image, video } from "../data/media";
-import { make } from "../helper";
+import { make } from "../utils/helpers";
+import { audio, image, video } from "./media";
 
 export default {
   ...make(audio, "audio"),
@@ -249,7 +249,7 @@ export default {
   java: "java",
   jbuilder: "jbuilder",
   js: "js",
-  "jpeg": "imagejpg",
+  jpeg: "imagejpg",
   j2: "jinja",
   jinja: "jinja",
   jinja2: "jinja",

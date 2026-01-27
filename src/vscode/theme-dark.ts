@@ -1,6 +1,6 @@
-import fileExtensions from "./shared/fileExtensions";
-import fileNames from "./shared/fileNames";
-import languageIds from "./shared/languageIds";
+import fileExtensions from "../shared/config/file-extensions";
+import fileNames from "../shared/config/file-names";
+import languageIds from "../shared/config/language-ids";
 
 export default {
   file: "_file",

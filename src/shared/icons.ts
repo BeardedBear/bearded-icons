@@ -3,15 +3,15 @@ import { readdirSync } from "fs";
 type Icon = Record<string, { iconPath: string }>;
 
 function iconGeneric(name: string): Icon {
-  return { [`_${name}`]: { iconPath: `./shared/icons/${name}.svg` } };
+  return { [`_${name}`]: { iconPath: `./assets/icons/${name}.svg` } };
 }
 
 // Generate icon list from /shared/icons folder
 const array: string[] = [];
-readdirSync("shared/icons").forEach((file) => array.push(file.split(".")[0]));
+readdirSync("src/assets/icons").forEach((file) => array.push(file.split(".")[0]));
 
 const iconList: Icon = array.reduce((acc, curr) => {
-  return { ...acc, [`${curr}`]: { iconPath: `./shared/icons/${curr}.svg` } };
+  return { ...acc, [`${curr}`]: { iconPath: `./assets/icons/${curr}.svg` } };
 }, {});
 
 const icons = {

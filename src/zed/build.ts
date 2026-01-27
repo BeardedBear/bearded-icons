@@ -1,7 +1,7 @@
-import { join } from "path";
 import { writeFileSync } from "fs";
-import { commonConfig } from "./shared/commonConfig.js";
-import { generateIcons, createDistDirectory, copyAssets, logSuccess, Icon } from "./shared/buildUtils.js";
+import { join } from "path";
+import { commonConfig } from "../shared/config/common.js";
+import { copyAssets, createDistDirectory, generateIcons, logSuccess } from "../shared/utils/build.js";
 
 // --- Zed Build ---
 console.log("Building Zed extension...");
@@ -13,8 +13,8 @@ const authorFull = `"${commonConfig.author} <${commonConfig.mail}>"`;
 createDistDirectory(zedThemeDir);
 
 // Import theme definitions
-import defsDark from "./defsDark.js";
-import fileNames from "./shared/fileNames.js";
+import fileExtensions from "../shared/config/file-extensions.js";
+import fileNames from "../shared/config/file-names.js";
 
 const icons = generateIcons();
 
@@ -67,7 +67,7 @@ const zedTheme = {
         expanded: zedFileIcons["_folder_open"]?.path || "./icons/folder_open.svg",
       },
       file_icons: zedFileIcons,
-      file_suffixes: defsDark.fileExtensions,
+      file_suffixes: fileExtensions,
       file_stems: expandCaseVariants(fileNames),
     },
   ],
