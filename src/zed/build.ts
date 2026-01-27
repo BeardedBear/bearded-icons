@@ -78,7 +78,7 @@ writeFileSync(join(zedThemeDir, "bearded-icons.json"), JSON.stringify(zedTheme, 
 
 // Write Zed extension.toml manifest
 const zedManifest = `schema_version = 1
-id = "bearded-icons"
+id = "${commonConfig.id}"
 name = "${commonConfig.name}"
 version = "${commonConfig.version}"
 description = "${commonConfig.description}"

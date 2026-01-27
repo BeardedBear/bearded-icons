@@ -1,5 +1,6 @@
 export const commonConfig = {
   name: "Bearded Icons",
+  id: "bearded-icons",
   author: "BeardedBear",
   mail: "beardedbearbear@gmail.com",
   description: "The icons with a long beard",

@@ -39,7 +39,8 @@ function expandCaseVariants(mapping: Record<string, unknown>): Record<string, un
 
 // Construct VS Code Theme
 const vscodeTheme = {
-  name: commonConfig.name,
+  name: commonConfig.id,
+  displayName: commonConfig.name,
   publisher: commonConfig.author,
   description: commonConfig.description,
   version: commonConfig.version,
