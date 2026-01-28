@@ -127,35 +127,29 @@ Tip: Use the `make()` helper to map a list of extensions in one go (see `src/sha
 
 ## Code style, linting & tooling
 
-- Prettier configuration:
+- Configuration files (source of truth)
 
-```bearded-icons/.prettierrc.json#L1-10
-{
-  "printWidth": 120,
-  "semi": true,
-  "trailingComma": "all",
-  "arrowParens": "always"
-}
-```
+  - Formatting and linting rules live in the repository configuration files. Treat these files as the authoritative source of truth and consult/update them rather than duplicating their contents here.
+  - Important files:
+    - Prettier: `.prettierrc.json`
+    - ESLint: `.eslintrc.json`
+    - TypeScript config (when applicable): `tsconfig.json`
 
-- ESLint configuration:
+- Quick commands
 
-```bearded-icons/.eslintrc.json#L1-20
-{
-  "parser": "@typescript-eslint/parser",
-  "extends": ["plugin:@typescript-eslint/recommended"],
-  "rules": {
-    "@typescript-eslint/explicit-function-return-type": "warn"
-  }
-}
-```
+  - Format code (Prettier): `npm run fix` (reads `.prettierrc.json`)
+  - Lint: `npx eslint src/**/*.ts` (reads `.eslintrc.json`)
 
-TypeScript & repository conventions:
+- Conventions
 
-- Use ES module imports/exports.
-- Prefer `const` where possible.
-- Use explicit types for exported functions and significant transforms.
-- Run `npm run fix` and `npx eslint src/**/*.ts` before submitting changes.
+  - Use ES module imports/exports.
+  - Prefer `const` where possible.
+  - Use explicit types for exported functions and significant transforms.
+  - Run `npm run fix` and `npx eslint src/**/*.ts` before submitting changes.
+
+- When updating formatting/linting rules
+
+  - If you need to change formatting or linting rules, update the appropriate config file(s) and include a short explanation in your PR describing the rationale and impact. Avoid copying configuration contents into `AGENTS.md` to prevent the guidance here from becoming obsolete.
 
 ---
 
