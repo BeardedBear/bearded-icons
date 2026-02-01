@@ -29,10 +29,10 @@ function expandCaseVariants(mapping: Record<string, unknown>): Record<string, un
     if (key !== key.toLowerCase()) return;
 
     const capitalized = key.charAt(0).toUpperCase() + key.slice(1);
-    if (!(capitalized in result)) result[capitalized] = (mapping as any)[key];
+    if (!(capitalized in result)) result[capitalized] = mapping[key];
 
     const upper = key.toUpperCase();
-    if (!(upper in result)) result[upper] = (mapping as any)[key];
+    if (!(upper in result)) result[upper] = mapping[key];
   });
 
   return result;

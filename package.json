@@ -1,6 +1,7 @@
 {
   "name": "bearded-icons-build",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "bun run build:vscode && bun run build:zed",
     "build:vscode": "bun run src/vscode/build.ts",
@@ -9,25 +10,25 @@
     "dev": "bun run dev:vscode",
     "dev:vscode": "bun --watch src/vscode/build.ts",
     "dev:zed": "bun --watch src/zed/build.ts",
-    "fix": "prettier --write src/**/*.ts",
+    "lint": "eslint src",
+    "fix": "eslint --fix src",
     "optimize-svg": "bun run scripts/optimize-svg.ts"
   },
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.7.1",
     "@types/vscode": "^1.108.1",
     "chalk": "^5.6.2",
     "node": "^25.5.0",
     "svgo": "^4.0.0",
+    "typescript-eslint": "^8.54.0",
     "vscode-test": "^1.6.1"
   },
   "dependencies": {
     "@types/node": "^25.1.0",
-    "@typescript-eslint/eslint-plugin": "^8.54.0",
-    "@typescript-eslint/parser": "^8.54.0",
     "@vscode/vsce": "^3.7.1",
     "eslint": "^9.39.2",
     "globby": "^16.1.0",
     "ovsx": "^0.10.8",
-    "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   }
 }

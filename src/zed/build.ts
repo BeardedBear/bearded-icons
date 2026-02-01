@@ -22,7 +22,7 @@ const icons = generateIcons();
 // Convert icons to Zed file_icons structure { path: ... }
 const zedFileIcons: Record<string, { path: string }> = {};
 Object.entries(icons).forEach(([key, value]) => {
-  const path = (value as any).iconPath;
+  const path = value.iconPath;
   // Ensure path starts with ./
   const cleanPath = path.startsWith("./") ? path : `./${path}`;
   zedFileIcons[key] = { path: cleanPath };
@@ -45,10 +45,10 @@ function expandCaseVariants(mapping: Record<string, unknown>): Record<string, un
     if (key !== key.toLowerCase()) return;
 
     const capitalized = key.charAt(0).toUpperCase() + key.slice(1);
-    if (!(capitalized in result)) result[capitalized] = (mapping as any)[key];
+    if (!(capitalized in result)) result[capitalized] = mapping[key];
 
     const upper = key.toUpperCase();
-    if (!(upper in result)) result[upper] = (mapping as any)[key];
+    if (!(upper in result)) result[upper] = mapping[key];
   });
 
   return result;
