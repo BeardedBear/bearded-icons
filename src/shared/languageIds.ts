@@ -315,6 +315,7 @@ export default {
   twig: "twig",
   typescript: "typescript",
   typoscript: "typo3",
+  umbral: "umbral",
   vb: "vb",
   vba: "vba",
   velocity: "velocity",
