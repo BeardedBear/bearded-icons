@@ -1,7 +1,12 @@
 import { copyFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { commonConfig } from "../shared/config/common.js";
-import { copyAssets, createDistDirectory, generateIcons, logSuccess } from "../shared/utils/build.js";
+import {
+  copyAssets,
+  createDistDirectory,
+  generateIcons,
+  logSuccess,
+} from "../shared/utils/build.js";
 import { config } from "./config.js";
 
 // --- Zed Build ---
@@ -14,6 +19,7 @@ const authorFull = `"${commonConfig.author} <${commonConfig.mail}>"`;
 createDistDirectory(zedThemeDir);
 
 // Import theme definitions
+
 import fileExtensions from "../shared/config/file-extensions.js";
 import fileNames from "../shared/config/file-names.js";
 
@@ -24,6 +30,7 @@ const zedFileIcons: Record<string, { path: string }> = {};
 Object.entries(icons).forEach(([key, value]) => {
   const path = value.iconPath;
   // Ensure path starts with ./
+
   const cleanPath = path.startsWith("./") ? path : `./${path}`;
   zedFileIcons[key] = { path: cleanPath };
 });
@@ -35,7 +42,9 @@ if (zedFileIcons["_file"]) {
 
 // Add case variant expansion for file stems so that files like
 // Makefile, LICENSE, Gemfile, Rakefile are matched.
-function expandCaseVariants(mapping: Record<string, unknown>): Record<string, unknown> {
+function expandCaseVariants(
+  mapping: Record<string, unknown>,
+): Record<string, unknown> {
   const result: Record<string, unknown> = { ...mapping };
   Object.keys(mapping).forEach((key) => {
     // Skip dotted names (extensions or dotfiles)
@@ -65,7 +74,8 @@ const zedTheme = {
       appearance: "dark",
       directory_icons: {
         collapsed: zedFileIcons["_folder"]?.path || "./icons/folder.svg",
-        expanded: zedFileIcons["_folder_open"]?.path || "./icons/folder_open.svg",
+        expanded:
+          zedFileIcons["_folder_open"]?.path || "./icons/folder_open.svg",
       },
       file_icons: zedFileIcons,
       file_suffixes: fileExtensions,
@@ -75,7 +85,10 @@ const zedTheme = {
 };
 
 // Write Zed theme file
-writeFileSync(join(zedThemeDir, "bearded-icons.json"), JSON.stringify(zedTheme, null, 2));
+writeFileSync(
+  join(zedThemeDir, "bearded-icons.json"),
+  JSON.stringify(zedTheme, null, 2),
+);
 
 // Write Zed extension.toml manifest
 const zedManifest = `schema_version = 1
@@ -96,5 +109,8 @@ writeFileSync(join(zedDist, "extension.toml"), zedManifest);
 
 // Copy assets
 copyAssets(zedDist);
-copyFileSync(join(process.cwd(), "src", "zed", "CHANGELOG.md"), join(zedDist, "CHANGELOG.md"));
+copyFileSync(
+  join(process.cwd(), "src", "zed", "CHANGELOG.md"),
+  join(zedDist, "CHANGELOG.md"),
+);
 logSuccess("Zed", zedDist);

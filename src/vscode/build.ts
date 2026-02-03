@@ -1,7 +1,12 @@
 import { copyFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { commonConfig } from "../shared/config/common.js";
-import { copyAssets, createDistDirectory, generateIcons, logSuccess } from "../shared/utils/build.js";
+import {
+  copyAssets,
+  createDistDirectory,
+  generateIcons,
+  logSuccess,
+} from "../shared/utils/build.js";
 import { config } from "./config.js";
 
 // --- VS Code Build ---
@@ -18,7 +23,9 @@ import defsLight from "./theme-light.js";
 
 const icons = generateIcons();
 
-function expandCaseVariants(mapping: Record<string, unknown>): Record<string, unknown> {
+function expandCaseVariants(
+  mapping: Record<string, unknown>,
+): Record<string, unknown> {
   const result: Record<string, unknown> = { ...mapping };
 
   Object.keys(mapping).forEach((key) => {
@@ -68,7 +75,10 @@ const vscodeTheme = {
 };
 
 // Write package.json
-writeFileSync(join(vscodeDist, "package.json"), JSON.stringify(vscodeTheme, null, 2));
+writeFileSync(
+  join(vscodeDist, "package.json"),
+  JSON.stringify(vscodeTheme, null, 2),
+);
 
 // Generate icons.json (dark theme)
 const darkThemeJson = {
@@ -80,7 +90,10 @@ const darkThemeJson = {
   languageIds: defsDark.languageIds,
 };
 
-writeFileSync(join(vscodeDist, "icons.json"), JSON.stringify(darkThemeJson, null, 2));
+writeFileSync(
+  join(vscodeDist, "icons.json"),
+  JSON.stringify(darkThemeJson, null, 2),
+);
 
 // Generate icons-light.json (light theme)
 const lightThemeJson = {
@@ -92,9 +105,15 @@ const lightThemeJson = {
   languageIds: defsLight.light.languageIds,
 };
 
-writeFileSync(join(vscodeDist, "icons-light.json"), JSON.stringify(lightThemeJson, null, 2));
+writeFileSync(
+  join(vscodeDist, "icons-light.json"),
+  JSON.stringify(lightThemeJson, null, 2),
+);
 
 // Copy assets
 copyAssets(vscodeDist);
-copyFileSync(join(process.cwd(), "src", "vscode", "CHANGELOG.md"), join(vscodeDist, "CHANGELOG.md"));
+copyFileSync(
+  join(process.cwd(), "src", "vscode", "CHANGELOG.md"),
+  join(vscodeDist, "CHANGELOG.md"),
+);
 logSuccess("VS Code", vscodeDist);

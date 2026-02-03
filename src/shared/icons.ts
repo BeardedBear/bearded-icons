@@ -8,7 +8,9 @@ function iconGeneric(name: string): Icon {
 
 // Generate icon list from /shared/icons folder
 const array: string[] = [];
-readdirSync("src/assets/icons").forEach((file) => array.push(file.split(".")[0]));
+readdirSync("src/assets/icons").forEach((file) =>
+  array.push(file.split(".")[0]),
+);
 
 const iconList: Icon = array.reduce((acc, curr) => {
   return { ...acc, [`${curr}`]: { iconPath: `./assets/icons/${curr}.svg` } };
