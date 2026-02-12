@@ -18,8 +18,10 @@ createDistDirectory(vscodeDist);
 // Import theme definitions
 import folderNamesExpanded from "../shared/config/folder-names-expanded.js";
 import folderNames from "../shared/config/folder-names.js";
-import defsDark from "./theme-dark.js";
-import defsLight from "./theme-light.js";
+import createTheme from "../shared/themes/theme-factory.js";
+
+const defsDark = createTheme("_light");
+const defsLight = createTheme("");
 
 const icons = generateIcons();
 
@@ -98,11 +100,11 @@ writeFileSync(
 // Generate icons-light.json (light theme)
 const lightThemeJson = {
   iconDefinitions: icons,
-  fileNames: expandCaseVariants(defsLight.light.fileNames),
-  fileExtensions: defsLight.light.fileExtensions,
+  fileNames: expandCaseVariants(defsLight.fileNames),
+  fileExtensions: defsLight.fileExtensions,
   folderNames: folderNames,
   folderNamesExpanded: folderNamesExpanded,
-  languageIds: defsLight.light.languageIds,
+  languageIds: defsLight.languageIds,
 };
 
 writeFileSync(
