@@ -1,129 +1,181 @@
-# CLAUDE.md
+# AGENTS.md — AI agent guidelines for Bearded Icons
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This document is intended for AI assistants and automated agents (Claude Code, GitHub Copilot, ChatGPT/Code Assistant, etc.) that work on the Bearded Icons repository. It gathers the project's purpose, important files, build workflows, conventions, and concrete steps you should follow when making changes (especially around icons and mappings).
 
-## About This Project
+If you're an agent performing code changes: prefer small, well-scoped changes, run the build and format/lint steps locally, and always ask for clarification when a request is ambiguous or could have visual impact.
 
-Bearded Icons is an icon theme that generates extensions for multiple editors (VS Code, Zed) by:
+## Git
 
-1. Scanning SVG files in the `/src/shared/icons` directory
-2. Mapping file extensions, file names, and language IDs to appropriate icons
-3. Generating both light and dark theme variants
-4. Creating editor-specific packages
+- Commits
 
-## Common Commands
+  - Use Conventional Commits: `type(scope?): subject`, where `type` is one of `feat`, `fix`, `chore`, `docs`, `style`, `refactor`, `test`, `build`. Keep the subject concise and in the imperative mood (≤ 72 characters).
+  - Put additional context, rationale, and testing steps in the optional body (separate paragraph). If the change fixes an issue, reference it in the body or footer (`Fixes #123`).
+  - For breaking API/behavior changes use a footer with the exact prefix `BREAKING CHANGE: ` and a short description of the impact.
+  - Keep commits atomic and focused (one logical change per commit). Clean up fixup or iterative commits with interactive rebase/squash before merging.
+  - When a change targets a specific editor (for example changes in `src/vscode/`, `dist/vscode/`, `src/zed/` or `dist/zed/`), indicate the affected IDE as the commit scope using its identifier (`vscode` or `zed`). Use `icons` or `shared` for changes that affect shared assets/mappings used by multiple editors.
+  - Examples:
 
-**Build all extensions**: `npm run build`
+    - `feat(icons): add rust icon`
+    - `feat(vscode): add rust icon`
+    - `fix(zed): correct theme mapping`
+    - `fix(build): correct svg optimization script`
+    - `chore(deps): bump dev dependencies`
+    - `docs(readme): document optimize-svg usage`
+    - Breaking change example:
 
-- Builds both VS Code and Zed extensions
+      ```
+      feat(api): change icon id format
 
-**Build VS Code extension**: `npm run build:vscode`
+      BREAKING CHANGE: icon ids now use hyphens instead of underscores
+      ```
 
-- Compiles TypeScript and generates VS Code theme files using `vite-node src/build-vscode.ts`
+---
 
-**Build Zed extension**: `npm run build:zed`
+## Project overview
 
-- Compiles TypeScript and generates Zed theme files using `vite-node src/build-zed.ts`
+- Bearded Icons is an icon theme system that generates editor-specific packages (VS Code, Zed).
+- Source SVGs live in `src/shared/assets/icons/`. The filename (without `.svg`) is the icon identifier.
+- Mapping files (extensions, filenames, language IDs, folders) map file/folder patterns to icon identifiers.
+- Generators produce dark and light variants and output distributable artifacts into `dist/` (this directory is generated; do not commit changes there).
 
-**Development mode**: `npm run dev`
+---
 
-- Runs VS Code build in watch mode, rebuilding when files change
+## Quick commands
 
-**Zed dev mode**: `npm run dev:zed`
+- Install dependencies: `npm install`
+- Build all outputs: `npm run build`
+- Build VS Code package: `npm run build:vscode`
+- Build Zed package: `npm run build:zed`
+- Watch / dev (VS Code): `npm run dev` or `npm run dev:vscode`
+- Format code (Prettier): `npm run fix`
+- Lint: `npx eslint src/**/*.ts`
+- Optimize SVGs: `npm run optimize-svg`
+- Create a VSIX: `npm run build:ext`
 
-- Runs Zed build in watch mode
+---
 
-**Format code**: `npm run fix`
+## Project layout (short)
 
-- Runs Prettier on all TypeScript files in src/
+```
+/bearded-icons
+├─ src/
+│  ├─ shared/
+│  │  ├─ assets/icons/           # SVG source icons (filename => id)
+│  │  ├─ config/                 # mappings: file-extensions, file-names, language-ids, folder names, common metadata
+│  │  └─ utils/                  # build helpers: generateIcons, copyAssets...
+│  ├─ vscode/                    # VS Code generator (produces icons.json / icons-light.json)
+│  └─ zed/                       # Zed generator (produces icon_themes and extension.toml)
+├─ scripts/                      # helper scripts (optimize-svg.ts)
+├─ package.json
+└─ README.md
+```
 
-**Lint code**: `npx eslint src/**/*.ts`
+(Example tree for human readers: the authoritative files are under `src/`.)
 
-- Run ESLint to check code quality and TypeScript rules
+---
 
-**Optimize SVGs**: `npm run optimize-svg`
+## Important files & what they do
 
-- Runs SVG optimization script on icon files
+- `src/shared/config/common.ts` — repository metadata and `genericIcons` list (file/folder variants).
+- `src/shared/utils/build.ts` — core build utilities: `generateIcons()`, `copyAssets()`, `createDistDirectory()`, `logSuccess()`.
+- `src/vscode/build.ts` — assembles the VS Code theme (`icons.json` and `icons-light.json`) and `package.json` for the extension.
+- `src/zed/build.ts` — assembles the Zed icon theme and `extension.toml`.
+- `src/shared/config/file-extensions.ts` — maps file extensions → icon id.
+- `src/shared/config/file-names.ts` — maps exact filenames → icon id (includes agent instruction filenames).
+- `src/shared/config/language-ids.ts` — language id → icon id.
+- `scripts/optimize-svg.ts` — CLI script to optimize all SVG files (SVGO).
 
-**Package extension**: `npm run build:ext`
+generateIcons reads the icons folder and constructs icon definitions:
 
-- Creates .vsix package file using vsce
+```bearded-icons/src/shared/utils/build.ts#L1-60
+  readdirSync(join(process.cwd(), "src", "shared", "assets", "icons")).forEach((file) =>
+    array.push(file.split(".")[0]),
+  );
+```
 
-## Code Architecture
+---
 
-### Build Processes
+## Icon naming & matching rules
 
-**VS Code Build (`src/build-vscode.ts`)**
+- Icon ID is derived directly from the SVG filename (no extension).
+  - Example: `typescript.svg` → icon id `typescript`.
+- Generic icons like `file`, `folder`, `root_folder`, and light variants are included from `commonConfig.genericIcons`.
+- Build scripts expand case variants for canonical lowercase keys (e.g., `makefile` → `Makefile`, `MAKEFILE`) unless the key contains a dot or starts with `.`.
+- Files with dots (e.g., `docker-compose.yml`) and dotfiles are treated as-is (no case expansion).
 
-- Generates VS Code extension with package.json, icons.json (dark) and icons-light.json (light)
-- Uses shared configuration for mappings and metadata
+---
 
-**Zed Build (`src/build-zed.ts`)**
+## Adding a new icon — recommended step-by-step
 
-- Generates Zed extension with extension.toml and theme.json
-- Converts icon definitions to Zed's expected format
+1. Add your optimized SVG to `src/shared/assets/icons/` and name it clearly (lowercase, hyphenated or underscore-friendly).
+2. If needed, add a mapping:
+   - Extension mapping: `src/shared/config/file-extensions.ts`
+   - Filename mapping: `src/shared/config/file-names.ts`
+   - Language id mapping: `src/shared/config/language-ids.ts`
+3. Run optimization: `npm run optimize-svg` (this runs `scripts/optimize-svg.ts`).
+4. Run format and lint: `npm run fix` then `npx eslint src/**/*.ts`.
+5. Run a build: `npm run build` (verify `dist/vscode/icons.json`, `icons-light.json`, `dist/zed/...`).
+6. Add a changelog entry in `src/vscode/CHANGELOG.md` if appropriate.
+7. When submitting a change, include:
+   - Description of the change
+   - Screenshots or a short note about how the icon will be used
+   - The checklist steps you followed
 
-### Shared Build Utilities (`src/shared/buildUtils.ts`)
+Tip: Use the `make()` helper to map a list of extensions in one go (see `src/shared/utils/helpers.ts`).
 
-- `generateIcons()`: Discovers and processes SVG files from `/src/shared/icons`
-- `createDistDirectory()`: Creates build directories
-- `copyAssets()`: Copies README, LICENSE, icon.png and SVG files
-- `logSuccess()`: Consistent success logging
+---
 
-### Shared Configuration (`src/shared/commonConfig.ts`)
+## Code style, linting & tooling
 
-- Centralized metadata: name, author, description, version, repository
-- Generic icons list (file, folder variants)
-- Asset definitions for copying
+- Configuration files (source of truth)
 
-### Icon System
+  - Formatting and linting rules live in the repository configuration files. Treat these files as the authoritative source of truth and consult/update them rather than duplicating their contents here.
+  - Important files:
+    - Prettier: `.prettierrc.json`
+    - ESLint: `.eslintrc.json`
+    - TypeScript config (when applicable): `tsconfig.json`
 
-- Automatically discovers all SVG files in `/src/shared/icons` directory
-- Creates icon definitions mapping each SVG to its file path
-- Includes special folder icons (open/closed states, root folders, light variants)
+- Quick commands
 
-### Theme Definitions
+  - Format code (Prettier): `npm run fix` (reads `.prettierrc.json`)
+  - Lint: `npx eslint src/**/*.ts` (reads `.eslintrc.json`)
 
-- **`src/defsDark.ts`**: Default dark theme mappings for files, folders, extensions, and language IDs
-- **`src/defsLight.ts`**: Light theme variant mappings
-- Both import and combine mappings from shared configuration files
+- Conventions
 
-### Shared Configuration (`src/shared/`)
+  - Use ES module imports/exports.
+  - Prefer `const` where possible.
+  - Use explicit types for exported functions and significant transforms.
+  - Run `npm run fix` and `npx eslint src/**/*.ts` before submitting changes.
 
-- **`fileExtensions.ts`**: Maps file extensions to icon names (e.g., `.js` → `js` icon)
-- **`fileNames.ts`**: Maps specific filenames to icons (e.g., `package.json` → `npm` icon)
-- **`folderNames.ts`**: Maps folder names to specific folder icons
-- **`folderNamesExpanded.ts`**: Maps folder names for expanded/open state icons
-- **`languageIds.ts`**: Maps VS Code language identifiers to icons
+- When updating formatting/linting rules
 
-### Data Files (`src/data/`)
+  - If you need to change formatting or linting rules, update the appropriate config file(s) and include a short explanation in your PR describing the rationale and impact. Avoid copying configuration contents into `AGENTS.md` to prevent the guidance here from becoming obsolete.
 
-- **`media.ts`**: Arrays of media file extensions (audio, video, image)
-- **`bundler.ts`**: Arrays of bundler-related file patterns
+---
 
-### Helper Utilities (`src/helper.ts`)
+## SVG optimization
 
-- `make()` function: Creates mappings from arrays of items to a common icon scope
-- Used to bulk-assign the same icon to multiple file types
+- Optimize SVGs via `npm run optimize-svg` (`scripts/optimize-svg.ts`) before including them in a contribution.
+- The script is configured to keep `viewBox` and avoid problematic ID cleanups by default; check `scripts/optimize-svg.ts` if you need to modify behavior.
 
-## Key Patterns
+---
 
-**Adding new icons**: Place SVG files in `/src/shared/icons` directory - they're automatically discovered and included
+## Testing & verification
 
-**Icon naming**: SVG filename becomes the icon identifier (e.g., `typescript.svg` → `typescript` icon)
+There is no automated UI test harness. Recommended verification steps:
 
-**Theme mapping**: Use shared configuration files to map file patterns to icons, with separate light/dark variants possible
+1. Run `npm run optimize-svg`, `npm run fix`, `npx eslint src/**/*.ts`.
+2. Run `npm run build`.
+3. Inspect `dist/vscode/icons.json` and `dist/vscode/icons/` to confirm icons are present and referenced correctly.
+4. Optionally create a `.vsix` with `npm run build:ext` and install it locally in VS Code for a visual check.
+5. For Zed, check `dist/zed/icon_themes/bearded-icons.json`.
 
-**File extension mapping**: Complex extensions are handled (e.g., `controller.ts` maps to NestJS controller icon)
+---
 
-**Icon naming**: SVG filename becomes the icon identifier (e.g., `typescript.svg` → `typescript` icon)
+## Versioning & release
 
-**Theme mapping**: Use shared configuration files to map file patterns to icons, with separate light/dark variants possible
-
-**File extension mapping**: Complex extensions are handled (e.g., `controller.ts` maps to NestJS controller icon)
-
-## Code Quality
-
-**ESLint configuration**: Uses `@typescript-eslint/recommended` with explicit function return type warnings
-
-**Prettier configuration**: 120 character line width, semicolons, trailing commas, arrow function parentheses
+- Versioning and release steps are manual in this repo:
+  - Update the version(s) where appropriate (e.g. `src/vscode/config.ts` / `src/zed/config.ts`).
+  - Add changelog notes.
+  - Create a release and attach packaged artifacts if approved.
+- Packaging for VS Code uses `vsce` (see `npm run build:ext`).

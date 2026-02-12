@@ -1,8 +1,6 @@
-import { readdirSync } from "fs";
-import { cpSync, copyFileSync } from "fs";
-import { join } from "path";
-import { existsSync, mkdirSync, writeFileSync } from "fs";
-import { commonConfig, assets } from "./commonConfig.js";
+import { copyFileSync, cpSync, existsSync, mkdirSync, readdirSync } from 'fs';
+import { join } from 'path';
+import { assets, commonConfig } from '../config/common.js';
 
 export type Icon = Record<string, { iconPath: string }>;
 
@@ -11,16 +9,22 @@ export function iconGeneric(name: string): Icon {
 }
 
 export function generateIcons(): Record<string, { iconPath: string }> {
-  // Generate icon list from /shared/icons folder
+  // Generate icon list from /assets/icons folder
   const array: string[] = [];
-  readdirSync(join(process.cwd(), "src", "shared", "icons")).forEach((file) => array.push(file.split(".")[0]));
+  readdirSync(join(process.cwd(), 'src', 'shared', 'assets', 'icons')).forEach(
+    (file) => array.push(file.split('.')[0]),
+  );
 
   const iconList: Icon = array.reduce((acc, curr) => {
     return { ...acc, [`${curr}`]: { iconPath: `./icons/${curr}.svg` } };
   }, {});
 
   const icons = {
-    ...Object.fromEntries(commonConfig.genericIcons.map((name) => Object.entries(iconGeneric(name))).flat()),
+    ...Object.fromEntries(
+      commonConfig.genericIcons
+        .map((name) => Object.entries(iconGeneric(name)))
+        .flat(),
+    ),
     ...iconList,
   };
 
@@ -35,17 +39,21 @@ export function createDistDirectory(distPath: string): void {
 
 export function copyAssets(distPath: string): void {
   try {
-    cpSync(join(process.cwd(), "src", "shared", "icons"), join(distPath, "icons"), {
-      recursive: true,
-    });
+    cpSync(
+      join(process.cwd(), 'src', 'shared', 'assets', 'icons'),
+      join(distPath, 'icons'),
+      {
+        recursive: true,
+      },
+    );
 
     assets.forEach(({ src, dest }) => {
       copyFileSync(join(process.cwd(), src), join(distPath, dest));
     });
 
-    console.log("✅ Assets copied successfully");
+    console.log('✅ Assets copied successfully');
   } catch (e) {
-    console.error("❌ Error copying assets:", e);
+    console.error('❌ Error copying assets:', e);
   }
 }
 

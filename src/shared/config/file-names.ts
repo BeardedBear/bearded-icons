@@ -1,5 +1,5 @@
-import { webpack } from "../data/bundler";
-import { make } from "../helper";
+import { make } from "../utils/helpers";
+import { webpack } from "./bundler";
 
 export default {
   ...make(webpack, "webpack"),

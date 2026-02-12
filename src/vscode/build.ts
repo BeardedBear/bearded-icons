@@ -1,7 +1,13 @@
+import { copyFileSync, writeFileSync } from "fs";
 import { join } from "path";
-import { writeFileSync } from "fs";
-import { commonConfig } from "./shared/commonConfig.js";
-import { generateIcons, createDistDirectory, copyAssets, logSuccess } from "./shared/buildUtils.js";
+import { commonConfig } from "../shared/config/common.js";
+import {
+  copyAssets,
+  createDistDirectory,
+  generateIcons,
+  logSuccess,
+} from "../shared/utils/build.js";
+import { config } from "./config.js";
 
 // --- VS Code Build ---
 console.log("Building VS Code extension...");
@@ -10,14 +16,16 @@ const vscodeDist = join(process.cwd(), "dist", "vscode");
 createDistDirectory(vscodeDist);
 
 // Import theme definitions
-import defsDark from "./defsDark.js";
-import defsLight from "./defsLight.js";
-import folderNames from "./shared/folderNames.js";
-import folderNamesExpanded from "./shared/folderNamesExpanded.js";
+import folderNamesExpanded from "../shared/config/folder-names-expanded.js";
+import folderNames from "../shared/config/folder-names.js";
+import defsDark from "./theme-dark.js";
+import defsLight from "./theme-light.js";
 
 const icons = generateIcons();
 
-function expandCaseVariants(mapping: Record<string, unknown>): Record<string, unknown> {
+function expandCaseVariants(
+  mapping: Record<string, unknown>,
+): Record<string, unknown> {
   const result: Record<string, unknown> = { ...mapping };
 
   Object.keys(mapping).forEach((key) => {
@@ -28,10 +36,10 @@ function expandCaseVariants(mapping: Record<string, unknown>): Record<string, un
     if (key !== key.toLowerCase()) return;
 
     const capitalized = key.charAt(0).toUpperCase() + key.slice(1);
-    if (!(capitalized in result)) result[capitalized] = (mapping as any)[key];
+    if (!(capitalized in result)) result[capitalized] = mapping[key];
 
     const upper = key.toUpperCase();
-    if (!(upper in result)) result[upper] = (mapping as any)[key];
+    if (!(upper in result)) result[upper] = mapping[key];
   });
 
   return result;
@@ -39,10 +47,11 @@ function expandCaseVariants(mapping: Record<string, unknown>): Record<string, un
 
 // Construct VS Code Theme
 const vscodeTheme = {
-  name: commonConfig.name,
+  name: commonConfig.id,
+  displayName: commonConfig.name,
   publisher: commonConfig.author,
   description: commonConfig.description,
-  version: commonConfig.version,
+  version: config.version,
   engines: {
     vscode: "*",
   },
@@ -66,7 +75,10 @@ const vscodeTheme = {
 };
 
 // Write package.json
-writeFileSync(join(vscodeDist, "package.json"), JSON.stringify(vscodeTheme, null, 2));
+writeFileSync(
+  join(vscodeDist, "package.json"),
+  JSON.stringify(vscodeTheme, null, 2),
+);
 
 // Generate icons.json (dark theme)
 const darkThemeJson = {
@@ -78,7 +90,10 @@ const darkThemeJson = {
   languageIds: defsDark.languageIds,
 };
 
-writeFileSync(join(vscodeDist, "icons.json"), JSON.stringify(darkThemeJson, null, 2));
+writeFileSync(
+  join(vscodeDist, "icons.json"),
+  JSON.stringify(darkThemeJson, null, 2),
+);
 
 // Generate icons-light.json (light theme)
 const lightThemeJson = {
@@ -90,8 +105,15 @@ const lightThemeJson = {
   languageIds: defsLight.light.languageIds,
 };
 
-writeFileSync(join(vscodeDist, "icons-light.json"), JSON.stringify(lightThemeJson, null, 2));
+writeFileSync(
+  join(vscodeDist, "icons-light.json"),
+  JSON.stringify(lightThemeJson, null, 2),
+);
 
 // Copy assets
 copyAssets(vscodeDist);
+copyFileSync(
+  join(process.cwd(), "src", "vscode", "CHANGELOG.md"),
+  join(vscodeDist, "CHANGELOG.md"),
+);
 logSuccess("VS Code", vscodeDist);
