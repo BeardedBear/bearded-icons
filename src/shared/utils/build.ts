@@ -8,27 +8,27 @@ export function iconGeneric(name: string): Icon {
   return { [`_${name}`]: { iconPath: `./icons/${name}.svg` } };
 }
 
-export function generateIcons(): Record<string, { iconPath: string }> {
-  // Generate icon list from /assets/icons folder
-  const array: string[] = [];
-  readdirSync(join(process.cwd(), 'src', 'shared', 'assets', 'icons')).forEach(
-    (file) => array.push(file.split('.')[0]),
+export function generateIcons(): Icon {
+  const iconSrcDir = join(process.cwd(), 'src', 'shared', 'assets', 'icons');
+  const files = readdirSync(iconSrcDir);
+
+  // Map every physical file to its icon path
+  const iconList: Icon = Object.fromEntries(
+    files.map((file) => {
+      const name = file.split('.')[0];
+      return [name, { iconPath: `./icons/${file}` }]; // Use full filename to preserve extensions
+    })
   );
 
-  const iconList: Icon = array.reduce((acc, curr) => {
-    return { ...acc, [`${curr}`]: { iconPath: `./icons/${curr}.svg` } };
-  }, {});
+  // Generate generic UI icons (e.g., _file, _folder)
+  const genericEntries = commonConfig.genericIcons.flatMap((name) => 
+    Object.entries(iconGeneric(name))
+  );
 
-  const icons = {
-    ...Object.fromEntries(
-      commonConfig.genericIcons
-        .map((name) => Object.entries(iconGeneric(name)))
-        .flat(),
-    ),
+  return {
+    ...Object.fromEntries(genericEntries),
     ...iconList,
   };
-
-  return icons;
 }
 
 export function createDistDirectory(distPath: string): void {
